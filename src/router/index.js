@@ -4,6 +4,7 @@ import ParticipantiView from '@/views/ParticipantiView.vue';
 import RegulamentView from '@/views/RegulamentView.vue';
 import ContactView from '@/views/ContactView.vue';
 import InscrieriView from '@/views/InscrieriView.vue';
+import CurseView from '@/views/CurseView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/inscrieri',
       name: 'inscrieri',
       component: InscrieriView
+    },
+    {
+      path: '/curse',
+      name: 'curse',
+      component: CurseView
     }
   ]
 });

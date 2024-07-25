@@ -9,6 +9,10 @@ function goToInscrieri() {
   router.push({ name: 'inscrieri' });
 }
 
+function goToCurse() {
+  router.push({ name: 'curse' });
+}
+
 let faqItems = [
   {
     question: 'De ce aş participa la Turnu Roşu Challenge?',
@@ -171,7 +175,7 @@ onMounted(() => {
       </p>
     </div>
     <!-- Feature #1 -->
-    <div class="relative mt-24 lg:mt-24">
+    <div class="relative mt-28 lg:mt-24">
       <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
         <!-- Image -->
         <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
@@ -187,6 +191,7 @@ onMounted(() => {
           <button
             type="button"
             class="btn text-white bg-gray-900 hover:bg-white hover:text-black hover:shadow-xl"
+            @click="goToCurse"
           >
             Detalii
           </button>
@@ -198,7 +203,7 @@ onMounted(() => {
       ></div>
     </div>
     <!-- Feature #2 -->
-    <div class="relative mt-24 lg:mt-52">
+    <div class="relative mt-28 lg:mt-52">
       <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
         <!-- Image -->
         <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
@@ -208,7 +213,11 @@ onMounted(() => {
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Kit Participare</h1>
           <div class="flex flex-col mt-8 md:mt-[34px] sm:w-3/4 lg:w-full font-semibold">
-            <div v-for="(kit, index) in participare" :key="index" class="flex mb-[22px] ml-2">
+            <div
+              v-for="(kit, index) in participare"
+              :key="index"
+              class="flex mb-[24px] ml-3 sm:ml-2"
+            >
               <div class="w-[30px]">
                 <i class="text-orange-500 text-2xl align-middle" :class="kit.icon"></i>
               </div>
@@ -223,7 +232,7 @@ onMounted(() => {
       ></div>
     </div>
     <!-- Feature #3 -->
-    <div class="relative mt-24 lg:mt-52">
+    <div class="relative mt-28 lg:mt-52 mb-10">
       <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
         <!-- Image -->
         <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
