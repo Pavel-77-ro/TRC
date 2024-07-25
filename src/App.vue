@@ -21,6 +21,22 @@ function checkScreenSize() {
   isSmallScreen.value = window.innerWidth < 640; // 640px is the threshold for 'sm' in Tailwind CSS
 }
 
+function onEnter(el) {
+  el.style.opacity = 0;
+  el.style.transition = 'opacity 0.3s';
+  setTimeout(() => {
+    el.style.opacity = 1;
+  }, 0);
+}
+
+function onLeave(el) {
+  el.style.opacity = 1;
+  el.style.transition = 'opacity 0.3s';
+  setTimeout(() => {
+    el.style.opacity = 0;
+  }, 0);
+}
+
 function toggleMenu() {
   isMenuOpen.value = !isMenuOpen.value;
 }
@@ -72,7 +88,7 @@ onUnmounted(() => {
           <i class="text-2xl fas fa-bars cursor-pointer" @click="toggleMenu"></i>
         </div>
       </nav>
-      <transition name="fade" @after-enter="onEnter" @after-leave="onLeave">
+      <transition name="fade" @before-enter="onEnter" @leave="onLeave">
         <HamburgerMenu v-if="isSmallScreen && isMenuOpen" @close="toggleMenu" />
       </transition>
       <div v-show="isMenuOpen" class="w-full h-full z-50 bg-gray-400"></div>

@@ -163,7 +163,7 @@ onMounted(() => {
   <!-- Features -->
   <section class="bg-bookmark-white py-20 mt-20 lg:mt-60 lg:overflow-hidden">
     <!-- Heading -->
-    <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+    <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2 mb-4">
       <h1 class="text-4xl lg:text-5xl text-center text-bookmark-blue font-Lucky">Info</h1>
       <p class="text-center text-bookmark-grey mt-4">
         Turnu Roşu Challenge promite o ediţie şi mai frumoasă decât cea anterioară! Nu rata ocazia
@@ -171,7 +171,7 @@ onMounted(() => {
       </p>
     </div>
     <!-- Feature #1 -->
-    <div class="relative mt-20 lg:mt-24">
+    <div class="relative mt-24 lg:mt-24">
       <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
         <!-- Image -->
         <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
@@ -179,7 +179,7 @@ onMounted(() => {
         </div>
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
-          <h1 class="text-3xl text-bookmark-blue font-Lucky">Curse</h1>
+          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Curse</h1>
           <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
             Anul acesta avem cu doua curse : un cros de 11 km si un semimaraton de 21 km dar si o
             cursă necompetitivă de hiking unde vă așteptă un gulaș delicios la finish.
@@ -198,7 +198,7 @@ onMounted(() => {
       ></div>
     </div>
     <!-- Feature #2 -->
-    <div class="relative mt-20 lg:mt-52">
+    <div class="relative mt-24 lg:mt-52">
       <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
         <!-- Image -->
         <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
@@ -207,7 +207,7 @@ onMounted(() => {
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Kit Participare</h1>
-          <div class="flex flex-col mt-6 md:mt-8 sm:w-3/4 lg:w-full font-semibold">
+          <div class="flex flex-col mt-8 md:mt-[34px] sm:w-3/4 lg:w-full font-semibold">
             <div v-for="(kit, index) in participare" :key="index" class="flex mb-[22px] ml-2">
               <div class="w-[30px]">
                 <i class="text-orange-500 text-2xl align-middle" :class="kit.icon"></i>
@@ -223,7 +223,7 @@ onMounted(() => {
       ></div>
     </div>
     <!-- Feature #3 -->
-    <div class="relative mt-20 lg:mt-52">
+    <div class="relative mt-24 lg:mt-52">
       <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
         <!-- Image -->
         <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
@@ -231,7 +231,7 @@ onMounted(() => {
         </div>
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
-          <h1 class="text-3xl text-bookmark-blue font-Lucky">Detalii organizatorice</h1>
+          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Detalii organizatorice</h1>
           <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, incidunt ducimus
             exercitationem quo, unde fugit blanditiis labore eum pariatur quisquam suscipit
@@ -266,7 +266,7 @@ onMounted(() => {
     </div>
     <!-- Cards -->
     <div
-      class="px-6 md:px-4 container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg mt-16"
+      class="px-6 md:px-4 container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-20 max-w-screen-lg mt-16"
     >
       <!-- Card 1 -->
       <div
@@ -379,13 +379,52 @@ onMounted(() => {
     </div>
   </section>
 
-  <section class="py-20 mt-20">
-    <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
-      <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Parteneri</h1>
-      <p class="text-center text-bookmark-grey mt-4">
-        Mulţumim partenerilor noştri pentru implicarea în realizarea, promovarea şi dezvoltarea
-        celei de a II-a ediţii a concursului Turnu Roşu Challenge
-      </p>
+  <section class="py-20">
+    <div class="container flex flex-col items-center">
+      <div class="sm:w-3/4 mx-auto px-2">
+        <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Parteneri</h1>
+        <p class="text-center text-bookmark-grey mt-4">
+          Mulţumim partenerilor noştri pentru implicarea în realizarea, promovarea şi dezvoltarea
+          celei de a II-a ediţii a concursului Turnu Roşu Challenge
+        </p>
+      </div>
+      <div class="lg:w-5/6 flex flex-wrap justify-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
+        <img
+          class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
+          src="../assets/parteneri/logo-alex.webp"
+          alt=""
+        />
+        <img
+          class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
+          src="../assets/parteneri/logo-casa.webp"
+          alt=""
+        />
+        <img
+          class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
+          src="../assets/parteneri/logo-foto.webp"
+          alt=""
+        />
+        <img
+          class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
+          src="../assets/parteneri/logo-gis.png"
+          alt=""
+        />
+        <img
+          class="w-[150px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
+          src="../assets/parteneri/logo-gits.webp"
+          alt=""
+        />
+        <img
+          class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
+          src="../assets/parteneri/logo-pdt.webp"
+          alt=""
+        />
+        <img
+          class="w-[152px] sm:w-40 md:w-48"
+          src="../assets/parteneri/logo-primarie.webp"
+          alt=""
+        />
+      </div>
     </div>
   </section>
 
