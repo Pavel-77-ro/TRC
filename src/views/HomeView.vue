@@ -206,8 +206,14 @@ onMounted(() => {
     <div class="relative mt-28 lg:mt-52">
       <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
         <!-- Image -->
-        <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-          <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="" alt="" />
+        <div
+          class="flex flex-1 justify-center z-10 mb-10 lg:mb-0 bg-gray-800 px-2 py-1 md:px-[18px] md:py-4 rounded-[70px]"
+        >
+          <img
+            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-5/6 md:h-5/6 lg:w-full lg:h-full"
+            src="../assets/images/tricou-femeie.png"
+            alt=""
+          />
         </div>
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
@@ -228,7 +234,7 @@ onMounted(() => {
       </div>
       <!-- Rounded Rectangle -->
       <div
-        class="hidden lg:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 -bottom-24 -right-36"
+        class="hidden lg:block overflow-hidden bg-gray-800 rounded-l-full absolute h-80 w-2/4 bottom-8 right-0"
       ></div>
     </div>
     <!-- Feature #3 -->
