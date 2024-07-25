@@ -85,7 +85,7 @@ onUnmounted(() => {
           </button>
         </ul>
         <div class="flex sm:hidden flex-1 justify-end">
-          <i class="text-2xl fas fa-bars cursor-pointer" @click="toggleMenu"></i>
+          <i class="text-3xl fas fa-bars cursor-pointer" @click="toggleMenu"></i>
         </div>
       </nav>
       <transition name="fade" @before-enter="onEnter" @leave="onLeave">
