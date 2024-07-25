@@ -175,22 +175,28 @@ onMounted(() => {
       </p>
     </div>
     <!-- Feature #1 -->
-    <div class="relative mt-28 lg:mt-24">
-      <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+    <div class="relative mt-32 lg:mt-32">
+      <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-28">
         <!-- Image -->
         <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-          <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="" alt="" />
+          <img
+            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
+            src="../assets/images/2023poza1.jpeg"
+            alt=""
+          />
         </div>
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Curse</h1>
           <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            Anul acesta avem cu doua curse : un cros de 11 km si un semimaraton de 21 km dar si o
-            cursă necompetitivă de hiking unde vă așteptă un gulaș delicios la finish.
+            Anul acesta avem pregătite doua curse : un cros de 11 km si un semimaraton de 21 km dar
+            si o cursă necompetitivă de hiking unde vă așteptă un gulaș delicios la finish. Apăsaţi
+            pe butonul de mai jos pentru informaţii detaliate în legătură cu traseele curente şi
+            informaţii suplimentare.
           </p>
           <button
             type="button"
-            class="btn text-white bg-gray-900 hover:bg-white hover:text-black hover:shadow-xl"
+            class="btn text-white bg-gray-900 hover:bg-bookmark-red hover:shadow-xl"
             @click="goToCurse"
           >
             Detalii
@@ -198,19 +204,19 @@ onMounted(() => {
         </div>
       </div>
       <!-- Rounded Rectangle -->
-      <div
-        class="hidden lg:block overflow-hidden bg-bookmark-purple rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36"
-      ></div>
+      <!-- <div
+        class="hidden lg:block overflow-hidden bg-bookmark-red rounded-r-full absolute h-80 w-2/4 bottom-0 left-0"
+      ></div> -->
     </div>
     <!-- Feature #2 -->
-    <div class="relative mt-28 lg:mt-52">
+    <div class="relative mt-32 lg:mt-56 bg-white lg:bg-inherit py-8 lg:py-0">
       <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
         <!-- Image -->
         <div
-          class="flex flex-1 justify-center z-10 mb-10 lg:mb-0 bg-gray-800 px-2 py-1 md:px-[18px] md:py-4 rounded-[70px]"
+          class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 flex flex-1 justify-center z-10 mb-10 lg:mb-0 bg-gray-800 px-2 py-1 md:px-[18px] md:py-4 rounded-[70px]"
         >
           <img
-            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-5/6 md:h-5/6 lg:w-full lg:h-full"
+            class="w-5/6 h-5/6 sm:w-full sm:h-full lg:w-full lg:h-full"
             src="../assets/images/tricou-femeie.png"
             alt=""
           />
@@ -218,14 +224,14 @@ onMounted(() => {
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Kit Participare</h1>
-          <div class="flex flex-col mt-8 md:mt-[34px] sm:w-3/4 lg:w-full font-semibold">
+          <div class="flex flex-col mt-8 md:mt-[34px] lg:w-full font-semibold">
             <div
               v-for="(kit, index) in participare"
               :key="index"
               class="flex mb-[24px] ml-3 sm:ml-2"
             >
               <div class="w-[30px]">
-                <i class="text-orange-500 text-2xl align-middle" :class="kit.icon"></i>
+                <i class="text-red-600 text-2xl align-middle" :class="kit.icon"></i>
               </div>
               <p class="ml-3 text-slate-700 text-lg md:text-xl">{{ kit.text }}</p>
             </div>
@@ -238,11 +244,15 @@ onMounted(() => {
       ></div>
     </div>
     <!-- Feature #3 -->
-    <div class="relative mt-28 lg:mt-52 mb-10">
-      <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+    <div class="relative mt-32 lg:mt-56 mb-10">
+      <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-28">
         <!-- Image -->
         <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-          <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="" alt="" />
+          <img
+            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
+            src="../assets/images/2023poza2.jpeg"
+            alt=""
+          />
         </div>
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
@@ -254,16 +264,16 @@ onMounted(() => {
           </p>
           <button
             type="button"
-            class="btn text-white bg-gray-900 hover:bg-white hover:text-black hover:shadow-xl"
+            class="btn text-white bg-gray-900 hover:bg-bookmark-red hover:shadow-xl"
           >
             Detalii
           </button>
         </div>
       </div>
       <!-- Rounded Rectangle -->
-      <div
-        class="hidden lg:block overflow-hidden bg-bookmark-purple rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36"
-      ></div>
+      <!-- <div
+        class="hidden lg:block overflow-hidden bg-bookmark-red rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36"
+      ></div> -->
     </div>
   </section>
 

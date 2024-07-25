@@ -1,9 +1,28 @@
 <script setup>
 import { onMounted } from 'vue';
 
-onMounted(() => {
-  if (window.StravaEmbed) {
-    window.StravaEmbed.init();
+function loadStravaScript() {
+  return new Promise((resolve, reject) => {
+    if (document.getElementById('strava-embed-script')) {
+      return resolve(); // Script already loaded
+    }
+    const script = document.createElement('script');
+    script.id = 'strava-embed-script';
+    script.src = 'https://strava-embeds.com/embed.js';
+    script.onload = resolve;
+    script.onerror = reject;
+    document.body.appendChild(script);
+  });
+}
+
+onMounted(async () => {
+  try {
+    await loadStravaScript();
+    if (window.StravaEmbed) {
+      window.StravaEmbed.init();
+    }
+  } catch (error) {
+    console.error('Failed to load Strava embed script', error);
   }
 });
 </script>
@@ -18,24 +37,30 @@ onMounted(() => {
       de hike cu o lungime de 4 km.
     </p>
   </div>
-  <div class="flex w-full lg:w-5/6 p-5 flex-wrap">
-    <div
-      class="strava-embed-placeholder"
-      data-embed-type="route"
-      data-embed-id="3251199003475310568"
-      data-units="metric"
-      data-style="standard"
-      data-map-hash="11.03/45.6101/24.335"
-      data-from-embed="true"
-    ></div>
-    <div
-      class="strava-embed-placeholder"
-      data-embed-type="route"
-      data-embed-id="3251197710336262238"
-      data-full-width="true"
-      data-style="standard"
-      data-map-hash="11.67/45.6197/24.3106"
-      data-from-embed="true"
-    ></div>
+  <div
+    class="flex w-full md:w-5/6 p-5 justify-between flex-wrap mx-auto py-6 gap-10 sm:gap-6 my-12"
+  >
+    <div class="w-full md:w-5/12 flex justify-center">
+      <div
+        class="strava-embed-placeholder"
+        data-embed-type="route"
+        data-embed-id="3251199003475310568"
+        data-units="metric"
+        data-style="standard"
+        data-map-hash="11.03/45.6101/24.335"
+        data-from-embed="true"
+      ></div>
+    </div>
+    <div class="w-full md:w-5/12 flex justify-center">
+      <div
+        class="strava-embed-placeholder"
+        data-embed-type="route"
+        data-embed-id="3251197710336262238"
+        data-full-width="true"
+        data-style="standard"
+        data-map-hash="11.67/45.6197/24.3106"
+        data-from-embed="true"
+      ></div>
+    </div>
   </div>
 </template>
