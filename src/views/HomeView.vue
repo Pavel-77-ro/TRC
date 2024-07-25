@@ -31,6 +31,34 @@ let faqItems = [
       'Rezultatele primelor 5 locuri din fiecare categorie vor fi anunţate la faţa locului, iar ulterior va apărea o secţiune dedicată pe website cu rezultatele complete.'
   }
 ];
+
+const participare = [
+  {
+    icon: 'fa-solid fa-medal',
+    text: 'Medalie de participare'
+  },
+  {
+    icon: 'fa-solid fa-hashtag',
+    text: 'Numar de concurs'
+  },
+  {
+    icon: 'fa-solid fa-shirt',
+    text: 'Tricou (optional) - 80 lei'
+  },
+  {
+    icon: 'fa-solid fa-utensils',
+    text: 'Voucher masă'
+  },
+  {
+    icon: 'fa-solid fa-bolt',
+    text: 'Baton proteic ROM'
+  },
+  {
+    icon: 'fa-solid fa-percent',
+    text: 'Vouchere discount'
+  }
+];
+
 let activeIndex = ref(null);
 function changeActiveIndex(i) {
   activeIndex.value = i;
@@ -67,7 +95,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="relative lg:overflow-hidden">
+  <section class="sm:relative lg:overflow-hidden z-10">
     <div
       class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-6 md:mt-14 lg:mt-[74px]"
     >
@@ -122,7 +150,7 @@ onMounted(() => {
         </div>
       </div>
       <!-- Image -->
-      <div class="flex justify-center flex-1 mb-2 md:mb-16 lg:mb-0 z-10">
+      <div class="flex justify-center flex-1 mb-2 md:mb-16 lg:mb-0 -z-10">
         <img
           class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full max-w-[550px]"
           src="../assets/images/mountain.png"
@@ -178,18 +206,15 @@ onMounted(() => {
         </div>
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
-          <h1 class="text-3xl text-bookmark-blue font-Lucky">Kit Participare</h1>
-          <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, incidunt ducimus
-            exercitationem quo, unde fugit blanditiis labore eum pariatur quisquam suscipit
-            distinctio aut asperior
-          </p>
-          <button
-            type="button"
-            class="btn text-white bg-gray-900 hover:bg-white hover:text-black hover:shadow-xl"
-          >
-            Detalii
-          </button>
+          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Kit Participare</h1>
+          <div class="flex flex-col mt-6 md:mt-8 sm:w-3/4 lg:w-full font-semibold">
+            <div v-for="(kit, index) in participare" :key="index" class="flex mb-[22px] ml-2">
+              <div class="w-[30px]">
+                <i class="text-orange-500 text-2xl align-middle" :class="kit.icon"></i>
+              </div>
+              <p class="ml-3 text-slate-700 text-lg md:text-xl">{{ kit.text }}</p>
+            </div>
+          </div>
         </div>
       </div>
       <!-- Rounded Rectangle -->
@@ -231,7 +256,9 @@ onMounted(() => {
   <section class="py-20 mt-20">
     <!-- Heading -->
     <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
-      <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Atelier de pictura</h1>
+      <h1 class="text-4xl lg:text-5xl text-center text-bookmark-blue font-Lucky">
+        Atelier de pictura
+      </h1>
       <p class="text-center text-bookmark-grey mt-4">
         Atelierul de pictură revine şi în cadrul celei de a 2-a ediţie a Turu Rosu Challenge.
         Alege-ţi kit-ul care vi se potriveşte!
@@ -239,7 +266,7 @@ onMounted(() => {
     </div>
     <!-- Cards -->
     <div
-      class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg mt-16"
+      class="px-6 md:px-4 container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg mt-16"
     >
       <!-- Card 1 -->
       <div
@@ -251,8 +278,9 @@ onMounted(() => {
           <p class="mb-2 text-bookmark-grey font-light">50 RON / persoană</p>
           <p class="mt-5 text-sm text-bookmark-blue text-center">
             Kit-ul conține : Pânză pre-imprimată cu un șablon jucăuș, set de culori vibrante și
-            pensula. Este ușor de pictat pentru copii, fiind necesar doar ca aceștia să umple
-            spațiile pre-imprimate.
+            pensula. Este ușor <br />
+            de pictat atât pentru copii, cât şi pentru persoane lipsite de experienţă în domeniul
+            artelor, fiind necesar doar ca aceștia să umple spațiile pre-imprimate.
           </p>
         </div>
         <hr class="border-b border-bookmark-white" />

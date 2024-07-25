@@ -1,9 +1,13 @@
 <script setup>
 import { RouterView, RouterLink } from 'vue-router';
 import { useRouter } from 'vue-router';
+import { ref, onMounted, onUnmounted } from 'vue';
 import ScrollToTopBtn from './components/ScrollToTopBtn.vue';
+import HamburgerMenu from './components/HamburgerMenu.vue';
 
 const router = useRouter();
+const isSmallScreen = ref(false);
+const isMenuOpen = ref(false);
 
 function goToInscrieri() {
   router.push({ name: 'inscrieri' });
@@ -12,13 +16,30 @@ function goToInscrieri() {
 function goToHome() {
   router.push({ name: 'home' });
 }
+
+function checkScreenSize() {
+  isSmallScreen.value = window.innerWidth < 640; // 640px is the threshold for 'sm' in Tailwind CSS
+}
+
+function toggleMenu() {
+  isMenuOpen.value = !isMenuOpen.value;
+}
+
+onMounted(() => {
+  checkScreenSize();
+  window.addEventListener('resize', checkScreenSize);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('resize', checkScreenSize);
+});
 </script>
 
 <template>
   <div class="font-Poppins relative">
     <!-- Header -->
-    <header class="backdrop-blur-xl z-50">
-      <nav class="container flex items-center py-4 mt-1 md:mt-2">
+    <header class="backdrop-blur-xl z-40">
+      <nav id="navb" class="container flex items-center py-4 mt-1 md:mt-2">
         <div class="py-1 w-14 md:w-20 overflow-hidden">
           <img
             @click="goToHome()"
@@ -48,10 +69,13 @@ function goToHome() {
           </button>
         </ul>
         <div class="flex sm:hidden flex-1 justify-end">
-          <i class="text-2xl fas fa-bars"></i>
+          <i class="text-2xl fas fa-bars cursor-pointer" @click="toggleMenu"></i>
         </div>
       </nav>
-      <!-- <div v-show="" class="w-1/2 mx-auto mt-2 bg-gray-300 h-[2px]"></div> -->
+      <transition name="fade" @after-enter="onEnter" @after-leave="onLeave">
+        <HamburgerMenu v-if="isSmallScreen && isMenuOpen" @close="toggleMenu" />
+      </transition>
+      <div v-show="isMenuOpen" class="w-full h-full z-50 bg-gray-400"></div>
     </header>
   </div>
   <scrollToTopBtn></scrollToTopBtn>
@@ -60,7 +84,9 @@ function goToHome() {
   <footer class="bg-gray-900 py-8">
     <div class="container flex flex-col md:flex-row items-center">
       <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
-        <h3 class="text-white text-xl"><a>Turnu Rosu Challenge</a></h3>
+        <h3 class="text-white text-xl">
+          <RouterLink :to="{ name: 'home' }" class="white">Turnu Rosu Challenge</RouterLink>
+        </h3>
         <ul class="flex text-white uppercase gap-12 text-xs tracking-wide">
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
             <RouterLink :to="{ name: 'inscrieri' }">Înscrieri</RouterLink>
@@ -69,7 +95,7 @@ function goToHome() {
             <RouterLink :to="{ name: 'regulament' }">Regulament</RouterLink>
           </li>
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
-            <RouterLink :to="{ name: 'contact' }">Contact</RouterLink>
+            <RouterLink :to="{ name: 'participanti' }">Participanti</RouterLink>
           </li>
         </ul>
       </div>
@@ -100,5 +126,13 @@ function goToHome() {
 <style scoped>
 .white {
   color: white !important;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
