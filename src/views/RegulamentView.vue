@@ -140,14 +140,17 @@ const info1 = [
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">7.2. Cronometrarea</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
-        Cronometrarea se face la punctul de start, punct intermediar și la punctul de finish, prin notarea timpului. Totodată la finish o să fie o cameră video care o să înregistreze sosirea fiecărui participant. Fiecare participant va purta un număr, acesta nefiind transmisibil. Este responsabilitatea participanților de a purta corect numărul de concurs (pe partea din față).
+        Cronometrarea se face la punctul de start și la punctul de finish, prin cip de catre cei de la Racehub. Fiecare participant va purta un număr, acesta nefiind transmisibil. Este responsabilitatea participanților de a purta corect numărul de concurs (pe partea din față).
       </div>
     </section>
 
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">7.3. Timp limită</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
-        Timpul limită pentru parcurgerea traseului de Power Hiking este de 4:00 ore, de la start care va fi la ora 11:10, respectiv ora 15:10. Timp limită parcurgere al traseului de CROS este de 4:00 ore, de la start care va fi la ora 11:00, respectiv ora 15:00.
+        Timpul limită pentru parcurgerea traseului de Power Hiking este de 4:00 ore.
+        Timpul limită pentru parcurgerea traseului de CROS este de 4:00 ore.
+        Timpul limită pentru parcurgerea traseului de SEMIMARATON este de 6:00 ore.
+        Timpul limită  intermediar in poiana Pleasa pentru SEMIMARATON este de 3:00 ore.
       </div>
     </section>
 
@@ -163,16 +166,16 @@ const info1 = [
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">7.5. Numărul de concurs</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
-        Preluarea numărului de concurs și a pachetului de înscriere se face pe baza declarației pe propria răspundere si a actului de identitate sau copia acestuia, în locațiile și orele stabilite de organizator, conform informațiilor publicate pe site. Numărul de concurs trebuie montat astfel încât să fie vizibil din fată pe tot timpul concursului. Numărul nu trebuie să fie tăiat sau modificat sub nicio formă în timpul concursului.
+        Preluarea numărului de concurs și a kit-ului de înscriere se face pe baza declarației pe propria răspundere si a actului de identitate sau copia acestuia, în locațiile și orele stabilite de organizator, conform informațiilor publicate pe site. Numărul de concurs trebuie montat astfel încât să fie vizibil din fată pe tot timpul concursului. Numărul nu trebuie să fie tăiat sau modificat sub nicio formă în timpul concursului.
       </div>
     </section>
 
     <section class="p-1">
-      <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">7.6. Ridicarea pachetului de start</h2>
+      <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">7.6. Ridicarea kit-ului de start</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
-        Numărul de concurs se ridică în ziua evenimentului, începând cu ora 09:00 de la cortul special amenajat în zona de start/sosire din zona.
+        Numărul de concurs se ridică în ziua evenimentului, începând cu ora 07:30 de la cortul special amenajat în zona de start/sosire din zona.
         <br><br>
-        <em>Este interzisă participarea cu alt număr de concurs decât cel personal. Toți participanții sunt obligați să prezinte actul de identitate în momentul înscrierii, să completeze fișa de participare pe proprie răspundere și să semneze un exemplar din regulament. Prin participarea la această competiție, concurenții acceptă automat regulamentul acesteia.</em>
+        <em>Este interzisă participarea cu alt număr de concurs decât cel personal. Toți participanții sunt obligați să prezinte actul de identitate în momentul înscrierii, să completeze fișa de participare pe proprie răspundere și să o semneze. Prin participarea la această competiție, concurenții acceptă automat regulamentul acesteia.</em>
       </div>
     </section>
 
@@ -197,13 +200,14 @@ const info1 = [
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">7.8. Puncte de control</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
         Pe traseu sunt amplasate puncte de control obligatorii. Participanții care nu trec printr-un punct de control, indiferent de motiv, vor fi descalificați.
+        Pentru traseul de SEMIMARATON avem 2 puncte de control la kilometrul 9,3 in Poiana Pleașa si la kilometrul 14,3 in Chica Fedeleșului. 
       </div>
     </section>
 
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">7.9. Echipament obligatoriu</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
-        Având în vedere faptul că “Turnu Roșu Challenge” este un concurs ce se desfășoară în zona subalpină în luna Octombrie, suntem nevoiți să respectăm capriciile vremii și să luăm în considerare două variante de echipament în funcție de situația traseului și a condițiilor meteo prognozate la data evenimentului. Le vom numi varianta de VARĂ respectiv varianta de IARNĂ. Organizatorul va anunța cu 3 zile înaintea evenimentului care variantă va deveni obligatorie.
+        Având în vedere faptul că “Turnu Roșu Challenge” este un concurs ce se desfășoară în zona subalpină în luna Septembrie, suntem nevoiți să respectăm capriciile vremii și să luăm în considerare două variante de echipament în funcție de situația traseului și a condițiilor meteo prognozate la data evenimentului. Le vom numi varianta de VARĂ respectiv varianta de TOAMNĂ. Organizatorul va anunța cu 3 zile înaintea evenimentului care variantă va deveni obligatorie.
         <br><br>
         <strong>Varianta de VARĂ:</strong>
         <ul class="list-disc list-inside">
@@ -212,9 +216,9 @@ const info1 = [
           <li>Bidon apă – obligatoriu pentru că nu vor fi pahare de plastic sau unică folosință la punctele de alimentare sau la start/finiș</li>
         </ul>
         <br>
-        <strong>Varianta de IARNĂ:</strong>
+        <strong>Varianta de TOAMNĂ:</strong>
         <ul class="list-disc list-inside">
-          <li>Varianta vară+</li>
+          <li>Varianta vară + </li>
           <li>Mănuși</li>
           <li>Căciula/Bentița/Șapcă</li>
           <li>Bluză cu mânecă lungă (sau combinație tricou + mânecuțe)</li>
@@ -226,7 +230,7 @@ const info1 = [
         <ul class="list-disc list-inside">
           <li>Borsetă/Ghiozdan</li>
           <li>Bețe (Opțional)</li>
-          <li>Buff/batic</li>
+          <li>Buff</li>
           <li>Fluier</li>
           <li>Telefon cu bateria încărcată</li>
         </ul>
@@ -240,8 +244,9 @@ const info1 = [
       <div class="text-gray-700 p-1 mt-5 mb-3">
         Se va da din punctul indicat după următoarea schemă:
         <ul class="list-disc list-inside">
-          <li>Proba de CROS: ora 11:00</li>
-          <li>Proba de POWER HIKING: ora 11:10</li>
+          <li>SEMIMARATON: ora 09:30</li>
+          <li>CROS: ora 09:45</li>
+          <li>POWER HIKING: ora 10:00</li>
         </ul>
       </div>
     </section>
@@ -280,7 +285,7 @@ const info1 = [
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">9. Contestații</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
-        Orice contestație se va comunica oficialilor imediat după afișarea rezultatelor. (Acestea vor putea fi verificate online pe pagina de Facebook a competiției). Contestația se va depune în scris însoțită de suma de 50 Ron. În cazul în care contestația este admisă, suma de bani va fi restituită. În caz contrar se va reține taxa de contestație. Nu se acceptă contestații înainte cu 30 de minute de premiere, în timpul sau după premierea categoriei la care face referință.
+        Orice contestație se va comunica oficialilor imediat după afișarea rezultatelor. (Acestea vor putea fi verificate online pe racehub.ro ). Contestația se va depune în scris însoțită de suma de 50 Ron. În cazul în care contestația este admisă, suma de bani va fi restituită. În caz contrar se va reține taxa de contestație. Nu se acceptă contestații înainte cu 30 de minute de premiere, în timpul sau după premierea categoriei la care face referință.
       </div>
     </section>
   </div>
