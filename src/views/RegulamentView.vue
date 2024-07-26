@@ -284,4 +284,4 @@ const info1 = [
       </div>
     </section>
   </div>
-</template>git
+</template>
