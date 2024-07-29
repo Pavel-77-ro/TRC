@@ -32,7 +32,7 @@ let faqItems = [
   {
     question: 'Unde pot vedea rezultatele?',
     answer:
-      'Rezultatele primelor 5 locuri din fiecare categorie vor fi anunţate la faţa locului, iar ulterior va apărea o secţiune dedicată pe website cu rezultatele complete.'
+      'Rezultatele vor fi anunţate la faţa locului, dar si online pe racehub.ro'
   }
 ];
 
@@ -190,7 +190,7 @@ onMounted(() => {
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Curse</h1>
           <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
             Anul acesta avem pregătite doua curse : un cros de 11 km si un semimaraton de 21 km dar
-            si o cursă necompetitivă de hiking unde vă așteptă un gulaș delicios la finish. Apăsaţi
+            si o cursă necompetitivă de hiking. La finish vă așteptă un brunch cu produse locale și un gulaș delicios. Apăsaţi
             pe butonul de mai jos pentru informaţii detaliate în legătură cu traseele curente şi
             informaţii suplimentare.
           </p>
@@ -258,9 +258,7 @@ onMounted(() => {
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Detalii organizatorice</h1>
           <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, incidunt ducimus
-            exercitationem quo, unde fugit blanditiis labore eum pariatur quisquam suscipit
-            distinctio aut asperior
+            Puteți afla mai multe detalii legate de locul de desfășurare al evenimentului și unde ați putea parca dar și programul evenimentului.
           </p>
           <button
             type="button"
