@@ -6,7 +6,7 @@ import { ref, onMounted, onUnmounted } from 'vue';
 const router = useRouter();
 
 function goToInscrieri() {
-  router.push({ name: 'inscrieri' });
+  window.location.href = "https://racehub.ro/register/trc2024";
 }
 
 function goToCurse() {
