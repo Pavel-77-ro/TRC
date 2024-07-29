@@ -34,7 +34,7 @@ onMounted(async () => {
       Anul acesta am pregătit 3 tipuri de trasee, comparativ cu doar 2 în ediţia anterioară. Prima
       cursă, şi cea mai provocatoare, va consta într-un semi-maraton de 21 km. Un pas mai jos este
       traseul de cross, ce la acestă ediţie va măsura 11 km. Iar în final, un traseu necompetiţional
-      de hike cu o lungime de 4 km.
+      de hike cu o lungime de 6 km.
     </p>
   </div>
   <div
