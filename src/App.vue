@@ -10,7 +10,7 @@ const isSmallScreen = ref(false);
 const isMenuOpen = ref(false);
 
 function goToInscrieri() {
-  router.push({ name: 'inscrieri' });
+  window.location.href = "https://racehub.ro/register/trc2024";
 }
 
 function goToHome() {
