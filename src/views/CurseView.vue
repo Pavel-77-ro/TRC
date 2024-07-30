@@ -38,9 +38,9 @@ onMounted(async () => {
     </p>
   </div>
   <div
-    class="flex w-full md:w-5/6 p-5 justify-between flex-wrap mx-auto py-6 gap-10 sm:gap-6 my-12"
+    class="flex w-full md:w-5/6 px-8 md:px-5 justify-between flex-wrap mx-auto py-6 gap-12 sm:gap-6 my-12"
   >
-    <div class="w-full md:w-5/12 flex justify-center">
+    <div class="w-full md:w-5/12 flex flex-col items-center gap-3">
       <div
         class="strava-embed-placeholder"
         data-embed-type="route"
@@ -50,6 +50,7 @@ onMounted(async () => {
         data-map-hash="11.03/45.6101/24.335"
         data-from-embed="true"
       ></div>
+      <a href="../assets/strava/TRC-cros.gpx">Download</a>
     </div>
     <div class="w-full md:w-5/12 flex justify-center">
       <div
