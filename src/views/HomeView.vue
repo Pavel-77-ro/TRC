@@ -301,9 +301,8 @@ onMounted(() => {
           <p class="mb-2 text-bookmark-grey font-light">50 RON / persoană</p>
           <p class="mt-5 text-sm text-bookmark-blue text-center">
             Kit-ul conține : Pânză pre-imprimată cu un șablon jucăuș, set de culori vibrante și
-            pensula. Este ușor <br />
-            de pictat atât pentru copii, cât şi pentru persoane lipsite de experienţă în domeniul
-            artelor, fiind necesar doar ca aceștia să umple spațiile pre-imprimate.
+            pensula. Recomandat <br />
+            pentru copii, fiind necesar doar ca aceștia să umple spațiile pre-imprimate.
           </p>
         </div>
         <hr class="border-b border-bookmark-white" />
@@ -347,13 +346,11 @@ onMounted(() => {
       >
         <div class="p-6 flex flex-col items-center">
           <img class="w-48" src="../assets/images/painter3.png" alt="" />
-          <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură liberă</h3>
-          <p class="mb-2 text-bookmark-grey font-light">50 RON / persoană</p>
+          <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură ghidată</h3>
+          <p class="mb-2 text-bookmark-grey font-light">120 RON / persoană</p>
           <p class="mt-5 text-sm text-bookmark-blue text-center">
-            Spre deosebire de variantele precedente , pornind de la pânza goală, vom crea o pictură
-            unică folosind elemente din natură (frunze, flori, conuri) pe care le vom colora si
-            imprima pe pânză .Culorile și pensulile vor fi puse la dispoziție de noi pentru
-            realizarea picturii.
+            Fie că ești atras de delicatețea și transparența acuarelei sau de versatilitatea și intensitatea cernelii acrilică, pictura este o cale minunată de a-ți exprima creativitatea. Lasă-te ghidat de noi și de tehnici consacrate de Fluid-art și Acuarelă și creează o piesă de arta autentică  și unică. 
+Îți vom pregăti materiale scrise pe care le poți lua acasă, iar facilitatorul de ateliere îți va exemplifica tehnicile și te va ghida să le utilizezi.
           </p>
         </div>
         <hr class="border-b border-bookmark-white" />
@@ -440,6 +437,11 @@ onMounted(() => {
         <img
           class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
           src="../assets/parteneri/logo-pdt.webp"
+          alt=""
+        />
+        <img
+          class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
+          src="../assets/parteneri/logo-rom.webp"
           alt=""
         />
         <img
