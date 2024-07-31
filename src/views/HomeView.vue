@@ -408,7 +408,7 @@ onMounted(() => {
           celei de a II-a ediţii a concursului Turnu Roşu Challenge
         </p>
       </div>
-      <div class="lg:w-5/6 flex flex-wrap justify-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
+      <div class="lg:w-5/6 flex flex-wrap items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
         <img
           class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
           src="../assets/parteneri/logo-alex.webp"
@@ -440,7 +440,7 @@ onMounted(() => {
           alt=""
         />
         <img
-          class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
+          class="w-[152px] sm:w-20 md:w-24 lg:w-28 lg:h-28 cursor-pointer"
           src="../assets/parteneri/logo-rom.webp"
           alt=""
         />
