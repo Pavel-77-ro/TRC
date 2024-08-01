@@ -322,7 +322,7 @@ onMounted(() => {
         <div class="p-6 flex flex-col items-center">
           <img class="w-48" src="../assets/images/painter2.png" alt="" />
           <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură pe numere</h3>
-          <p class="mb-2 text-bookmark-grey font-light">100 RON / persoană</p>
+          <p class="mb-2 text-bookmark-grey font-light">125 RON / persoană</p>
           <p class="mt-5 text-sm text-bookmark-blue text-center">
             Kit-ul conține : Pânză pre-imprimată cu un design complex, împărțit în zone numerotate ,
             set de culori numerotate corespunzător zonelor de pe pânză și pensule de diferite
@@ -347,7 +347,7 @@ onMounted(() => {
         <div class="p-6 flex flex-col items-center">
           <img class="w-48" src="../assets/images/painter3.png" alt="" />
           <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură ghidată</h3>
-          <p class="mb-2 text-bookmark-grey font-light">120 RON / persoană</p>
+          <p class="mb-2 text-bookmark-grey font-light">125 RON / persoană</p>
           <p class="mt-5 text-sm text-bookmark-blue text-center">
             Fie că ești atras de delicatețea și transparența acuarelei sau de versatilitatea și intensitatea cernelii acrilică, pictura este o cale minunată de a-ți exprima creativitatea. Lasă-te ghidat de noi și de tehnici consacrate de Fluid-art și Acuarelă și creează o piesă de arta autentică  și unică. 
 Îți vom pregăti materiale scrise pe care le poți lua acasă, iar facilitatorul de ateliere îți va exemplifica tehnicile și te va ghida să le utilizezi.

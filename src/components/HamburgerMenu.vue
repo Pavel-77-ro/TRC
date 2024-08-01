@@ -32,7 +32,7 @@ function closeMenu() {
       <li
         class="cursor-pointer py-[2px] text-xl text-gray-700 font-normal border-b-2 border-gray-300 my-[12px] mb-8"
       >
-        <RouterLink :to="{ name: 'inscrieri' }" @click="closeMenu">Înscrieri</RouterLink>
+        <a href="https://racehub.ro/register/trc2024" @click="closeMenu">Înscrieri</a>
       </li>
     </ul>
   </div>
