@@ -134,23 +134,6 @@ async function inscriereParticipantPictura() {
         </div>
 
         <div class="mb-6">
-          <div class="flex items-start">
-            <input
-              type="checkbox"
-              id="checkbox1"
-              name="checkbox1"
-              class="h-4 w-4 text-orange-600 focus:ring-bookmark-red border-gray-300 rounded mt-2c red"
-              required
-            />
-            <label for="checkbox1" class="ml-2 block text-white"
-              >Sunt de acord cu utilizarea de către organizator, precum și de către partenerii și
-              sponsorii săi, a numelui meu, a fotografiilor/înregistrărilor audio/video și a
-              declarațiilor mele, în scopuri de marketing sau activități promoționale în sprijinul
-              organizațiilor sau cooperative. Sunt de acord că fotografiile și înregistrările
-              audio/video în care sunt implicat sunt și vor fi proprietatea exclusivă a
-              organizatorului, care poate decide cum să le utilizeze.</label
-            >
-          </div>
           <div class="flex items-start mt-6">
             <input
               type="checkbox"
@@ -165,9 +148,12 @@ async function inscriereParticipantPictura() {
               persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și
               privind libera circulație a acestor date”, precum si asupra faptului ca datele
               furnizate vor fi tratate confidențial, vor fi protejate, nu vor fi transmise catre
-              nicio terta parte decat in temei legal.</label
-            >
+              nicio terta parte decat in temei legal.</label>
           </div>
+          <p class="text-center text-bookmark-white mt-4">
+              Pentru înscriere plata se face prin transfer bancar în contul IBAN: RO64INGB0000999914160110. 
+              Veți fi contactat prin e-mail pentru confirmarea plății.
+          </p>
         </div>
 
         <div v-if="errorMessage" class="text-red-500 text-center mb-4">{{ errorMessage }}</div>
