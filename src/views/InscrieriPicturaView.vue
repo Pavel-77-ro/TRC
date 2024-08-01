@@ -40,6 +40,7 @@ async function inscriereParticipantPictura() {
       });
       console.log('Document successfully written!');
       errorMessage.value = ''; // Clear any previous error message
+      alert('Înscrierea a fost realizată cu succes!'); 
       window.location.reload();
     }
   } catch (error) {
