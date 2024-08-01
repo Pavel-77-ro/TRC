@@ -7,7 +7,7 @@ import { ref } from 'vue';
 const nume = ref('');
 const prenume = ref('');
 const localitate = ref('');
-const optiune = ref('');
+const tipOptiune = ref('');
 const email = ref('');
 const telefon = ref('');
 const errorMessage = ref('');
@@ -24,18 +24,16 @@ async function inscriereParticipantPictura() {
   const docRef = doc(db, 'participanti_pictura', emailValue);
 
   try {
-    console.log('Fetching document...');
     const docSnap = await getDoc(docRef);
 
     if (docSnap.exists()) {
       errorMessage.value = 'Un participant cu acest email există deja.';
     } else {
-      console.log('Document does not exist, creating new document...');
       await setDoc(docRef, {
         nume: nume.value,
         prenume: prenume.value,
         localitate: localitate.value,
-        optiune: optiune.value,
+        optiune: tipOptiune.value,
         email: email.value,
         telefon: telefon.value,
         confirmat: 'Nu',
@@ -46,14 +44,6 @@ async function inscriereParticipantPictura() {
     }
   } catch (error) {
     console.error('Error writing document: ', error);
-    console.log('Error details:', {
-      emailValue,
-      nume: nume.value,
-      prenume: prenume.value,
-      localitate: localitate.value,
-      optiune: optiune.value,
-      telefon: telefon.value,
-    });
     errorMessage.value = 'A apărut o eroare la înscriere.';
   }
 }
@@ -107,7 +97,7 @@ async function inscriereParticipantPictura() {
         <div class="mb-6">
           <label for="optiune" class="block text-white font-semibold mb-2">Optiune</label>
           <select
-            v-model="tipCursa"
+            v-model="tipOptiune"
             id="optiune"
             name="optiune"
             class="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-bookmark-red"
