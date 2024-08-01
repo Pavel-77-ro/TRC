@@ -9,6 +9,10 @@ function goToInscrieri() {
   window.location.href = "https://racehub.ro/register/trc2024";
 }
 
+function goToInscrieriPictura() {
+  router.push({ name: 'inscrieri_pictura' });
+}
+
 function goToCurse() {
   router.push({ name: 'curse' });
 }
@@ -310,6 +314,7 @@ onMounted(() => {
           <button
             type="button"
             class="flex-1 btn text-white bg-gray-900 hover:bg-bookmark-white hover:text-black"
+            @click="goToInscrieriPictura"
           >
             Înscrie-te!
           </button>
@@ -335,6 +340,7 @@ onMounted(() => {
           <button
             type="button"
             class="flex-1 btn text-white bg-bookmark-purple hover:bg-bookmark-white hover:text-black"
+            @click="goToInscrieriPictura"
           >
             Înscrie-te!
           </button>
@@ -358,6 +364,7 @@ onMounted(() => {
           <button
             type="button"
             class="flex-1 btn text-white bg-gray-900 hover:bg-bookmark-white hover:text-black"
+            @click="goToInscrieriPictura"
           >
             Înscrie-te!
           </button>

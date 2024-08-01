@@ -4,6 +4,7 @@ import ParticipantiView from '@/views/ParticipantiView.vue';
 import RegulamentView from '@/views/RegulamentView.vue';
 import ContactView from '@/views/ContactView.vue';
 import InscrieriView from '@/views/InscrieriView.vue';
+import InscrieriPicturaView from '@/views/InscrieriPicturaView.vue';
 import CurseView from '@/views/CurseView.vue';
 
 const router = createRouter({
@@ -33,6 +34,11 @@ const router = createRouter({
       path: '/inscrieri',
       name: 'inscrieri',
       component: InscrieriView
+    },
+    {
+      path: '/inscrieri_pictura',
+      name: 'inscrieri_pictura',
+      component: InscrieriPicturaView
     },
     {
       path: '/curse',

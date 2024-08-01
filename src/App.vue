@@ -105,7 +105,7 @@ onUnmounted(() => {
         </h3>
         <ul class="flex text-white uppercase gap-12 text-xs tracking-wide">
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
-            <RouterLink :to="{ name: 'inscrieri' }">Înscrieri</RouterLink>
+            <a href="https://racehub.ro/register/trc2024">Înscrieri</a>
           </li>
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
             <RouterLink :to="{ name: 'regulament' }">Regulament</RouterLink>
