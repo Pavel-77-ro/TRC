@@ -110,10 +110,13 @@ onMounted(() => {
       <!-- Content -->
       <div class="flex flex-1 flex-col items-center lg:items-start">
         <h2
-          class="text-slate-800 text-3xl sm:text-4xl lg:text-5xl text-center lg:text-left mb-6 font-Lucky"
-        >
+          class="text-slate-800 text-3xl sm:text-4xl lg:text-5xl text-center lg:text-left mb-6 font-Lucky">
           Turnu Rosu Challenge
         </h2>
+        <h2
+         class="text-orange-400 text-2xl sm:text-3xl lg:text-4xl text-center lg:text-left mb-6 font-Lucky">
+         22 Septembrie
+        </h2>    
         <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
           Înscrie-te la Turnu Roșu Challenge până pe
           <span class="text-orange-400">15 septembrie!</span> Explorează trasee montane uimitoare la
