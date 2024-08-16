@@ -9,6 +9,10 @@ function goToInscrieri() {
   window.location.href = "https://racehub.ro/register/trc2024";
 }
 
+function goToVoluntari(){
+  window.location.href = "https://docs.google.com/spreadsheets/d/1wMuIUoKuS4zHetVVBFLZaJUuFj3DRV8bAwO9xFLKK_c/edit?usp=sharing";
+}
+
 function goToInscrieriPictura() {
   router.push({ name: 'inscrieri_pictura' });
 }
@@ -181,7 +185,7 @@ onMounted(() => {
         şi înscrie-te la provocarea oferită de echipa noastră!
       </p>
     </div>
-    <!-- Feature #1 -->
+    <!-- Feature #1 Detalii curse -->
     <div class="relative mt-32 lg:mt-32">
       <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-28">
         <!-- Image -->
@@ -210,12 +214,8 @@ onMounted(() => {
           </button>
         </div>
       </div>
-      <!-- Rounded Rectangle -->
-      <!-- <div
-        class="hidden lg:block overflow-hidden bg-bookmark-red rounded-r-full absolute h-80 w-2/4 bottom-0 left-0"
-      ></div> -->
     </div>
-    <!-- Feature #2 -->
+    <!-- Feature #2 Kit Participare -->
     <div class="relative mt-32 lg:mt-56 bg-white lg:bg-inherit py-8 lg:py-0">
       <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
         <!-- Image -->
@@ -250,7 +250,7 @@ onMounted(() => {
         class="hidden lg:block overflow-hidden bg-gray-800 rounded-l-full absolute h-80 w-2/4 bottom-8 right-0"
       ></div>
     </div>
-    <!-- Feature #3 -->
+    <!-- Feature #3 Detalii organizatorice-->
     <div class="relative mt-32 lg:mt-56 mb-10">
       <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-28">
         <!-- Image -->
@@ -370,6 +370,34 @@ onMounted(() => {
             @click="goToInscrieriPictura"
           >
             Înscrie-te!
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature #4 Voluntari -->
+    <div class="relative mt-32 lg:mt-32">
+      <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-28">
+        <!-- Image -->
+        <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+          <img
+            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
+            src="../assets/images/voluntari.jpeg"
+            alt=""
+          />
+        </div>
+        <!-- Content -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Voluntari</h1>
+          <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+            Vino alături de noi pentru a face parte din echipa noastră la următorul concurs! Avem nevoie de ajutor pentru organizare, logistică și suport tehnic.
+          </p>
+          <button
+            type="button"
+            class="btn text-white bg-gray-900 hover:bg-bookmark-red hover:shadow-xl"
+            @click="goToVoluntari"
+          >
+            Înscrie-te
           </button>
         </div>
       </div>
