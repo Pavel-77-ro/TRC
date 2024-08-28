@@ -152,7 +152,7 @@ async function inscriereParticipantPictura() {
               nicio terta parte decat in temei legal.</label>
           </div>
           <p class="text-center text-bookmark-white mt-4">
-              Pentru înscriere plata se face prin transfer bancar în contul IBAN: RO64INGB0000999914160110. 
+              Pentru înscriere plata se face prin transfer bancar în contul IBAN: RO47BREL0005537424510100. 
               Veți fi contactat prin e-mail pentru confirmarea plății.
           </p>
         </div>
