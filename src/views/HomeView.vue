@@ -492,12 +492,22 @@ onMounted(() => {
           src="../assets/parteneri/logo-rom.webp"
           alt=""
         />
-        <img
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="container flex flex-col items-center">
+      <div class="sm:w-3/4 mx-auto px-2">
+        <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Cofinantare</h1>
+      </div>
+        <div class="lg:w-5/6 flex flex-wrap justify-center items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
+          <img
           class="w-[152px] sm:w-40 md:w-48"
           src="../assets/parteneri/logo-primarie.webp"
           alt=""
         />
-      </div>
+        </div>
     </div>
   </section>
 
