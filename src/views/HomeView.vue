@@ -492,6 +492,11 @@ onMounted(() => {
           src="../assets/parteneri/logo-rom.webp"
           alt=""
         />
+        <img
+          class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
+          src="../assets/parteneri/logo_bilstein.png"
+          alt=""
+        />
       </div>
     </div>
   </section>
