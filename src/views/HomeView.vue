@@ -229,7 +229,7 @@ onMounted(() => {
           />
           <img
             class="w-5/6 h-5/6 sm:w-full sm:h-full lg:w-full lg:h-full"
-            src="../assets/images/sosete.PNG"
+            src="../assets/images/sosete.png"
             alt=""
           />
         </div>
