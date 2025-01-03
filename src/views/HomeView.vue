@@ -232,6 +232,12 @@ onMounted(() => {
             src="../assets/images/tricou-femeie.png"
             alt=""
           />
+          <!-- Imagine sosete -->        
+          <img
+            class="w-5/6 h-5/6 sm:w-full sm:h-full lg:w-full lg:h-full"
+            src="../assets/images/sosete-trc.png"
+            alt=""
+          />
         </div>
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
