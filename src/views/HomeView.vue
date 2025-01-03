@@ -229,7 +229,7 @@ onMounted(() => {
           <!-- Imagine tricou -->        
           <img
             class="w-5/6 h-5/6 sm:w-full sm:h-full lg:w-full lg:h-full"
-            src="../assets/images/tricou-sosete.png"
+            src="../assets/images/tricou_sosete.png"
             alt=""
           />
         </div>
