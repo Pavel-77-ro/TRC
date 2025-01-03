@@ -235,11 +235,10 @@ onMounted(() => {
           <!-- Imagine sosete -->
           <img
             class="w-5/6 h-5/6 sm:w-full sm:h-full lg:w-full lg:h-full"
-            src="../assets/images/sosete.png"
+            src="../assets/images/sosete.PNG"
             alt="Sosete tehnice"
           />
         </div>
-        
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Kit Participare</h1>
