@@ -228,6 +228,16 @@ onMounted(() => {
             alt=""
           />
         </div>
+        <div
+          class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 flex flex-1 justify-center z-10 mb-10 lg:mb-0 bg-gray-800 px-2 py-1 md:px-[18px] md:py-4 rounded-[70px]"
+        >
+        <img
+            class="w-5/6 h-5/6 sm:w-full sm:h-full lg:w-full lg:h-full"
+            src="../assets/images/sosete.png"
+            alt=""
+          />
+      </div>
+        
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Kit Participare</h1>
