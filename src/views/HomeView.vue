@@ -54,6 +54,10 @@ const participare = [
     text: 'Numar de concurs'
   },
   {
+    icon: 'fa-solid fa-shocks',
+    text: 'Șosete tehnice'
+  },
+  {
     icon: 'fa-solid fa-shirt',
     text: 'Tricou (optional) - 80 lei'
   },
@@ -218,25 +222,24 @@ onMounted(() => {
     <!-- Feature #2 Kit Participare -->
     <div class="relative mt-32 lg:mt-56 bg-white lg:bg-inherit py-8 lg:py-0">
       <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
-        <!-- Image -->
+        
         <div
           class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 flex flex-1 justify-center z-10 mb-10 lg:mb-0 bg-gray-800 px-2 py-1 md:px-[18px] md:py-4 rounded-[70px]"
         >
+          <!-- Imagine tricou -->        
           <img
             class="w-5/6 h-5/6 sm:w-full sm:h-full lg:w-full lg:h-full"
             src="../assets/images/tricou-femeie.png"
             alt=""
           />
-        </div>
-        <div
-          class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 flex flex-1 justify-center z-10 mb-10 lg:mb-0 bg-gray-800 px-2 py-1 md:px-[18px] md:py-4 rounded-[70px]"
-        >
-        <img
+
+          <!-- Imagine sosete -->
+          <img
             class="w-5/6 h-5/6 sm:w-full sm:h-full lg:w-full lg:h-full"
             src="../assets/images/sosete.png"
-            alt=""
+            alt="Sosete tehnice"
           />
-      </div>
+        </div>
         
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
