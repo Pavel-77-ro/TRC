@@ -250,10 +250,6 @@ onMounted(() => {
           </div>
         </div>
       </div>
-      <!-- Rounded Rectangle -->
-      <div
-        class="hidden lg:block overflow-hidden bg-gray-800 rounded-l-full absolute h-80 w-2/4 bottom-8 right-0"
-      ></div>
     </div>
     <!-- Feature #3 Detalii organizatorice-->
     <div class="relative mt-32 lg:mt-56 mb-10">
