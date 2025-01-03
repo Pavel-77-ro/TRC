@@ -232,7 +232,6 @@ onMounted(() => {
             src="../assets/images/tricou-femeie.png"
             alt=""
           />
-
           <!-- Imagine sosete -->
           <img
             class="w-5/6 h-5/6 sm:w-full sm:h-full lg:w-full lg:h-full"
