@@ -54,7 +54,7 @@ const participare = [
     text: 'Numar de concurs'
   },
   {
-    icon: 'fa-solid fa-shocks',
+    icon: 'fa-solid fa-socks',
     text: 'Șosete tehnice'
   },
   {
