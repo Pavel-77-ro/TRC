@@ -15,7 +15,7 @@ import { ref, onMounted } from 'vue';
 
 <script>
 export default {
-  name: 'Participanti'
+  name: 'Participanti 2024'
 }
 </script>
 
