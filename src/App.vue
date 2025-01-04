@@ -70,9 +70,6 @@ onUnmounted(() => {
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms">
             <RouterLink :to="{ name: 'home' }">Acasă</RouterLink>
           </li>
-          <li class="cursor-pointer hover-underline-animation transition-duration:150ms">
-            <RouterLink :to="{ name: 'participanti' }">Participanţi</RouterLink>
-          </li>
            <!-- Dropdown for Participanți -->
           <li class="relative group cursor-pointer hover-underline-animation transition-duration:150ms">
             <span>Participanţi</span>
