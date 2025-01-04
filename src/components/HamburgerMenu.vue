@@ -34,12 +34,12 @@ function closeMenu() {
             <li
               class="cursor-pointer py-[2px] text-lg text-gray-600 font-normal border-b-2 border-gray-300 my-[8px]"
             >
-              <RouterLink :to="{ name: 'participanti_2024' }" @click="closeMenu">Participanţi 2024</RouterLink>
+              <RouterLink :to="{ name: 'participanti_2024' }" @click="closeMenu">Ediția 2024</RouterLink>
             </li>
             <li
               class="cursor-pointer py-[2px] text-lg text-gray-600 font-normal border-b-2 border-gray-300 my-[8px]"
             >
-              <RouterLink :to="{ name: 'participanti_2025' }" @click="closeMenu">Participanţi 2025</RouterLink>
+              <RouterLink :to="{ name: 'participanti_2025' }" @click="closeMenu">Ediția 2025</RouterLink>
             </li>
           </ul>
         </li>
