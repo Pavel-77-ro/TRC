@@ -66,14 +66,17 @@ export default {
   },
   methods: {
     closeMenu() {
-      this.$emit('close'); // Close the menu
+      console.log('Menu closed'); // Debugging
+      this.$emit('close');
     },
     toggleDropdown() {
-      this.dropdownOpen = !this.dropdownOpen; // Toggle the dropdown state
+      this.dropdownOpen = !this.dropdownOpen; // Toggle dropdown state
+      console.log('Dropdown state:', this.dropdownOpen); // Debugging
     },
   },
 };
 </script>
+
 
 <style scoped>
 .z-max {
