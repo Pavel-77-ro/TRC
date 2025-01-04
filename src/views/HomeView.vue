@@ -258,7 +258,7 @@ onMounted(() => {
         <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
           <img
             class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
-            src="../assets/images/camping-2.webp"
+            src="../assets/images/camping-3.webp"
             alt=""
           />
         </div>
