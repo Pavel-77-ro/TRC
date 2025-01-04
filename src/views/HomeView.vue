@@ -271,7 +271,7 @@ onMounted(() => {
             type="button"
             class="btn text-white bg-gray-900 hover:bg-bookmark-red hover:shadow-xl"
           >
-            Detalii
+            În curand!
           </button>
         </div>
       </div>
