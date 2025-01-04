@@ -257,7 +257,7 @@ onMounted(() => {
         <!-- Image -->
         <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
           <img
-            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
+            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded"
             src="../assets/images/camping.webp"
             alt=""
           />
@@ -266,8 +266,7 @@ onMounted(() => {
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Camping</h1>
           <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            În curând venim cu mai multe detalii legate despre posibilitatea de a campa cu cortul aproape de locația concursului dar și de a participa la focul de tabără și alte surprize pregătite dacă ajungi de sâmbătă seara.
-          </p>
+            În curând vă vom oferi mai multe detalii despre posibilitatea de a campa cu cortul în apropierea locației concursului, precum și despre participarea la focul de tabără și alte surprize pregătite special pentru cei care ajung încă de sâmbătă seara          </p>
           <button
             type="button"
             class="btn text-white bg-gray-900 hover:bg-bookmark-red hover:shadow-xl"
