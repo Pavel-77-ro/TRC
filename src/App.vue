@@ -77,10 +77,10 @@ onUnmounted(() => {
               class="absolute left-0 mt-2 hidden group-hover:flex flex-col bg-white shadow-lg rounded-lg text-slate-600"
             >
               <li class="px-4 py-2 hover:bg-gray-100">
-                <RouterLink :to="{ name: 'participanti_2024' }">Participanţi 2024</RouterLink>
+                <RouterLink :to="{ name: 'participanti_2024' }">Ediția 2024</RouterLink>
               </li>
               <li class="px-4 py-2 hover:bg-gray-100">
-                <RouterLink :to="{ name: 'participanti_2025' }">Participanţi 2025</RouterLink>
+                <RouterLink :to="{ name: 'participanti_2025' }">Ediția 2025</RouterLink>
               </li>
             </ul>
           </li>
