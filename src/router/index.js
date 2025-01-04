@@ -18,12 +18,12 @@ const router = createRouter({
     },
     {
       path: '/participanti2024',
-      name: 'participanti',
+      name: 'participanti_2024',
       component: Participanti2024View
     },
     {
       path: '/participanti2025',
-      name: 'participanti',
+      name: 'participanti_2025',
       component: Participanti2025View
     },
     {
