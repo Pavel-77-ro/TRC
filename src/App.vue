@@ -70,8 +70,19 @@ onUnmounted(() => {
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms">
             <RouterLink :to="{ name: 'home' }">Acasă</RouterLink>
           </li>
-          <li class="cursor-pointer hover-underline-animation transition-duration:150ms">
-            <RouterLink :to="{ name: 'participanti' }">Participanţi</RouterLink>
+           <!-- Dropdown for Participanți -->
+          <li class="relative group cursor-pointer hover-underline-animation transition-duration:150ms">
+            <span>Participanţi</span>
+            <ul
+              class="absolute left-0 mt-2 hidden group-hover:flex flex-col bg-white shadow-lg rounded-lg text-slate-600"
+            >
+              <li class="px-4 py-2 hover:bg-gray-100">
+                <RouterLink :to="{ name: 'participanti_2024' }">Ediția 2024</RouterLink>
+              </li>
+              <li class="px-4 py-2 hover:bg-gray-100">
+                <RouterLink :to="{ name: 'participanti_2025' }">Ediția 2025</RouterLink>
+              </li>
+            </ul>
           </li>
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms">
             <RouterLink :to="{ name: 'regulament' }">Regulament</RouterLink>

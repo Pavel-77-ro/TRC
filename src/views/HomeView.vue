@@ -54,6 +54,10 @@ const participare = [
     text: 'Numar de concurs'
   },
   {
+    icon: 'fa-solid fa-socks',
+    text: 'Șosete tehnice'
+  },
+  {
     icon: 'fa-solid fa-shirt',
     text: 'Tricou (optional) - 80 lei'
   },
@@ -218,13 +222,14 @@ onMounted(() => {
     <!-- Feature #2 Kit Participare -->
     <div class="relative mt-32 lg:mt-56 bg-white lg:bg-inherit py-8 lg:py-0">
       <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
-        <!-- Image -->
+        
         <div
           class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 flex flex-1 justify-center z-10 mb-10 lg:mb-0 bg-gray-800 px-2 py-1 md:px-[18px] md:py-4 rounded-[70px]"
         >
+          <!-- Imagine tricou -->        
           <img
             class="w-5/6 h-5/6 sm:w-full sm:h-full lg:w-full lg:h-full"
-            src="../assets/images/tricou-femeie.png"
+            src="../assets/images/tricou_sosete.png"
             alt=""
           />
         </div>
@@ -245,10 +250,6 @@ onMounted(() => {
           </div>
         </div>
       </div>
-      <!-- Rounded Rectangle -->
-      <div
-        class="hidden lg:block overflow-hidden bg-gray-800 rounded-l-full absolute h-80 w-2/4 bottom-8 right-0"
-      ></div>
     </div>
     <!-- Feature #3 Detalii organizatorice-->
     <div class="relative mt-32 lg:mt-56 mb-10">
@@ -257,21 +258,20 @@ onMounted(() => {
         <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
           <img
             class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
-            src="../assets/images/2023poza2.jpeg"
+            src="../assets/images/camping-3.webp"
             alt=""
           />
         </div>
         <!-- Content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
-          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Detalii organizatorice</h1>
+          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Camping</h1>
           <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            Puteți afla mai multe detalii legate de locul de desfășurare al evenimentului și unde ați putea parca dar și programul evenimentului.
-          </p>
+            În curând vă vom oferi mai multe detalii despre posibilitatea de a campa cu cortul în apropierea locației concursului, precum și despre participarea la focul de tabără și alte surprize pregătite special pentru cei care ajung încă de sâmbătă seara          </p>
           <button
             type="button"
             class="btn text-white bg-gray-900 hover:bg-bookmark-red hover:shadow-xl"
           >
-            Detalii
+            În curand!
           </button>
         </div>
       </div>
