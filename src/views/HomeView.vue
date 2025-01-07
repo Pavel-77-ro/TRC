@@ -123,11 +123,11 @@ onMounted(() => {
         </h2>
         <h2
          class="text-orange-400 text-2xl sm:text-3xl lg:text-4xl text-center lg:text-left mb-6 font-Lucky">
-         22 Septembrie
+         08 Iunie
         </h2>    
         <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
           Înscrie-te la Turnu Roșu Challenge până pe
-          <span class="text-orange-400">15 septembrie!</span> Explorează trasee montane uimitoare la
+          <span class="text-orange-400">12 Ianuarie!</span> Explorează trasee montane uimitoare la
           a doua ediție a evenimentului nostru de alergare și hiking!
         </p>
 
