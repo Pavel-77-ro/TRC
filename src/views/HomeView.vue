@@ -126,9 +126,9 @@ onMounted(() => {
          08 Iunie
         </h2>    
         <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
-          Înscrie-te la Turnu Roșu Challenge începând cu
-          <span class="text-orange-400">01 ianuarie!</span> Explorează trasee montane uimitoare la
-          cea de a treia ediție a evenimentului nostru de alergare și hiking!
+          Înscrie-te la Turnu Roșu Challenge până pe
+          <span class="text-orange-400">12 Ianuarie!</span> Explorează trasee montane uimitoare la
+          a doua ediție a evenimentului nostru de alergare și hiking!
         </p>
 
         <!-- Countdown Timer -->

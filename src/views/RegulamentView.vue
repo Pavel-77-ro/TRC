@@ -46,19 +46,36 @@ const info1 = [
       <div
         class="text-gray-700 p-1 mt-5 mb-3">
         Înscrierile se vor face doar online completând formularul de înscriere pus la dispoziție de organizator prin racehub.ro.
-        Nu se fac înscrieri în ziua concursului, înscrierile se închid în 15 Septembrie cu o săptămână înaintea evenimentului. Măsura este luată pentru a putea optimiza utilizarea resurselor logistice, pentru a evita risipa sau lipsa unor produse sau servicii pentru concurenții înscriși. ( De exemplu, estimarea produselor alimentare pentru punctele de alimentare, brunch, medalii, tricouri șamd.)
+        Nu se fac înscrieri în ziua concursului, înscrierile se închid în 01 Septembrie cu o săptămână înaintea evenimentului. Măsura este luată pentru a putea optimiza utilizarea resurselor logistice, pentru a evita risipa sau lipsa unor produse sau servicii pentru concurenții înscriși. ( De exemplu, estimarea produselor alimentare pentru punctele de alimentare, brunch, medalii, tricouri șamd.)
     </div>
     </section>
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">4. Taxa de participare</h2>
       <div
-        class="grid grid-rows-3 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
+        class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
+
+        <!-- Title spanning all columns -->
+        <p class="p-2 col-span-3 text-xl lg:text-2xl">Tarife Early Bird 12-31 Ianuarie</p>
+        <!-- Grid Content -->
         <p class="p-2">Semimaraton</p>
         <p class="p-2">Cros</p>
         <p class="p-2">Power Hiking</p>
         <p class="p-2">140 RON</p>
         <p class="p-2">110 RON</p>
         <p class="p-2">90 RON</p>
+      </div>
+
+      <div
+        class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
+        <!-- Title spanning all columns -->
+        <p class="p-2 col-span-3 text-xl lg:text-2xl">Tarife Normale</p>
+        <!-- Grid Content -->
+        <p class="p-2">Semimaraton</p>
+        <p class="p-2">Cros</p>
+        <p class="p-2">Power Hiking</p>
+        <p class="p-2">160 RON</p>
+        <p class="p-2">130 RON</p>
+        <p class="p-2">110 RON</p>
       </div>
       <p class="text-gray-700 p-1 mt-5 mb-3">
         Taxa de participare se poate achita cu cardul la înscrierea pe racehub.ro
@@ -111,6 +128,7 @@ const info1 = [
       <p class="text-gray-700 p-1 mt-5 mb-3">
         <ul><strong>Semimaraton</strong>
           <li>– se premiază primele 3 locuri la OPEN M/F ;</li>
+          <li>– primele 5 locuri la OPEN vor fi trecute pe LEADERBOARD;</li>
           <li>– se premiază primele 3 locuri la fiecare categorie M/F ;</li>
           <li>– dacă unul din concurenți a fost premiat la categoria OPEN, acesta nu mai poate fi premiat și la categorie;</li>   
         </ul>
@@ -147,10 +165,10 @@ const info1 = [
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">7.3. Timp limită</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
-        Timpul limită pentru parcurgerea traseului de Power Hiking este de 4:00 ore.
+        Nu exista timp limită pentru parcurgerea traseului de Power Hiking, noi recomandăm 4:00 ore.
         Timpul limită pentru parcurgerea traseului de CROS este de 4:00 ore.
-        Timpul limită pentru parcurgerea traseului de SEMIMARATON este de 6:00 ore.
-        Timpul limită  intermediar in poiana Pleasa pentru SEMIMARATON este de 3:00 ore.
+        Timpul limită pentru parcurgerea traseului de SEMIMARATON este de 5:00 ore.
+        Timpul limită  intermediar in poiana Pleasa (km 9) pentru SEMIMARATON este de 2:00 ore.
       </div>
     </section>
 
@@ -173,7 +191,7 @@ const info1 = [
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">7.6. Ridicarea kit-ului de start</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
-        Numărul de concurs se ridică în ziua evenimentului, începând cu ora 07:30 de la cortul special amenajat în zona de start/sosire din zona.
+        Numărul de concurs se ridică în ziua evenimentului, începând cu ora 08:00 de la cortul special amenajat în zona de start/sosire din zona.
         <br><br>
         <em>Este interzisă participarea cu alt număr de concurs decât cel personal. Toți participanții sunt obligați să prezinte actul de identitate în momentul înscrierii, să completeze fișa de participare pe proprie răspundere și să o semneze. Prin participarea la această competiție, concurenții acceptă automat regulamentul acesteia.</em>
       </div>
@@ -207,18 +225,18 @@ const info1 = [
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">7.9. Echipament obligatoriu</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
-        Având în vedere faptul că “Turnu Roșu Challenge” este un concurs ce se desfășoară în zona subalpină în luna Septembrie, suntem nevoiți să respectăm capriciile vremii și să luăm în considerare două variante de echipament în funcție de situația traseului și a condițiilor meteo prognozate la data evenimentului. Le vom numi varianta de VARĂ respectiv varianta de TOAMNĂ. Organizatorul va anunța cu 3 zile înaintea evenimentului care variantă va deveni obligatorie.
+        Având în vedere faptul că “Turnu Roșu Challenge” este un concurs ce se desfășoară în zona subalpină în luna Iunie, suntem nevoiți să respectăm capriciile vremii și să luăm în considerare două variante de echipament în funcție de situația traseului și a condițiilor meteo prognozate la data evenimentului. Le vom numi varianta de vreme caldă respectiv varianta de vreme rece. Organizatorul va anunța cu 3 zile înaintea evenimentului care variantă va deveni obligatorie.
         <br><br>
-        <strong>Varianta de VARĂ:</strong>
+        <strong>Varianta de vreme caldă:</strong>
         <ul class="list-disc list-inside">
           <li>Încălțăminte sport cu talpă profilată</li>
           <li>Geacă impermeabilă/Foiță de vânt</li>
           <li>Bidon apă – obligatoriu pentru că nu vor fi pahare de plastic sau unică folosință la punctele de alimentare sau la start/finiș</li>
         </ul>
         <br>
-        <strong>Varianta de TOAMNĂ:</strong>
+        <strong>Varianta de vreme rece:</strong>
         <ul class="list-disc list-inside">
-          <li>Varianta vară + </li>
+          <li>Varianta de vreme caldă + </li>
           <li>Mănuși</li>
           <li>Căciula/Bentița/Șapcă</li>
           <li>Bluză cu mânecă lungă (sau combinație tricou + mânecuțe)</li>
@@ -246,7 +264,7 @@ const info1 = [
         <ul class="list-disc list-inside">
           <li>SEMIMARATON: ora 09:30</li>
           <li>CROS: ora 09:45</li>
-          <li>POWER HIKING: ora 10:00</li>
+          <li>POWER HIKING: ora 09:00</li>
         </ul>
       </div>
     </section>
