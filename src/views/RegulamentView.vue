@@ -55,7 +55,7 @@ const info1 = [
         class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
 
         <!-- Title spanning all columns -->
-        <p class="p-2 col-span-3 text-xl lg:text-2xl">Tarife Early Bird 12-31 Ianuarie</p>
+        <p class="p-2 col-span-3 text-xl lg:text-2xl">Tarife Early Bird 18-31 Ianuarie</p>
         <!-- Grid Content -->
         <p class="p-2">Semimaraton</p>
         <p class="p-2">Cros</p>

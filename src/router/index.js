@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '@/views/HomeView.vue';
-import Participanti2024View from '@/views/Participanti2024View.vue';
-import Participanti2025View from '@/views/Participanti2025View.vue';
+import Participanti2024View from '@/views/Rezultate2024View.vue';
+import Participanti2025View from '@/views/ParticipantiView.vue';
 import RegulamentView from '@/views/RegulamentView.vue';
 import ContactView from '@/views/ContactView.vue';
 import InscrieriView from '@/views/InscrieriView.vue';

@@ -6,7 +6,7 @@ import { ref, onMounted, onUnmounted } from 'vue';
 const router = useRouter();
 
 function goToInscrieri() {
-  window.location.href = "https://racehub.ro/register/trc2024";
+  window.location.href = "https://racehub.ro/register/trc2025";
 }
 
 function goToVoluntari(){
@@ -127,7 +127,7 @@ onMounted(() => {
         </h2>    
         <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
           Înscrie-te la Turnu Roșu Challenge începând cu
-          <span class="text-orange-400">12 Ianuarie!</span> Explorează trasee montane uimitoare la
+          <span class="text-orange-400">18 Ianuarie!</span> Explorează trasee montane uimitoare la
           a doua ediție a evenimentului nostru de alergare și hiking!
         </p>
 
