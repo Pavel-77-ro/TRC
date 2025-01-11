@@ -290,7 +290,7 @@ onMounted(() => {
         Atelier de pictura
       </h1>
       <p class="text-center text-bookmark-grey mt-4">
-        Atelierul de pictură revine şi în cadrul celei de a 2-a ediţie a Turu Rosu Challenge.
+        Atelierul de pictură revine şi în cadrul celei de a 3-a ediţie a Turu Rosu Challenge.
         Alege-ţi kit-ul care vi se potriveşte!
       </p>
     </div>
@@ -319,7 +319,7 @@ onMounted(() => {
             class="flex-1 btn text-white bg-gray-900 hover:bg-bookmark-white hover:text-black"
             @click="goToInscrieriPictura"
           >
-            Înscrie-te!
+            În curând!
           </button>
         </div>
       </div>
@@ -345,7 +345,7 @@ onMounted(() => {
             class="flex-1 btn text-white bg-bookmark-purple hover:bg-bookmark-white hover:text-black"
             @click="goToInscrieriPictura"
           >
-            Înscrie-te!
+            În curând!
           </button>
         </div>
       </div>
@@ -369,7 +369,7 @@ onMounted(() => {
             class="flex-1 btn text-white bg-gray-900 hover:bg-bookmark-white hover:text-black"
             @click="goToInscrieriPictura"
           >
-            Înscrie-te!
+            În curând!
           </button>
         </div>
       </div>
