@@ -9,13 +9,13 @@ import { ref, onMounted } from 'vue';
   <div>
     <br>
      <!-- Embedded participant list -->
-    <iframe style="overflow: hidden;" src="https://racehub.ro/register/trc2024/list?language=ro-RO" width="100%" height="3100px" frameborder="0"></iframe>
+    <iframe style="overflow: hidden;" src="https://racehub.ro/results/g-live.html?f=events/timing/20240922/turnurosuchallenge.clax" width="100%" height="3100px" frameborder="0"></iframe>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Participanti 2024'
+  name: 'Rezultate 2024'
 }
 </script>
 

@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '@/views/HomeView.vue';
-import Participanti2024View from '@/views/Participanti2024View.vue';
-import Participanti2025View from '@/views/Participanti2025View.vue';
+import Rezultate2024View from '@/views/Rezultate2024View.vue';
+import ParticipantiView from '@/views/ParticipantiView.vue';
 import RegulamentView from '@/views/RegulamentView.vue';
 import ContactView from '@/views/ContactView.vue';
 import InscrieriView from '@/views/InscrieriView.vue';
@@ -17,14 +17,14 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/participanti2024',
-      name: 'participanti_2024',
-      component: Participanti2024View
+      path: '/rezultate2024',
+      name: 'rezultate_2024',
+      component: Rezultate2024View
     },
     {
       path: '/participanti2025',
       name: 'participanti_2025',
-      component: Participanti2025View
+      component: ParticipantiView
     },
     {
       path: '/regulament',
