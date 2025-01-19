@@ -196,7 +196,7 @@ onMounted(() => {
         <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
           <img
             class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
-            src="../assets/images/2023poza1.jpeg"
+            src="../assets/images/running_trc.webp"
             alt=""
           />
         </div>
@@ -251,7 +251,48 @@ onMounted(() => {
         </div>
       </div>
     </div>
-    <!-- Feature #3 Detalii organizatorice-->
+    <!-- Feature #3 Pilates-->
+    <div class="relative mt-32 lg:mt-56 mb-10">
+      <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-28">
+        <!-- Image -->
+        <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+          <img
+            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
+            src="../assets/images/pilates_trc.webp"
+            alt=""
+          />
+        </div>
+        <!-- Content -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Streching</h1>
+          <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+            După o cursă intensă, relaxarea corpului a fost esențială! 🙌 Alături de Daniela ne reconectăm cu natura prin sesiuni de stretching și pilates.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Feature #4 Masaj -->
+    <div class="relative mt-32 lg:mt-56 bg-white lg:bg-inherit py-8 lg:py-0">
+      <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
+        
+        <div
+          class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 flex flex-1 justify-center z-10 mb-10 lg:mb-0 bg-gray-800 px-2 py-1 md:px-[18px] md:py-4 rounded-[70px]"
+        >
+          <!-- Imagine masaj -->        
+          <img
+            class="w-5/6 h-5/6 sm:w-full sm:h-full lg:w-full lg:h-full"
+            src="../assets/images/masaj_trc.webp"
+            alt=""
+          />
+        </div>
+        <!-- Content -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Masaj</h1>
+          <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+            Oferim masaj de relaxare și recuperare pentru alergători, direct la zona de finish. Bucură-te de o experiență completă!.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Feature #5 Camping-->
     <div class="relative mt-32 lg:mt-56 mb-10">
       <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-28">
         <!-- Image -->
@@ -275,14 +316,9 @@ onMounted(() => {
           </button>
         </div>
       </div>
-      <!-- Rounded Rectangle -->
-      <!-- <div
-        class="hidden lg:block overflow-hidden bg-bookmark-red rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36"
-      ></div> -->
     </div>
   </section>
-
-  <!-- Download -->
+  <!-- Sectiunea Pictura -->
   <section class="py-20 mt-20">
     <!-- Heading -->
     <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
@@ -290,7 +326,7 @@ onMounted(() => {
         Atelier de pictura
       </h1>
       <p class="text-center text-bookmark-grey mt-4">
-        Atelierul de pictură revine şi în cadrul celei de a 2-a ediţie a Turu Rosu Challenge.
+        Atelierul de pictură revine şi în cadrul celei de a 3-a ediţie a Turu Rosu Challenge.
         Alege-ţi kit-ul care vi se potriveşte!
       </p>
     </div>
@@ -305,7 +341,7 @@ onMounted(() => {
         <div class="p-6 flex flex-col items-center">
           <img class="w-48" src="../assets/images/painter1.png" alt="" />
           <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură pe șablon</h3>
-          <p class="mb-2 text-bookmark-grey font-light">50 RON / persoană</p>
+          <p class="mb-2 text-bookmark-grey font-light"> - / persoană</p>
           <p class="mt-5 text-sm text-bookmark-blue text-center">
             Kit-ul conține : Pânză pre-imprimată cu un șablon jucăuș, set de culori vibrante și
             pensula. Recomandat <br />
@@ -319,7 +355,7 @@ onMounted(() => {
             class="flex-1 btn text-white bg-gray-900 hover:bg-bookmark-white hover:text-black"
             @click="goToInscrieriPictura"
           >
-            Înscrie-te!
+            În curând!
           </button>
         </div>
       </div>
@@ -330,7 +366,7 @@ onMounted(() => {
         <div class="p-6 flex flex-col items-center">
           <img class="w-48" src="../assets/images/painter2.png" alt="" />
           <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură pe numere</h3>
-          <p class="mb-2 text-bookmark-grey font-light">125 RON / persoană</p>
+          <p class="mb-2 text-bookmark-grey font-light"> - / persoană</p>
           <p class="mt-5 text-sm text-bookmark-blue text-center">
             Kit-ul conține : Pânză pre-imprimată cu un design complex, împărțit în zone numerotate ,
             set de culori numerotate corespunzător zonelor de pe pânză și pensule de diferite
@@ -345,7 +381,7 @@ onMounted(() => {
             class="flex-1 btn text-white bg-bookmark-purple hover:bg-bookmark-white hover:text-black"
             @click="goToInscrieriPictura"
           >
-            Înscrie-te!
+            În curând!
           </button>
         </div>
       </div>
@@ -356,7 +392,7 @@ onMounted(() => {
         <div class="p-6 flex flex-col items-center">
           <img class="w-48" src="../assets/images/painter3.png" alt="" />
           <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură ghidată</h3>
-          <p class="mb-2 text-bookmark-grey font-light">125 RON / persoană</p>
+          <p class="mb-2 text-bookmark-grey font-light"> - / persoană</p>
           <p class="mt-5 text-sm text-bookmark-blue text-center">
             Fie că ești atras de delicatețea și transparența acuarelei sau de versatilitatea și intensitatea cernelii acrilică, pictura este o cale minunată de a-ți exprima creativitatea. Lasă-te ghidat de noi și de tehnici consacrate de Fluid-art și Acuarelă și creează o piesă de arta autentică  și unică. 
 Îți vom pregăti materiale scrise pe care le poți lua acasă, iar facilitatorul de ateliere îți va exemplifica tehnicile și te va ghida să le utilizezi.
@@ -369,7 +405,7 @@ onMounted(() => {
             class="flex-1 btn text-white bg-gray-900 hover:bg-bookmark-white hover:text-black"
             @click="goToInscrieriPictura"
           >
-            Înscrie-te!
+            În curând!
           </button>
         </div>
       </div>
