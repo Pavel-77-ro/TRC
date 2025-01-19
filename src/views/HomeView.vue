@@ -479,7 +479,7 @@ onMounted(() => {
         <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Parteneri</h1>
         <p class="text-center text-bookmark-grey mt-4">
           Mulţumim partenerilor noştri pentru implicarea în realizarea, promovarea şi dezvoltarea
-          celei de a II-a ediţii a concursului Turnu Roşu Challenge
+          celei de a III-a ediţii a concursului Turnu Roşu Challenge!
         </p>
       </div>
       <div class="lg:w-5/6 flex flex-wrap items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
