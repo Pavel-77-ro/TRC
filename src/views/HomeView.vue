@@ -275,11 +275,11 @@ onMounted(() => {
       <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
         
         <div
-          class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 flex flex-1 justify-center z-10 mb-10 lg:mb-0 bg-gray-800 px-2 py-1 md:px-[18px] md:py-4 rounded-[70px]"
+          class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 flex flex-1 justify-center z-10 mb-10 lg:mb-0"
         >
           <!-- Imagine masaj -->        
           <img
-            class="w-5/6 h-5/6 sm:w-full sm:h-full lg:w-full lg:h-full"
+            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
             src="../assets/images/masaj_trc.webp"
             alt=""
           />
@@ -299,7 +299,7 @@ onMounted(() => {
         <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
           <img
             class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
-            src="../assets/images/camping-3.webp"
+            src="../assets/images/camping_trc.webp"
             alt=""
           />
         </div>
