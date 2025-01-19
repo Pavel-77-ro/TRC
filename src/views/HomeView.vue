@@ -30,12 +30,12 @@ let faqItems = [
   {
     question: 'Cât de solicitante sunt traseele?',
     answer:
-      'Traseele pregătite pot fi realizate în timpul maxim admis de 5 ore de orice persoană cu o pregătire fizică minimă şi dornică să exploreze zona comunei Turnu Rosu.'
+      'Traseele pregătite pot fi realizate în timpul maxim admis de 5 ore de orice persoană cu o pregătire fizică optimă şi dornică să exploreze zona Munțiilor Făgăraș.'
   },
   {
     question: 'Până când mă pot înscrie?',
     answer:
-      'Înscrierile la preţul afişat sunt disponibile până pe data de 15 septembrie 2024. Cei ce doresc să se înscrie după data stabilită, va exista o taxă suplimentară.'
+      'Înscrierile sunt disponibile până pe data de 01 iunie 2025. Cei ce doresc să se înscrie mai repede pot profita de reducerile early bird până pe 31 ianuarie.'
   },
   {
     question: 'Unde pot vedea rezultatele?',
