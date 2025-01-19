@@ -127,8 +127,7 @@ onMounted(() => {
         </h2>    
         <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
           Înscrie-te la Turnu Roșu Challenge începând cu
-          <span class="text-orange-400">18 Ianuarie!</span> Explorează trasee montane uimitoare la
-          a treia ediție a evenimentului nostru de alergare și hiking!
+          <span class="text-orange-400">18 Ianuarie!</span> Explorează trasee montane uimitoare la cea de-a treia ediție a evenimentului nostru de alergare și hiking!
         </p>
 
         <!-- Countdown Timer -->
@@ -266,7 +265,7 @@ onMounted(() => {
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Streching</h1>
           <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            După o cursă intensă, relaxarea corpului a fost esențială! 🙌 Alături de Daniela ne reconectăm cu natura prin sesiuni de stretching și pilates.</p>
+            După o cursă intensă, relaxarea corpului este  esențială! Haide alături de Daniela ne reconectăm cu natura printr-o sesiune de stretching și pilates.</p>
         </div>
       </div>
     </div>
