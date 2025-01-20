@@ -203,7 +203,7 @@ onMounted(() => {
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Curse</h1>
           <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            Anul acesta avem pregătite doua curse : un cros de 11 km si un semimaraton de 21 km dar
+            Anul acesta suntem afiliati ITRA și avem pregătite două curse : un cros de 11 km - ITRA 0 si un semimaraton de 21 km - ITRA 1 dar
             si o cursă necompetitivă de hiking. La finish vă așteptă un brunch cu produse locale și un gulaș delicios. Apăsaţi
             pe butonul de mai jos pentru informaţii detaliate în legătură cu traseele curente şi
             informaţii suplimentare.
