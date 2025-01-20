@@ -30,12 +30,12 @@ let faqItems = [
   {
     question: 'Cât de solicitante sunt traseele?',
     answer:
-      'Traseele pregătite pot fi realizate în timpul maxim admis de 5 ore de orice persoană cu o pregătire fizică minimă şi dornică să exploreze zona comunei Turnu Rosu.'
+      'Traseele pregătite pot fi realizate în timpul maxim admis de 5 ore de orice persoană cu o pregătire fizică optimă şi dornică să exploreze zona Munțiilor Făgăraș.'
   },
   {
     question: 'Până când mă pot înscrie?',
     answer:
-      'Înscrierile la preţul afişat sunt disponibile până pe data de 15 septembrie 2024. Cei ce doresc să se înscrie după data stabilită, va exista o taxă suplimentară.'
+      'Înscrierile sunt disponibile până pe data de 01 iunie 2025. Cei ce doresc să se înscrie mai repede pot profita de reducerile early bird până pe 31 ianuarie.'
   },
   {
     question: 'Unde pot vedea rezultatele?',
@@ -127,8 +127,7 @@ onMounted(() => {
         </h2>    
         <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
           Înscrie-te la Turnu Roșu Challenge începând cu
-          <span class="text-orange-400">18 Ianuarie!</span> Explorează trasee montane uimitoare la
-          a doua ediție a evenimentului nostru de alergare și hiking!
+          <span class="text-orange-400">18 Ianuarie!</span> Explorează trasee montane uimitoare la cea de-a treia ediție a evenimentului nostru de alergare și hiking!
         </p>
 
         <!-- Countdown Timer -->
@@ -196,7 +195,7 @@ onMounted(() => {
         <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
           <img
             class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
-            src="../assets/images/2023poza1.jpeg"
+            src="../assets/images/running_trc.webp"
             alt=""
           />
         </div>
@@ -204,7 +203,7 @@ onMounted(() => {
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Curse</h1>
           <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            Anul acesta avem pregătite doua curse : un cros de 11 km si un semimaraton de 21 km dar
+            Anul acesta suntem afiliați ITRA și avem pregătite două curse : un cros de 11 km - ITRA 0 si un semimaraton de 21 km - ITRA 1 dar
             si o cursă necompetitivă de hiking. La finish vă așteptă un brunch cu produse locale și un gulaș delicios. Apăsaţi
             pe butonul de mai jos pentru informaţii detaliate în legătură cu traseele curente şi
             informaţii suplimentare.
@@ -251,14 +250,55 @@ onMounted(() => {
         </div>
       </div>
     </div>
-    <!-- Feature #3 Detalii organizatorice-->
+    <!-- Feature #3 Pilates-->
     <div class="relative mt-32 lg:mt-56 mb-10">
       <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-28">
         <!-- Image -->
         <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
           <img
             class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
-            src="../assets/images/camping-3.webp"
+            src="../assets/images/pilates_trc.webp"
+            alt=""
+          />
+        </div>
+        <!-- Content -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Streching</h1>
+          <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+            După o cursă intensă, relaxarea corpului este  esențială! Haide alături de Daniela ne reconectăm cu natura printr-o sesiune de stretching și pilates.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Feature #4 Masaj -->
+    <div class="relative mt-32 lg:mt-56 bg-white lg:bg-inherit py-8 lg:py-0">
+      <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
+        
+        <div
+          class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 flex flex-1 justify-center z-10 mb-10 lg:mb-0"
+        >
+          <!-- Imagine masaj -->        
+          <img
+            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
+            src="../assets/images/masaj_trc.webp"
+            alt=""
+          />
+        </div>
+        <!-- Content -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Masaj</h1>
+          <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+            Oferim masaj de relaxare și recuperare pentru alergători, direct la zona de finish. Bucură-te de o experiență completă!.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Feature #5 Camping-->
+    <div class="relative mt-32 lg:mt-56 mb-10">
+      <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-28">
+        <!-- Image -->
+        <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+          <img
+            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
+            src="../assets/images/camping_trc.webp"
             alt=""
           />
         </div>
@@ -275,14 +315,9 @@ onMounted(() => {
           </button>
         </div>
       </div>
-      <!-- Rounded Rectangle -->
-      <!-- <div
-        class="hidden lg:block overflow-hidden bg-bookmark-red rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36"
-      ></div> -->
     </div>
   </section>
-
-  <!-- Download -->
+  <!-- Sectiunea Pictura -->
   <section class="py-20 mt-20">
     <!-- Heading -->
     <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
@@ -305,7 +340,7 @@ onMounted(() => {
         <div class="p-6 flex flex-col items-center">
           <img class="w-48" src="../assets/images/painter1.png" alt="" />
           <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură pe șablon</h3>
-          <p class="mb-2 text-bookmark-grey font-light">50 RON / persoană</p>
+          <p class="mb-2 text-bookmark-grey font-light"> - / persoană</p>
           <p class="mt-5 text-sm text-bookmark-blue text-center">
             Kit-ul conține : Pânză pre-imprimată cu un șablon jucăuș, set de culori vibrante și
             pensula. Recomandat <br />
@@ -330,7 +365,7 @@ onMounted(() => {
         <div class="p-6 flex flex-col items-center">
           <img class="w-48" src="../assets/images/painter2.png" alt="" />
           <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură pe numere</h3>
-          <p class="mb-2 text-bookmark-grey font-light">125 RON / persoană</p>
+          <p class="mb-2 text-bookmark-grey font-light"> - / persoană</p>
           <p class="mt-5 text-sm text-bookmark-blue text-center">
             Kit-ul conține : Pânză pre-imprimată cu un design complex, împărțit în zone numerotate ,
             set de culori numerotate corespunzător zonelor de pe pânză și pensule de diferite
@@ -356,7 +391,7 @@ onMounted(() => {
         <div class="p-6 flex flex-col items-center">
           <img class="w-48" src="../assets/images/painter3.png" alt="" />
           <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură ghidată</h3>
-          <p class="mb-2 text-bookmark-grey font-light">125 RON / persoană</p>
+          <p class="mb-2 text-bookmark-grey font-light"> - / persoană</p>
           <p class="mt-5 text-sm text-bookmark-blue text-center">
             Fie că ești atras de delicatețea și transparența acuarelei sau de versatilitatea și intensitatea cernelii acrilică, pictura este o cale minunată de a-ți exprima creativitatea. Lasă-te ghidat de noi și de tehnici consacrate de Fluid-art și Acuarelă și creează o piesă de arta autentică  și unică. 
 Îți vom pregăti materiale scrise pe care le poți lua acasă, iar facilitatorul de ateliere îți va exemplifica tehnicile și te va ghida să le utilizezi.
@@ -443,7 +478,7 @@ onMounted(() => {
         <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Parteneri</h1>
         <p class="text-center text-bookmark-grey mt-4">
           Mulţumim partenerilor noştri pentru implicarea în realizarea, promovarea şi dezvoltarea
-          celei de a II-a ediţii a concursului Turnu Roşu Challenge
+          celei de a III-a ediţii a concursului Turnu Roşu Challenge!
         </p>
       </div>
       <div class="lg:w-5/6 flex flex-wrap items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
