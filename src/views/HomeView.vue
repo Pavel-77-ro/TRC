@@ -203,10 +203,7 @@ onMounted(() => {
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Curse</h1>
           <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            Anul acesta suntem afiliați ITRA și avem pregătite două curse : un cros de 11 km - ITRA 0 si un semimaraton de 21 km - ITRA 1 dar
-            si o cursă necompetitivă de hiking. La finish vă așteptă un brunch cu produse locale și un gulaș delicios. Apăsaţi
-            pe butonul de mai jos pentru informaţii detaliate în legătură cu traseele curente şi
-            informaţii suplimentare.
+            Turnu Roșu Challenge oferă trei curse potrivite pentru fiecare nivel de pregătire, astfel încât fiecare să își găsească provocarea perfectă! Semimaratonul de 21 km, clasificat ITRA 1, este o adevărată provocare pentru cei experimentați, iar crosul de 11 km, clasificat ITRA 0, îți va oferi ocazia să testezi și să te antrenezi pe trasee montane spectaculoase. Dacă ești în căutarea unei experiențe mai relaxante, hikingul de 7 km te va purta prin peisaje uimitoare.
           </p>
           <button
             type="button"
@@ -265,7 +262,7 @@ onMounted(() => {
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Streching</h1>
           <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            După o cursă intensă, relaxarea corpului este  esențială! Haide alături de Daniela ne reconectăm cu natura printr-o sesiune de stretching și pilates.</p>
+            Încheie-ți sesiunea de alergare cu o clasă de stretching revitalizantă la Turnu Roșu Challenge! Exercițiile de întindere te ajută să îți relaxezi mușchii, să previi rigiditatea și să accelerezi procesul de recuperare. Participă pentru a îmbunătăți flexibilitatea, a reduce riscul de accidentări și a te reîncărcare pentru următoarea provocare!</p>
         </div>
       </div>
     </div>
@@ -287,7 +284,7 @@ onMounted(() => {
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Masaj</h1>
           <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            Oferim masaj de relaxare și recuperare pentru alergători, direct la zona de finish. Bucură-te de o experiență completă!.</p>
+            După o cursă intensă, corpul tău merită un masaj regenerativ. Sesiunile de masaj post-alergare oferite la Turnu Roșu Challenge sunt concepute pentru a reduce tensiunea musculară, a îmbunătăți recuperarea și a stimula circulația sanguină. Masajul va contribui la relaxarea rapidă a mușchilor și la prevenirea durerilor ulterioare. Vino să te refaci rapid și să te bucuri de o revigorare completă!.</p>
         </div>
       </div>
     </div>
@@ -306,7 +303,7 @@ onMounted(() => {
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Camping</h1>
           <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            În curând vă vom oferi mai multe detalii despre posibilitatea de a campa cu cortul în apropierea locației concursului, precum și despre participarea la focul de tabără și alte surprize pregătite special pentru cei care ajung încă de sâmbătă seara          </p>
+            În seara dinaintea competiției, te invităm să te alături unui moment de relaxare și camaraderie! Vino să petrecem noaptea sub cerul înstelat într-o atmosferă prietenoasă și relaxantă la foc de tabără, unde ne vom bucura de un film în aer liber. Este ocazia perfectă să te relaxezi, să te conectezi cu ceilalți și să te încarci cu energie pozitivă înainte de competiție! Vei scăpa de stresul cotidian, te vei reconecta cu natura și vei fi pregătit pentru ziua cea mare!</p>
           <button
             type="button"
             class="btn text-white bg-gray-900 hover:bg-bookmark-red hover:shadow-xl"
