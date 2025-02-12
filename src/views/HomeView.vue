@@ -118,11 +118,15 @@ onMounted(() => {
       <!-- Content -->
       <div class="flex flex-1 flex-col items-center lg:items-start">
         <h2
-          class="text-[#cc1812] text-3xl sm:text-4xl lg:text-5xl text-center lg:text-left mb-6 font-Lucky">
+          class="text-slate-800 text-3xl sm:text-4xl lg:text-5xl text-center lg:text-left mb-6 font-Lucky">
           Turnu Rosu Challenge
         </h2>
         <h2
-         class="text-[#00A0E3] text-2xl sm:text-3xl lg:text-4xl text-center lg:text-left mb-6 font-Lucky">
+          class="text-slate-800 text-3xl sm:text-4xl lg:text-5xl text-center lg:text-left mb-6 font-Lucky">
+          08 iunie 2025
+        </h2>
+        <h2
+         class="text-slate-800 text-2xl sm:text-3xl lg:text-4xl text-center lg:text-left mb-6 font-Lucky">
          Powered by Bilstein
         </h2>    
         <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
