@@ -122,7 +122,7 @@ onMounted(() => {
           Turnu Rosu Challenge
         </h2>
         <h2
-          class="text-slate-800 text-3xl sm:text-4xl lg:text-5xl text-center lg:text-left mb-6 font-Lucky">
+          class="text-[#cc1812] text-3xl sm:text-4xl lg:text-5xl text-center lg:text-left mb-6 font-Lucky">
           08 iunie 2025
         </h2>
         <h2
