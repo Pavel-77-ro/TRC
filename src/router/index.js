@@ -8,9 +8,7 @@ import InscrieriView from '@/views/InscrieriView.vue';
 import InscrieriPicturaView from '@/views/InscrieriPicturaView.vue';
 import CurseView from '@/views/CurseView.vue';
 
-const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
+const routes = [
     {
       path: '/',
       name: 'home',
@@ -52,6 +50,14 @@ const router = createRouter({
       component: CurseView
     }
   ]
+
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes,
+  scrollBehavior() {
+    // Always scroll to top when navigating to a new route
+    return { top: 0 };
+  },
 });
 
 export default router;
