@@ -118,7 +118,7 @@ onMounted(() => {
       <!-- Content -->
       <div class="flex flex-1 flex-col items-center lg:items-start">
         <h2
-          class="text-slate-800 text-3xl sm:text-4xl lg:text-5xl text-center text-[#cc1812] lg:text-left mb-6 font-Lucky">
+          class="text-[#cc1812] text-3xl sm:text-4xl lg:text-5xl text-center lg:text-left mb-6 font-Lucky">
           Turnu Rosu Challenge
         </h2>
         <h2
