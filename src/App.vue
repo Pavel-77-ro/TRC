@@ -49,6 +49,9 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener('resize', checkScreenSize);
 });
+
+import ImageSlideshow from "@/components/ImageSlideshow.vue";
+
 </script>
 
 <template>
@@ -99,6 +102,16 @@ onUnmounted(() => {
   </div>
   <scrollToTopBtn></scrollToTopBtn>
   <RouterView></RouterView>
+  <!--Image slide show-->
+  <section class="py-20">
+    <div class="container flex flex-col items-center">
+      <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Galerie</h1>
+      <p class="text-center text-bookmark-grey mt-4">
+        Descoperă momentele uimitoare de la Turnu Roșu Challenge!
+      </p>
+      <ImageSlideshow class="mt-8" />
+    </div>
+  </section>
   <!-- Footer -->
   <footer class="bg-gray-900 py-8">
     <div class="container flex flex-col md:flex-row items-center">
