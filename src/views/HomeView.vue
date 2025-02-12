@@ -122,8 +122,8 @@ onMounted(() => {
           Turnu Rosu Challenge
         </h2>
         <h2
-         class="text-blue-400 text-2xl sm:text-3xl lg:text-4xl text-center lg:text-left mb-6 font-Lucky">
-         08 Iunie
+         class="text-[#00A0E3]-400 text-2xl sm:text-3xl lg:text-4xl text-center lg:text-left mb-6 font-Lucky">
+         Powered by Bilstein
         </h2>    
         <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
           Înscrie-te la Turnu Roșu Challenge începând cu
