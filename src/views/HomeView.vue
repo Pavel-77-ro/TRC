@@ -137,25 +137,25 @@ onMounted(() => {
         >
           <div class="flex justify-center gap-4 space-x-4 text-2xl font-semibold">
             <div class="countdown-item flex flex-col items-center">
-              <span class="countdown-number text-4xl font-bold text-orange-500">{{
+              <span class="countdown-number text-4xl font-bold text-[#CC1812]">{{
                 timeRemaining.days
               }}</span>
               <span class="countdown-label text-gray-700">zile</span>
             </div>
             <div class="countdown-item flex flex-col items-center">
-              <span class="countdown-number text-4xl font-bold text-orange-500">{{
+              <span class="countdown-number text-4xl font-bold text-[#CC1812]">{{
                 timeRemaining.hours
               }}</span>
               <span class="countdown-label text-gray-700">ore</span>
             </div>
             <div class="countdown-item flex flex-col items-center">
-              <span class="countdown-number text-4xl font-bold text-orange-500">{{
+              <span class="countdown-number text-4xl font-bold text-[#CC1812]">{{
                 timeRemaining.minutes
               }}</span>
               <span class="countdown-label text-gray-700">minute</span>
             </div>
             <div class="countdown-item flex flex-col items-center">
-              <span class="countdown-number text-4xl font-bold text-orange-500">{{
+              <span class="countdown-number text-4xl font-bold text-[#CC1812]">{{
                 timeRemaining.seconds
               }}</span>
               <span class="countdown-label text-gray-700">secunde</span>
@@ -171,7 +171,7 @@ onMounted(() => {
       <div class="flex justify-center flex-1 mb-2 md:mb-16 lg:mb-0 -z-10">
         <img
           class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full max-w-[550px]"
-          src="../assets/images/mountain.png"
+          src="../assets/images/TR_Challenge_2024.jpg"
           alt=""
         />
       </div>
