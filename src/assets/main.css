@@ -79,14 +79,15 @@
   content: '';
   background: linear-gradient(
     45deg,
-    #ff4500,
+    #cc1812,
     /* Orange Red */ #ff6347,
     /* Tomato */ #ff7f50,
     /* Coral */ #ff8c00,
     /* Dark Orange */ #ffa500,
     /* Orange */ #ff7f50,
     /* Coral */ #ff6347,
-    /* Tomato */ #ff4500 /* Orange Red */
+    /* Tomato */ #ff4500 , /* Orange Red */
+    /* New Red */ #cc1812
   );
 
   position: absolute;
