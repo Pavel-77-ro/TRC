@@ -122,7 +122,7 @@ onMounted(() => {
           Turnu Rosu Challenge
         </h2>
         <h2
-         class="text-orange-400 text-2xl sm:text-3xl lg:text-4xl text-center lg:text-left mb-6 font-Lucky">
+         class="text-blue-400 text-2xl sm:text-3xl lg:text-4xl text-center lg:text-left mb-6 font-Lucky">
          08 Iunie
         </h2>    
         <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
