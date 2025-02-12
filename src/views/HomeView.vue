@@ -127,7 +127,7 @@ onMounted(() => {
         </h2>    
         <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
           Înscrie-te la Turnu Roșu Challenge începând cu
-          <span class="text-orange-400">18 Ianuarie!</span> Explorează trasee montane uimitoare la cea de-a treia ediție a evenimentului nostru de alergare și hiking!
+          <span class="text-[#cc1812]">18 Ianuarie!</span> Explorează trasee montane uimitoare la cea de-a treia ediție a evenimentului nostru de alergare și hiking!
         </p>
 
         <!-- Countdown Timer -->
@@ -137,25 +137,25 @@ onMounted(() => {
         >
           <div class="flex justify-center gap-4 space-x-4 text-2xl font-semibold">
             <div class="countdown-item flex flex-col items-center">
-              <span class="countdown-number text-4xl font-bold text-[#CC1812]">{{
+              <span class="countdown-number text-4xl font-bold text-[#cc1812]">{{
                 timeRemaining.days
               }}</span>
               <span class="countdown-label text-gray-700">zile</span>
             </div>
             <div class="countdown-item flex flex-col items-center">
-              <span class="countdown-number text-4xl font-bold text-[#CC1812]">{{
+              <span class="countdown-number text-4xl font-bold text-[#cc1812]">{{
                 timeRemaining.hours
               }}</span>
               <span class="countdown-label text-gray-700">ore</span>
             </div>
             <div class="countdown-item flex flex-col items-center">
-              <span class="countdown-number text-4xl font-bold text-[#CC1812]">{{
+              <span class="countdown-number text-4xl font-bold text-[#cc1812]">{{
                 timeRemaining.minutes
               }}</span>
               <span class="countdown-label text-gray-700">minute</span>
             </div>
             <div class="countdown-item flex flex-col items-center">
-              <span class="countdown-number text-4xl font-bold text-[#CC1812]">{{
+              <span class="countdown-number text-4xl font-bold text-[#cc1812]">{{
                 timeRemaining.seconds
               }}</span>
               <span class="countdown-label text-gray-700">secunde</span>
