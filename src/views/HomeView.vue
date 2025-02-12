@@ -573,7 +573,7 @@ onMounted(() => {
 .countdown-number {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #fb923c;
+  color: #cc1812;
 }
 .countdown-label {
   font-size: 1rem;
