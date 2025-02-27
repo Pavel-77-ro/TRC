@@ -2,6 +2,7 @@
 import { RouterView } from 'vue-router';
 import { useRouter } from 'vue-router';
 import { ref, onMounted, onUnmounted } from 'vue';
+import ImageSlideshow from '@/components/ImageSlideshow.vue';
 
 const router = useRouter();
 
@@ -173,11 +174,7 @@ onMounted(() => {
       </div>
       <!-- Image -->
       <div class="flex justify-center flex-1 mb-2 md:mb-16 lg:mb-0 -z-10">
-        <img
-          class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full max-w-[550px]"
-          src="../assets/images/TR_Challenge_2024.jpg"
-          alt=""
-        />
+        <ImageSlideshow class="mt-8" />
       </div>
     </div>
   </section>
@@ -476,6 +473,23 @@ onMounted(() => {
   <section class="py-20">
     <div class="container flex flex-col items-center">
       <div class="sm:w-3/4 mx-auto px-2">
+        <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Sponsor Principal</h1>
+      </div>
+        <div class="lg:w-5/6 flex flex-wrap justify-center items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
+          <a href="https://bilstein.ro/" target="_blank">
+            <img
+            class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
+            src="../assets/parteneri/logo_bilstein.png"
+            alt=""
+            />
+          </a>
+        </div>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="container flex flex-col items-center">
+      <div class="sm:w-3/4 mx-auto px-2">
         <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Parteneri</h1>
         <p class="text-center text-bookmark-grey mt-4">
           Mulţumim partenerilor noştri pentru implicarea în realizarea, promovarea şi dezvoltarea
@@ -485,27 +499,7 @@ onMounted(() => {
       <div class="lg:w-5/6 flex flex-wrap items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
         <img
           class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-          src="../assets/parteneri/logo-alex.webp"
-          alt=""
-        />
-        <img
-          class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-          src="../assets/parteneri/logo-casa.webp"
-          alt=""
-        />
-        <img
-          class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-          src="../assets/parteneri/logo-foto.webp"
-          alt=""
-        />
-        <img
-          class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-          src="../assets/parteneri/logo-gis.png"
-          alt=""
-        />
-        <img
-          class="w-[150px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-          src="../assets/parteneri/logo-gits.webp"
+          src="../assets/parteneri/logo_ACSMS.png"
           alt=""
         />
         <img
@@ -515,24 +509,72 @@ onMounted(() => {
         />
         <img
           class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-          src="../assets/parteneri/venom_karting.jpg"
+          src="../assets/parteneri/logo-casa.webp"
           alt=""
         />
-        <img
-          class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-          src="../assets/parteneri/logo-colt.png"
-          alt=""
-        />
-        <img
-          class="w-[152px] sm:w-20 md:w-24 lg:w-28 lg:h-28 cursor-pointer"
-          src="../assets/parteneri/logo-rom.webp"
-          alt=""
-        />
-        <img
-          class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
-          src="../assets/parteneri/logo_bilstein.png"
-          alt=""
-        />
+        <a href="https://www.facebook.com/CosteiuEmii" target="_blank">
+          <img
+            class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
+            src="../assets/parteneri/logo-foto.webp"
+            alt=""
+          />
+        </a>
+        <a href="https://www.instagram.com/gis.wood?igsh=MTJocng5MTJkYzFseQ==" target="_blank">
+          <img
+            class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
+            src="../assets/parteneri/logo-gis.png"
+            alt=""
+          />
+        </a>
+        <a href="https://www.gits.ro/" target="_blank">
+          <img
+            class="w-[150px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
+            src="../assets/parteneri/logo-gits.webp"
+            alt=""
+          />
+        </a>
+        <a href="https://www.fotograph.ro/" target="_blank">
+          <img
+            class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
+            src="../assets/parteneri/logo-alex.webp"
+            alt=""
+          />
+        </a>
+        <a href="https://www.venomkarting.ro/ro" target="_blank">
+          <img
+            class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
+            src="../assets/parteneri/venom_karting.jpg"
+            alt=""
+          />
+        </a>
+        <a href="https://www.colt.net/" target="_blank">
+          <img
+            class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
+            src="../assets/parteneri/logo-colt.png"
+            alt=""
+          />
+        </a>
+        <a href="https://romautentic.ro/" target="_blank">
+          <img
+            class="w-[152px] sm:w-20 md:w-24 lg:w-28 lg:h-28 cursor-pointer"
+            src="../assets/parteneri/logo-rom.webp"
+            alt=""
+          />
+        </a>
+        <a href="https://www.harting.com/en-RO/contact-harting-romania" target="_blank">
+          <img
+            class="w-[148px] sm:w-38 md:w-44 lg:w-48 cursor-pointer"
+            src="../assets/parteneri/logo_harting.png"
+            alt=""
+          />
+        </a>
+        <a href="https://racehub.ro/" target="_blank">
+          <img
+            class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
+            src="../assets/parteneri/logo_racehub.png"
+            alt=""
+          />
+        </a>
       </div>
     </div>
   </section>
@@ -540,14 +582,37 @@ onMounted(() => {
   <section class="py-20">
     <div class="container flex flex-col items-center">
       <div class="sm:w-3/4 mx-auto px-2">
-        <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Cofinantare</h1>
+        <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Parteneri institutionali</h1>
       </div>
         <div class="lg:w-5/6 flex flex-wrap justify-center items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
-          <img
-          class="w-[152px] sm:w-40 md:w-48"
-          src="../assets/parteneri/logo-primarie.webp"
-          alt=""
-        />
+          <a href="https://primariaturnurosu.ro/" target="_blank">
+            <img
+            class="w-[152px] sm:w-40 md:w-48"
+            src="../assets/parteneri/logo-primarie.webp"
+            alt=""
+            />
+          </a>
+          <a href="https://osizvorulflorii.ro/" target="_blank">
+            <img
+              class="w-[152px] sm:w-20 md:w-24 lg:w-28 lg:h-28 cursor-pointer"
+              src="../assets/parteneri/logo_ocol.png"
+              alt=""
+            />
+          </a>  
+          <a href="https://www.salvamontsibiu.ro/" target="_blank">
+            <img
+              class="w-[200px] sm:w-32 md:w-40 lg:w-48 lg:h-28 cursor-pointer"
+              src="../assets/parteneri/logo_salvamont.png"
+              alt=""
+            />
+          </a>
+          <a href="https://www.jandarmeriasibiu.ro/" target="_blank">
+            <img
+              class="w-[152px] sm:w-20 md:w-24 lg:w-28 lg:h-28 cursor-pointer"
+              src="../assets/parteneri/logo_jandarmerie.png"
+              alt=""
+            />
+          </a>
         </div>
     </div>
   </section>

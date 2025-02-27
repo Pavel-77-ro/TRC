@@ -37,31 +37,45 @@ onMounted(async () => {
       de hike cu o lungime de 6 km.
     </p>
   </div>
-  <div
-    class="flex w-full md:w-5/6 px-8 md:px-5 justify-between flex-wrap mx-auto py-6 gap-12 sm:gap-6 my-12"
-  >
-    <div class="w-full md:w-5/12 flex flex-col items-center gap-3">
-      <div
-        class="strava-embed-placeholder"
-        data-embed-type="route"
-        data-embed-id="3251199003475310568"
-        data-units="metric"
-        data-style="standard"
-        data-map-hash="11.03/45.6101/24.335"
-        data-from-embed="true"
-      ></div>
-      <a href="../assets/strava/TRC-cros.gpx">Download</a>
-    </div>
-    <div class="w-full md:w-5/12 flex justify-center">
-      <div
-        class="strava-embed-placeholder"
-        data-embed-type="route"
-        data-embed-id="3251197710336262238"
-        data-full-width="true"
-        data-style="standard"
-        data-map-hash="11.67/45.6197/24.3106"
-        data-from-embed="true"
-      ></div>
-    </div>
+  <div class="flex w-full md:w-5/6 px-8 md:px-5 justify-between flex-wrap mx-auto py-6 gap-12 sm:gap-6 my-12">
+  
+  <!-- First Strava Embed + GPX Button -->
+  <div class="w-full md:w-5/12 flex flex-col items-center gap-3">
+    <div
+      class="strava-embed-placeholder"
+      data-embed-type="route"
+      data-embed-id="3251199003475310568"
+      data-units="metric"
+      data-style="standard"
+      data-map-hash="11.03/45.6101/24.335"
+      data-from-embed="true"
+    ></div>
+    
+    <!-- Download GPX Button -->
+    <button onclick="window.location.href='../public/strava/TRC-cros.gpx';"
+      class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 mt-4">
+      Download GPX
+    </button>
   </div>
+
+  <!-- Second Strava Embed + GPX Button -->
+  <div class="w-full md:w-5/12 flex flex-col items-center gap-3">
+    <div
+      class="strava-embed-placeholder"
+      data-embed-type="route"
+      data-embed-id="3251197710336262238"
+      data-full-width="true"
+      data-style="standard"
+      data-map-hash="11.67/45.6197/24.3106"
+      data-from-embed="true"
+    ></div>
+    
+    <!-- Download GPX Button -->
+    <button onclick="window.location.href='../public/strava/TRC-semimrtn.gpx';"
+      class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 mt-4">
+      Download GPX
+    </button>
+  </div>
+
+</div>
 </template>

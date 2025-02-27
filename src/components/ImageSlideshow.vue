@@ -5,8 +5,11 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 
 const images = [
-  "/assets/images/TR_Challenge_2004.jpg",
-  "/assets/images/2023poza1.jpeg",
+  "src/assets/images/trc1.jpg",
+  "src/assets/images/trc2.jpg",
+  "src/assets/images/trc3.jpg",
+  "src/assets/images/trc4.jpg",
+  "src/assets/images/trc5.jpg",
 ];
 
 const modules = [Pagination, Autoplay];
@@ -19,10 +22,10 @@ const modules = [Pagination, Autoplay];
     :loop="true"
     :autoplay="{ delay: 3000, disableOnInteraction: false }"
     :pagination="{ clickable: true }"
-    class="w-full max-w-[800px] rounded-xl shadow-lg"
+    class="w-full max-w-[500px] rounded-xl shadow-lg"
   >
     <swiper-slide v-for="(image, index) in images" :key="index">
-      <img :src="image" alt="Slide Image" class="w-full h-[400px] object-cover rounded-xl" />
+        <img :src="image" alt="Slide Image" class="w-[80%] md:w-[500px] h-auto object-cover mx-auto rounded-xl" />
     </swiper-slide>
   </swiper>
 </template>
