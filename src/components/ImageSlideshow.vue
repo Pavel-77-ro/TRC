@@ -7,6 +7,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 const images = [
   "src/assets/images/trc1.jpg",
   "src/assets/images/trc2.jpg",
+  "src/assets/images/TR_Challenge_2024_fix.jpg",
   "src/assets/images/trc3.jpg",
   "src/assets/images/trc4.jpg",
   "src/assets/images/trc5.jpg",
