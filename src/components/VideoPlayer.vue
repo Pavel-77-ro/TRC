@@ -1,5 +1,4 @@
 <script setup>
-const videoSource = new URL("@/assets/videos/video.mp4", import.meta.url).href;
 </script>
 
 <template>
@@ -10,8 +9,7 @@ const videoSource = new URL("@/assets/videos/video.mp4", import.meta.url).href;
       loop 
       playsinline 
       controls>
-      <source :src="videoSource" type="video/mp4" />
-      Your browser does not support the video tag.
+      <source src="/videos/TRC-video.mp4" type="video/mp4" />
     </video>
   </div>
 </template>

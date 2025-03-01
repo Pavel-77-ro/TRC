@@ -2,7 +2,7 @@
 import { RouterView } from 'vue-router';
 import { useRouter } from 'vue-router';
 import { ref, onMounted, onUnmounted } from 'vue';
-import ImageSlideshow from '@/components/ImageSlideshow.vue';
+import VideoPlayer from '@/components/VideoPlayer.vue';
 
 const router = useRouter();
 
@@ -174,7 +174,7 @@ onMounted(() => {
       </div>
       <!-- Image -->
       <div class="flex justify-center flex-1 mb-2 md:mb-16 lg:mb-0 -z-10">
-        <ImageSlideshow class="mt-8" />
+        <VideoPlayer class="mt-8" />
       </div>
     </div>
   </section>
