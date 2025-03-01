@@ -1,37 +1,24 @@
 <script setup>
-import { Swiper, SwiperSlide } from "swiper/vue";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Pagination, Autoplay } from "swiper/modules";
-
-const images = [
-  "/assets/images/trc1.jpg",
-  "/assets/images/trc2.jpg",
-  "/assets/images/trc3.jpg",
-  "/assets/images/trc4.jpg",
-  "/assets/images/trc5.jpg",
-];
-
-const modules = [Pagination, Autoplay];
+const videoSource = new URL("@/assets/videos/video.mp4", import.meta.url).href;
 </script>
 
 <template>
-  <swiper
-    :modules="modules"
-    :slides-per-view="1"
-    :loop="true"
-    :autoplay="{ delay: 3000, disableOnInteraction: false }"
-    :pagination="{ clickable: true }"
-    class="w-full max-w-[500px] rounded-xl shadow-lg"
-  >
-    <swiper-slide v-for="(image, index) in images" :key="index">
-        <img :src="image" alt="Slide Image" class="w-[80%] md:w-[500px] h-auto object-cover mx-auto rounded-xl" />
-    </swiper-slide>
-  </swiper>
+  <div class="flex justify-center">
+    <video 
+      class="w-full max-w-[500px] rounded-xl shadow-lg" 
+      autoplay 
+      loop 
+      playsinline 
+      controls>
+      <source :src="videoSource" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
 </template>
 
 <style scoped>
-.swiper-pagination-bullet {
-  background: #cc1812;
+/* Optional Styling */
+video {
+  object-fit: cover;
 }
 </style>
