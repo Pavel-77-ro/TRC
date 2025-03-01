@@ -131,8 +131,8 @@ onMounted(() => {
          Powered by Bilstein
         </h2>    
         <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
-          Înscrie-te la Turnu Roșu Challenge începând cu
-          <span class=" font-bold text-[#cc1812]">18 Ianuarie!</span> Explorează trasee montane uimitoare la cea de-a treia ediție a evenimentului nostru de alergare și hiking!
+          Înscrie-te la Turnu Roșu Challenge până pe
+          <span class=" font-bold text-[#cc1812]">1 Iunie!</span> Explorează trasee montane uimitoare la cea de-a treia ediție a evenimentului nostru de alergare și hiking!
         </p>
 
         <!-- Countdown Timer -->
