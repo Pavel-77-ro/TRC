@@ -5,6 +5,7 @@ import { ref, onMounted, onUnmounted } from 'vue';
 import ScrollToTopBtn from './components/ScrollToTopBtn.vue';
 import HamburgerMenu from './components/HamburgerMenu.vue';
 
+
 const router = useRouter();
 const isSmallScreen = ref(false);
 const isMenuOpen = ref(false);
@@ -49,6 +50,7 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener('resize', checkScreenSize);
 });
+
 </script>
 
 <template>
@@ -108,7 +110,7 @@ onUnmounted(() => {
         </h3>
         <ul class="flex text-white uppercase gap-12 text-xs tracking-wide">
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
-            <a href="https://racehub.ro/register/trc2024">Înscrieri</a>
+            <a href="https://racehub.ro/register/trc2025">Înscrieri</a>
           </li>
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
             <RouterLink :to="{ name: 'regulament' }">Regulament</RouterLink>
