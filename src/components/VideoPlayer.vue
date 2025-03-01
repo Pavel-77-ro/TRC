@@ -1,6 +1,3 @@
-<script setup>
-</script>
-
 <template>
   <div class="flex justify-center">
     <video 
@@ -9,7 +6,7 @@
       loop 
       playsinline 
       controls>
-      <source src="/videos/TRC-video.mp4" type="video/mp4" />
+      <source src="/videos/video.mp4" type="video/mp4" />
     </video>
   </div>
 </template>
