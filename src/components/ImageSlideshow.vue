@@ -5,11 +5,11 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 
 const images = [
-  "src/assets/images/trc1.jpg",
-  "src/assets/images/trc2.jpg",
-  "src/assets/images/trc3.jpg",
-  "src/assets/images/trc4.jpg",
-  "src/assets/images/trc5.jpg",
+  "/assets/images/trc1.jpg",
+  "/assets/images/trc2.jpg",
+  "/assets/images/trc3.jpg",
+  "/assets/images/trc4.jpg",
+  "/assets/images/trc5.jpg",
 ];
 
 const modules = [Pagination, Autoplay];
