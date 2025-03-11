@@ -55,7 +55,7 @@ const info1 = [
         class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
 
         <!-- Title spanning all columns -->
-        <p class="p-2 col-span-3 text-xl lg:text-2xl">Tarife Early Bird 18-31 Ianuarie</p>
+        <p class="p-2 col-span-3 text-xl lg:text-2xl">Early Bird (18-31 Ianuarie)</p>
         <!-- Grid Content -->
         <p class="p-2">Semimaraton</p>
         <p class="p-2">Cros</p>
@@ -68,7 +68,7 @@ const info1 = [
       <div
         class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
         <!-- Title spanning all columns -->
-        <p class="p-2 col-span-3 text-xl lg:text-2xl">Tarife Normale</p>
+        <p class="p-2 col-span-3 text-xl lg:text-2xl">Standard (1 Februarie - 31 Aprilie) </p>
         <!-- Grid Content -->
         <p class="p-2">Semimaraton</p>
         <p class="p-2">Cros</p>
@@ -76,6 +76,19 @@ const info1 = [
         <p class="p-2">160 RON</p>
         <p class="p-2">130 RON</p>
         <p class="p-2">110 RON</p>
+      </div>
+
+      <div
+        class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
+        <!-- Title spanning all columns -->
+        <p class="p-2 col-span-3 text-xl lg:text-2xl">Last Call (1 Mai - 1 Iunie)</p>
+        <!-- Grid Content -->
+        <p class="p-2">Semimaraton</p>
+        <p class="p-2">Cros</p>
+        <p class="p-2">Power Hiking</p>
+        <p class="p-2">180 RON</p>
+        <p class="p-2">150 RON</p>
+        <p class="p-2">120 RON</p>
       </div>
       <p class="text-gray-700 p-1 mt-5 mb-3">
         Taxa de participare se poate achita cu cardul la înscrierea pe racehub.ro
@@ -127,21 +140,26 @@ const info1 = [
 
       <p class="text-gray-700 p-1 mt-5 mb-3">
         <ul><strong>Semimaraton</strong>
-          <li>– se premiază primele 3 locuri la OPEN M/F ;</li>
+          <li>– se premiază primele 3 locuri la OPEN M/F astfel:</li>
+          <li>  *locul 1 -suplimente sportive în valoare de 300 RON </li>
+          <li>  *locul 2 -suplimente sportive în valoare de 200 RON </li>
+          <li>  *locul 3 -suplimente sportive în valoare de 100 RON </li>
           <li>– primele 5 locuri la OPEN vor fi trecute pe LEADERBOARD;</li>
-          <li>– se premiază primele 3 locuri la fiecare categorie M/F ;</li>
+          <li>– se premiază cu diplomă și trofeu primele 3 locuri la fiecare categorie M/F ;</li>
           <li>– dacă unul din concurenți a fost premiat la categoria OPEN, acesta nu mai poate fi premiat și la categorie;</li>   
         </ul>
       </p>
       <p class="text-gray-700 p-1 mt-5 mb-3">
         <ul><strong>Cros</strong>
-          <li>– se premiază primele 3 locuri la OPEN M/F ;</li>
+          <li>– se premiază primele 3 locuri la OPEN M/F astfel:</li>
+          <li>  *locul 1 -suplimente sportive în valoare de 300 RON </li>
+          <li>  *locul 2 -suplimente sportive în valoare de 200 RON </li>
+          <li>  *locul 3 -suplimente sportive în valoare de 100 RON </li>
           <li>– primele 5 locuri la OPEN vor fi trecute pe LEADERBOARD;</li>
-          <li>– se premiază primele 3 locuri la fiecare categorie M/F ;</li>
+          <li>– se premiază cu diplomă și trofeu primele 3 locuri la fiecare categorie M/F ;</li>
           <li>– dacă unul din concurenți a fost premiat la categoria OPEN, acesta nu mai poate fi premiat și la categorie;</li>
         </ul>
       </p>
-      <p class="text-gray-700 p-1 mt-5 mb-3"> Premile vor consta în bunătăți din cămara noastră și trofee</p>
     </section>
 
     <section class="p-1">
