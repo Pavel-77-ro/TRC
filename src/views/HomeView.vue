@@ -561,13 +561,11 @@ onMounted(() => {
             alt=""
           />
         </a>
-        <a href="https://www.harting.com/en-RO/contact-harting-romania" target="_blank">
           <img
             class="w-[148px] sm:w-38 md:w-44 lg:w-48 cursor-pointer"
-            src="../assets/parteneri/logo_harting.png"
+            src="../assets/parteneri/harting_logo.png"
             alt=""
           />
-        </a>
         <a href="https://racehub.ro/" target="_blank">
           <img
             class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
