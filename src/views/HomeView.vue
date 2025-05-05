@@ -11,7 +11,7 @@ function goToInscrieri() {
 }
 
 function goToVoluntari(){
-  window.location.href = "https://docs.google.com/spreadsheets/d/1wMuIUoKuS4zHetVVBFLZaJUuFj3DRV8bAwO9xFLKK_c/edit?usp=sharing";
+  window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeCwvEzLN8B2ret1KQrkOif1iJdExCiYFcfoPfya574OrTmvA/viewform?usp=sharing";
 }
 
 function goToInscrieriPictura() {
