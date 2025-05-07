@@ -342,12 +342,11 @@ onMounted(() => {
       >
         <div class="p-6 flex flex-col items-center">
           <img class="w-48" src="../assets/images/painter1.png" alt="" />
-          <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură pe șablon</h3>
-          <p class="mb-2 text-bookmark-grey font-light"> - / persoană</p>
+          <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură pe șablon copii</h3>
+          <p class="mb-2 text-bookmark-grey font-light"> 35 RON / copil</p>
           <p class="mt-5 text-sm text-bookmark-blue text-center">
-            Kit-ul conține : Pânză pre-imprimată cu un șablon jucăuș, set de culori vibrante și
-            pensula. Recomandat <br />
-            pentru copii, fiind necesar doar ca aceștia să umple spațiile pre-imprimate.
+            În timp ce părinții aleargă pe poteci, cei mici au parte de propria aventură la Turnu Roșu Challenge! Atelierul nostru de pictură este un spațiu dedicat imaginației, unde copiii pot explora culorile, natura și bucuria de a crea.
+            Atelierul se desfășoară în aer liber, printre copaci și verdeață, într-un colț liniștit, dar plin de inspirație.
           </p>
         </div>
         <hr class="border-b border-bookmark-white" />
@@ -357,7 +356,7 @@ onMounted(() => {
             class="flex-1 btn text-white bg-gray-900 hover:bg-bookmark-white hover:text-black"
             @click="goToInscrieriPictura"
           >
-            În curând!
+            Înscrie-te!
           </button>
         </div>
       </div>
@@ -368,12 +367,10 @@ onMounted(() => {
         <div class="p-6 flex flex-col items-center">
           <img class="w-48" src="../assets/images/painter2.png" alt="" />
           <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură pe numere</h3>
-          <p class="mb-2 text-bookmark-grey font-light"> - / persoană</p>
+          <p class="mb-2 text-bookmark-grey font-light"> 50 RON / adult </p>
           <p class="mt-5 text-sm text-bookmark-blue text-center">
-            Kit-ul conține : Pânză pre-imprimată cu un design complex, împărțit în zone numerotate ,
-            set de culori numerotate corespunzător zonelor de pe pânză și pensule de diferite
-            dimensiuni . Este ușor de urmat pentru toată lumea, iar la final veți crea o operă de
-            artă uimitoare .
+            Vrei să te bucuri de liniștea muntelui și de bucuria culorilor, fără să-ți faci griji că „nu știi să pictezi”? Avem exact ce îți dorești!
+            Îți oferim șabloane, pe care le poți umple cu culoare în ritmul tău, fără stres. Este o activitate perfectă pentru relaxare după cursă sau pur și simplu pentru a-ți lua un moment doar pentru tine.
           </p>
         </div>
         <hr class="border-b border-bookmark-white" />
@@ -383,7 +380,7 @@ onMounted(() => {
             class="flex-1 btn text-white bg-bookmark-purple hover:bg-bookmark-white hover:text-black"
             @click="goToInscrieriPictura"
           >
-            În curând!
+            Înscrie-te!
           </button>
         </div>
       </div>
@@ -394,10 +391,10 @@ onMounted(() => {
         <div class="p-6 flex flex-col items-center">
           <img class="w-48" src="../assets/images/painter3.png" alt="" />
           <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură ghidată</h3>
-          <p class="mb-2 text-bookmark-grey font-light"> - / persoană</p>
+          <p class="mb-2 text-bookmark-grey font-light"> 100 RON / adult </p>
           <p class="mt-5 text-sm text-bookmark-blue text-center">
-            Fie că ești atras de delicatețea și transparența acuarelei sau de versatilitatea și intensitatea cernelii acrilică, pictura este o cale minunată de a-ți exprima creativitatea. Lasă-te ghidat de noi și de tehnici consacrate de Fluid-art și Acuarelă și creează o piesă de arta autentică  și unică. 
-Îți vom pregăti materiale scrise pe care le poți lua acasă, iar facilitatorul de ateliere îți va exemplifica tehnicile și te va ghida să le utilizezi.
+            Te-ai gândit vreodată că ai putea picta un peisaj de vis, dar n-ai știut de unde să începi? 
+            Sub îndrumarea unui ghid pasionat, vei învăța pas cu pas cum să creezi o lucrare proprie. Nu contează dacă ești începător complet sau ai mai pictat – experiența este una relaxantă, distractivă și plină de satisfacții.
           </p>
         </div>
         <hr class="border-b border-bookmark-white" />
@@ -407,7 +404,7 @@ onMounted(() => {
             class="flex-1 btn text-white bg-gray-900 hover:bg-bookmark-white hover:text-black"
             @click="goToInscrieriPictura"
           >
-            În curând!
+            Înscrie-te!
           </button>
         </div>
       </div>
