@@ -18,6 +18,10 @@ function goToInscrieriPictura() {
   router.push({ name: 'inscrieri_pictura' });
 }
 
+function goToCamping(){
+  window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSe55_MNNCllCHoXyX6U3Mqt-X4NH8G40k_sktun-jSba3KOnQ/viewform?usp=sharing";
+}
+
 function goToCurse() {
   router.push({ name: 'curse' });
 }
@@ -308,8 +312,9 @@ onMounted(() => {
           <button
             type="button"
             class="btn text-white bg-gray-900 hover:bg-bookmark-red hover:shadow-xl"
+            @click="goToCamping"
           >
-            În curand!
+            Rezervă loc!
           </button>
         </div>
       </div>
