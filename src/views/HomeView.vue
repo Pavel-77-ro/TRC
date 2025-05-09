@@ -542,10 +542,10 @@ onMounted(() => {
             alt=""
           />
         </a>
-        <a href="https://www.venomkarting.ro/ro" target="_blank">
+        <a href="https://andusports.ro/" target="_blank">
           <img
             class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-            src="../assets/parteneri/venom_karting.jpg"
+            src="../assets/parteneri/andu_logo.png"
             alt=""
           />
         </a>
@@ -572,6 +572,13 @@ onMounted(() => {
           <img
             class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
             src="../assets/parteneri/logo_racehub.png"
+            alt=""
+          />
+        </a>
+        <a href="https://4endurance.com/" target="_blank">
+          <img
+            class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
+            src="../assets/parteneri/endurance_logo.png"
             alt=""
           />
         </a>
