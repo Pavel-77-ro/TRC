@@ -324,5 +324,83 @@ const info1 = [
         Orice contestație se va comunica oficialilor imediat după afișarea rezultatelor. (Acestea vor putea fi verificate online pe racehub.ro ). Contestația se va depune în scris însoțită de suma de 50 Ron. În cazul în care contestația este admisă, suma de bani va fi restituită. În caz contrar se va reține taxa de contestație. Nu se acceptă contestații înainte cu 30 de minute de premiere, în timpul sau după premierea categoriei la care face referință.
       </div>
     </section>
+
+    <section class="p-1">
+      <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">10. Codul anti-bullying</h2>
+      <div class="text-gray-700 p-1 mt-5 mb-3">
+
+        <strong>10.1 Descrierea valorilor de respect, toleranță, grijă, curaj</strong>
+        <br><br>
+        <strong>Respectul</strong> reprezintă atitudinea sau sentimentul de apreciere, stimă și considerație față de o persoană, o idee sau o instituție. Acesta poate fi exprimat verbal sau prin gesturi. Respectul reprezinta o valoare morala care se manifesta in multiple feluri. Respect inseamna sa ne manifestam politicos si amabil in relatie cu ceilalalti. De asemenea, respectul se observa si in modul în care vorbim, aratand intelegere, corectitudine, punctualitate, apreciere si grija pentru comportamentele si sentimentele interlocutorilor. Respectul se manifesta nu numai fata de sine sau de ceilalti oameni, dar si fata de comunitate. Respectul pentru comunitate se poate manifesta prin: cunoasterea realizarilor si promovarea traditiilor comunitatii, purtarea cu mandrie a numelui si a portului popular.
+        <br><br>
+        <strong>Toleranța</strong> este un termen social, etic și religios aplicabil unei colectivități sau individ, care definește respectul libertății altuia, al modului său de gândire și de comportare, precum și al opiniilor sale de orice natură (politice, religioase etc.). Toleranța poate fi înțeleasă în diferite moduri:
+
+        Poate fi adoptată în mod provizoriu sub forma unei concesii, ca manevră tactică.
+        Poate reprezenta o acceptanță sau o permisiune, ca formă a unui dezinteres.
+        Adevărata toleranță, în spirit umanist, înseamnă însă mai mult decât o simplă „suportare” în sensul originar, ea presupune respectul opiniei contrare și este strâns legată de libertatea persoanei. Prin toleranță se respectă deciziile altor oameni, grupuri, popoare, religii, alte moduri de gândire și puncte de vedere, alte stiluri și moduri de viață. Astfel, garantarea necesității spiritului de toleranță depășește cu mult domeniul îngust al politicii.
+        Alt punct de vedere spune că toleranța înseamnă a permite ceva ceea ce ar putea fi suprimat. Acest punct de vedere este adoptat de specialiștii în diferite tehnici persuasive și în războaie informaționale.
+        <br><br>
+        <strong>Grija</strong> este interesul deosebit, preocuparea pentru cineva sau ceva, atenția acordată unei ființe, unei probleme.
+        <br><br>
+        <strong>Curajul</strong>, de asemenea, cunoscut sub numele de vitejie, voință și cutezanță, este abilitatea de a te confrunta cu frica, durerea, riscul, pericolul, incertitudinea sau intimidarea. „Curajul fizic” este curajul în fața durerii fizice, greutăți, moarte, sau amenințare morții, în timp ce „curaj moral” este capacitatea de a acționa în mod întemeiat, în fața opoziției populare, rușine, scandal sau descurajare.
+        <br><br>
+        <strong>10.2 Descrierea tipurilor de violență</strong>
+        <br><br>
+        <strong>Violenţă psihologică – bullying</strong> este acţiunea sau seria de acţiuni fizice, verbale, relaţionale şi/sau cibernetice, într-un context social dificil de evitat, săvârşite cu intenţie, care implică un dezechilibru de putere, au drept consecinţă atingerea demnităţii ori crearea unei atmosfere de intimidare, ostile, degradante, umilitoare sau ofensatoare, îndreptate împotriva unei persoane sau a unui grup de persoane şi vizează aspecte de discriminare şi excludere socială, care pot fi legate de apartenenţa la o anumită rasă, naţionalitate, etnie, religie, categorie socială sau la o categorie defavorizată ori de convingerile, sexul sau orientarea sexuală, caracteristicile personale, acţiune sau serie de acţiuni, comportamente ce se desfăşoară în unităţile de învăţământ şi în toate spaţiile destinate educaţiei şi formării profesionale.
+        <br><br>
+        <strong>Violenţa fizică</strong> se realizează prin atingeri/contacte fizice dureroase, exercitate de un preşcolar/elev asupra unui alt copil sau grup de copii, intimidare fizică îndreptată asupra victimei, distrugerea unor bunuri personale care aparţin victimei.
+
+        Formele posibile de manifestare: împins, trasul de păr, răsucirea braţelor, contuzii, arsuri, bătăi, lovituri cu pumnul, cu palma sau cu piciorul, aruncarea în victimă cu diverse obiecte, izbirea de pereţi, utilizarea unor obiecte ca arme etc.
+        <br><br>
+        <strong>Violenţă psihologică cibernetică sau cyberbullyingul</strong> constă în acţiuni care se realizează prin intermediul reţelelor de internet, calculator, tabletă, telefon mobil şi poate cuprinde elemente de hărţuire online, alături de un conţinut ilegal şi/sau ofensator care se referă la orice comportament mediat de tehnologie, identificat în spaţiul de social-media, website-uri, mesagerie. Această formă de violenţă nu se limitează la comportamente repetate de tip: mailuri, postări, mesaje, imagini, filme cu un conţinut abuziv/jignitor/ofensator, aceasta însemnând, de asemenea, şi excluderea deliberată/marginalizarea unui copil în spaţiul online, spargerea unei parole de cont personal de e-mail, derulate pe grupuri şi reţele de socializare online sau prin alte forme de comunicare electronică online.
+        <br><br>
+        <strong>Abuzul emoţional</strong> constă în expunerea repetată a unui copil la situaţii al căror impact emoţional depăşeşte capacitatea sa de integrare psihologică. În această situaţie, abuzul emoţional vine din partea unei persoane care se află în relaţie de încredere, de răspundere sau de putere cu copilul. Ca modalitate concretă, o situaţie de abuz emoţional poate îmbrăca formă de umilire verbală şi/sau nonverbală, intimidare, ameninţare, terorizare, restrângerea libertăţii de acţiune, denigrarea, acuzaţiile nedrepte, discriminarea, ridiculizarea şi alte atitudini ostile sau de respingere faţă de copil. Dacă abuzul emoţional este repetitiv şi susţinut, acesta poate conduce la afectarea diverselor paliere ale psihicului copilului, precum structura de personalitate, afectele, cogniţiile, adaptarea, percepţia, devenind abuz psihologic, care are consecinţe mai grave şi pe termen lung asupra dezvoltării copilului;
+        <br><br>
+        <strong>Violenţă sexuală</strong>, ca formă posibilă a violenţei psihologice – bullying, constă în comentarii degradante cu conotaţii sexuale, injurii, propuneri indecente făcute victimei, atingeri nepotrivite;
+        <br><br>
+        <strong>Comportament agresiv</strong>  – tip de comportament al unui elev, orientat în sens ofensator, umilitor sau distructiv, care provoacă daune morale, psihologice şi/sau materiale unui alt copil sau grup de copii.
+        <br><br>
+        <strong>10.3 Alte definiții</strong>
+        <br><br>
+        <strong>Preşcolarul/elevul-victimă</strong> este copilul care a suferit un prejudiciu ori o atingere a vieţii, a sănătăţii sau a integrităţii sale psihice şi/sau fizice, ca urmare a unei fapte de violenţă săvârşite de altcineva, copil sau adult;
+        <br><br>
+        <strong>Preşcolarul/elevul-martor</strong> se referă la preşcolarul/elevul care a suferit indirect un abuz emoţional şi/sau psihologic, asistând la o situaţie de violenţă asupra unui alt copil;
+        <br><br>
+        <strong>Semnalarea unei situaţii de violenţă</strong> este procesul prin care o situaţie de acest gen, manifestată asupra unui copil, este adusă la cunoştinţa autorităţilor abilitate să ia măsuri în interesul atât al copilului victimă sau martor, cât şi al copilului cu un comportament agresiv, urmând ca acestea să asigure sau să faciliteze accesul la servicii specializate, în vederea reabilitării stării de sănătate fizică şi psihică;
+        <br><br>
+        <strong>Echipa multidisciplinară şi interinstituţională</strong> este echipa formată din diferiţi profesionişti, precum cadrul didactic, consilierul şcolar, cadrul medical din unitatea de învăţământ, asistentul social, medicul de familie, medicul specialist, poliţistul, magistratul ş.a., aflaţi în relaţie directă cu copilul şi sunt împuterniciţi în cadrul managementului de caz cu responsabilitatea de a realiza, fiecare în parte, activităţi specifice în interesul superior al copilului;
+        <br><br>
+        <strong>Managementul de caz</strong> este un proces care implică parcurgerea de către o echipă multidisciplinară şi interinstituţională a unor etape de lucru interdependente, precum identificarea, semnalarea, evaluarea iniţială, evaluarea detaliată, planificarea serviciilor specializate şi de sprijin, furnizarea serviciilor şi intervenţiilor, monitorizarea şi reevaluarea periodică a progreselor înregistrate, a deciziilor şi a intervenţiilor specializate, precum şi etapa de încheiere a procesului, cu monitorizarea de postservicii şi închiderea cazului, în vederea asistării copiilor aflaţi în situaţii de vulnerabilitate, inclusiv a copiilor victime ale violenţei psihologice – bullying, martori şi copii ce manifestă comportamente agresive, cu scopul reabilitării acestora în mod personalizat. Managerul de caz, în situaţia de violenţă asupra copilului, este numit de către Direcţia generală de asistenţă socială şi protecţia copilului (DGASPC).
+        <br><br>
+        <strong>10.4 Măsuri educative și disciplinare care pot fi aplicate în situații de bullying</strong>
+        <br><br>
+        Strategii şi planuri de asigurare şi de menţinere a unui climat social adecvat, condiţie esenţială pentru prevenirea şi combaterea bullyingului, prin:
+        <br><br>
+        <li>aplicarea politicilor de prevenire şi de combatere a bullyingului;</li>
+        <li>dezbateri, focus-grupuri, propuneri, care au ca scop diminuarea fenomenului de bullying;</li>
+        <li>investigarea climatului, prin aplicarea unor chestionare specific cu scopul de autoreglare interna a institutiei educationale;</li>
+        <li>includerea in discutii cel putin a unei teme care sa prezinte problematica bullying-ului si cyberbullying-ului.</li>
+        <li>pentru optimizarea prevenirii violenţei psihologice – bullying, se creează un grup de acţiune antibullying cu rol de prevenire, identificare şi soluţionare a faptelor de bullying, prin acţiuni fizice, verbale, relaţionale şi/sau cibernetice.</li>
+        <br><br>
+        Implementarea planului antibullying cuprinde:
+        <br><br>
+        <li>activităţi de informare şi conştientizare asupra fenomenului de bullying</li>
+        <li>măsuri de comunicare şi informare internă, cu privire la procedurile de prevenire, identificare, raportare şi intervenţie a situaţiilor de bullying;</li>
+        <li>proceduri de intervenţie în situaţiile de violenţă psihologică – bullying;</li>
+        <li>responsabilizarea personalului în scopul intervenţiei imediate în cazurile de bullying semnalate sau identificate;</li>
+        <li>organizarea unor activităţi, precum concursuri, teatru forum ş.a., în scopul încurajării respectării valorilor şi misiunii împotriva bullyingului, participarea la identificarea, medierea sau raportarea situaţiilor de bullying;</li>
+        <li>activităţi de măsurare a impactului acţiunilor cuprinse în planul antibullying şi a eficienţei grupului de acţiune</li>
+        <br><br>
+        Activităţile de prevenire a violenţei psihologice – bullying se realizează prin:
+        <br><br>
+        <li>implementarea unui plan de prevenire şi combatere a violenţei, a unor programe/proiecte/campanii cu scopul de creştere a coeziunii grupului de copii şi a comunităţii copii-adulţi, conştientizarea consecinţelor violenţei psihologice – bullying, eliminarea cauzelor/riscurilor/vulnerabilităţilor care ar putea determina producerea de astfel de comportamente;</li>
+        <li>desfăşurarea unor activităţi de informare şi conştientizare, în colaborare cu alte instituţii sau specialişti cu competenţe în domeniu;</li>
+        <li>promovarea unui climat care încurajează atitudinile pozitive, nonviolente şi suportive între membrii comunităţii de preşcolari/elevi şi adulţi, învăţarea şi exersarea empatiei, a interacţiunilor între aceştia, de tip câştig reciproc, implicarea participării preşcolarilor/elevilor de toate vârstele la toate deciziile care îi privesc şi promovarea acţiunilor de la egal la egal între preşcolari/elevi;</li>
+        <li>promovarea relaţiilor democratice între copii şi adulţi, prin toleranţă, respect, incluziune şi solidaritate;</li>
+        <li>implementarea de măsuri administrativ-organizatorice, care să contribuie la crearea unui mediu securizant din punct de vedere fizic şi emoţional, promovarea lucrului în echipă, constituirea formaţiunilor de studiu, conform prevederilor legale;</li>
+        <li>formarea personalului în sensul dezvoltării personale şi al utilizării metodelor de disciplină pozitivă.</li>
+      </div>
+    </section>  
+
   </div>
 </template>
