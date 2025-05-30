@@ -281,7 +281,7 @@ const info1 = [
         Se va da din punctul indicat după următoarea schemă:
         <ul class="list-disc list-inside">
           <li>SEMIMARATON: ora 09:30</li>
-          <li>CROS: ora 09:45</li>
+          <li>CROS: ora 10:30</li>
           <li>POWER HIKING: ora 09:00</li>
         </ul>
       </div>
