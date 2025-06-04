@@ -595,7 +595,7 @@ onMounted(() => {
           <a href="https://www.cjsibiu.ro/" target="_blank">
             <img
             class="w-[152px] sm:w-40 md:w-48"
-            src="../assets/parteneri/logo_cjsb_cod.jpeg"
+            src="../assets/parteneri/logo_cjsb_cod.png"
             alt=""
             />
           </a>
