@@ -128,16 +128,8 @@ onMounted(() => {
         </h2>
         <h3
           class="text-[#cc1812] text-2xl sm:text-3xl lg:text-4xl text-center lg:text-left mb-6 font-Lucky">
-          08 iunie 2025
+          TO BE ANNOUNCED
         </h3>
-        <h2
-         class="text-slate-800 text-2xl sm:text-3xl lg:text-4xl text-center lg:text-left mb-6 font-Lucky">
-         Powered by Bilstein
-        </h2>    
-        <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
-          Înscrie-te la Turnu Roșu Challenge până pe
-          <span class=" font-bold text-[#cc1812]">1 Iunie!</span> Explorează trasee montane uimitoare la cea de-a treia ediție a evenimentului nostru de alergare și hiking!
-        </p>
 
         <!-- Countdown Timer -->
         <div

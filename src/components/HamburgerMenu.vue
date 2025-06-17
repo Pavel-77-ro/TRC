@@ -33,6 +33,12 @@ function closeMenu() {
       </li>
 
       <li
+        class="cursor-pointer py-[2px] text-lg text-gray-600 font-normal border-b-2 border-gray-300 my-[8px]"
+      >
+        <RouterLink :to="{ name: 'galerie' }" @click="closeMenu">Galerie</RouterLink>
+      </li>
+
+      <li
         class="cursor-pointer py-[2px] text-xl text-gray-700 font-normal border-b-2 border-gray-300 my-[12px]"
       >
         <RouterLink :to="{ name: 'regulament' }" @click="closeMenu">Regulament</RouterLink>

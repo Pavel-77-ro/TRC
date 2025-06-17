@@ -79,6 +79,9 @@ onUnmounted(() => {
             <RouterLink :to="{ name: 'participanti_2025' }">Participanți</RouterLink>
           </li>
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms">
+            <RouterLink :to="{ name: 'galerie' }">Galerie</RouterLink>
+          </li>
+          <li class="cursor-pointer hover-underline-animation transition-duration:150ms">
             <RouterLink :to="{ name: 'regulament' }">Regulament</RouterLink>
           </li>
           <button

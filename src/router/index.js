@@ -7,6 +7,7 @@ import ContactView from '@/views/ContactView.vue';
 import InscrieriView from '@/views/InscrieriView.vue';
 import InscrieriPicturaView from '@/views/InscrieriPicturaView.vue';
 import CurseView from '@/views/CurseView.vue';
+import GalerieView from '@/views/GalerieView.vue';
 
 const routes = [
     {
@@ -48,6 +49,11 @@ const routes = [
       path: '/curse',
       name: 'curse',
       component: CurseView
+    },
+    {
+      path: '/galerie',
+      name: 'galerie',
+      component: GalerieView
     }
   ]
 
