@@ -116,6 +116,15 @@ onMounted(() => {
 </script>
 
 <template>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17130257836"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-17130257836');
+  </script>
   <section class="sm:relative lg:overflow-hidden z-10">
     <div
       class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-6 md:mt-14 lg:mt-[74px]"
