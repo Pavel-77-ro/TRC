@@ -32,9 +32,9 @@ function toggleRezultate() {
       </li>
 
       <!-- Rezultate Dropdown -->
-      <li class="w-full px-4">
+      <li class="text-lg text-gray-600 font-normal my-[8px]">
         <div
-          class="cursor-pointer py-[2px] text-lg text-gray-600 font-normal border-b-2 border-gray-300 my-[8px]"
+          class="text-lg text-gray-600 font-normal border-b-2 border-gray-300 my-[8px]"
           @click="toggleRezultate"
         >
           <span>Rezultate</span>
@@ -50,11 +50,11 @@ function toggleRezultate() {
           </svg>
         </div>
 
-        <ul v-if="showRezultateDropdown" class="ml-4">
-          <li class="py-1 text-md text-gray-600">
+        <ul v-if="showRezultateDropdown" class="ml-4 mt-2 space-y-2 pl-2 border-l border-gray-300">
+          <li class="text-lg text-gray-600 font-normal my-[8px]">
             <RouterLink :to="{ name: 'rezultate_2025' }" @click.prevent="closeMenu">Rezultate 2025</RouterLink>
           </li>
-          <li class="py-1 text-md text-gray-600">
+          <li class="text-lg text-gray-600 font-normal border-b-2 border-gray-300 my-[8px]">
             <RouterLink :to="{ name: 'rezultate_2024' }" @click.prevent="closeMenu">Rezultate 2024</RouterLink>
           </li>
         </ul>
