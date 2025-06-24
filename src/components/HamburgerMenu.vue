@@ -47,10 +47,10 @@ function closeMenu() {
 
         <ul v-if="showRezultateDropdown" class="ml-4">
           <li class="py-1 text-md text-gray-600">
-            <RouterLink :to="{ name: 'rezultate_2024' }" @click="closeMenu">Rezultate 2024</RouterLink>
+            <RouterLink :to="{ name: 'rezultate_2025' }" @click="closeMenu">Rezultate 2025</RouterLink>
           </li>
           <li class="py-1 text-md text-gray-600">
-            <RouterLink :to="{ name: 'rezultate_2025' }" @click="closeMenu">Rezultate 2025</RouterLink>
+            <RouterLink :to="{ name: 'rezultate_2024' }" @click="closeMenu">Rezultate 2024</RouterLink>
           </li>
         </ul>
       </li>

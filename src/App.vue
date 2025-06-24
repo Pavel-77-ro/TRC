@@ -67,12 +67,12 @@ function toggleMenu() {
 onMounted(() => {
   checkScreenSize();
   window.addEventListener('resize', checkScreenSize);
-  document.addEventListener('click', closeDropdown)
+  document.addEventListener('click', closeDropdown);
 
 });
 
 onBeforeUnmount(() => {
-  document.removeEventListener('click', closeDropdown)
+  document.removeEventListener('click', closeDropdown);
 });
 
 onUnmounted(() => {
@@ -109,10 +109,10 @@ onUnmounted(() => {
               @click.stop
             >
               <li class="px-4 py-2 text-slate-600 hover:bg-slate-100">
-                <RouterLink :to="{ name: 'rezultate_2024' }">Rezultate 2024</RouterLink>
+                <RouterLink :to="{ name: 'rezultate_2025' }">Rezultate 2025</RouterLink>
               </li>
               <li class="px-4 py-2 text-slate-600 hover:bg-slate-100">
-                <RouterLink :to="{ name: 'rezultate_2025' }">Rezultate 2025</RouterLink>
+                <RouterLink :to="{ name: 'rezultate_2024' }">Rezultate 2024</RouterLink>
               </li>
             </ul>
           </li>
