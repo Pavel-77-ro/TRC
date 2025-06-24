@@ -1,7 +1,7 @@
 <script setup>
 import { RouterView, RouterLink } from 'vue-router';
 import { useRouter } from 'vue-router';
-import { ref, onMounted, onUnmounted } from 'vue';
+import { ref, onMounted, onUnmounted, onBeforeUnmount  } from 'vue';
 import ScrollToTopBtn from './components/ScrollToTopBtn.vue';
 import HamburgerMenu from './components/HamburgerMenu.vue';
 
@@ -9,6 +9,28 @@ import HamburgerMenu from './components/HamburgerMenu.vue';
 const router = useRouter();
 const isSmallScreen = ref(false);
 const isMenuOpen = ref(false);
+const rezultateToggle = ref(null);
+
+const showRezultateDropdown = ref(false)
+
+const toggleRezultate = () => {
+  showRezultateDropdown.value = !showRezultateDropdown.value
+}
+
+
+const closeDropdown = (e) => {
+  const dropdown = document.getElementById('rezultate-dropdown')
+
+  // dacă click-ul e în dropdown sau pe butonul care îl activează, nu închide
+  if (
+    (dropdown && dropdown.contains(e.target)) ||
+    (rezultateToggle.value && rezultateToggle.value.contains(e.target))
+  ) {
+    return
+  }
+
+  showRezultateDropdown.value = false
+}
 
 function goToInscrieri() {
   window.location.href = "https://racehub.ro/register/trc2025";
@@ -45,6 +67,12 @@ function toggleMenu() {
 onMounted(() => {
   checkScreenSize();
   window.addEventListener('resize', checkScreenSize);
+  document.addEventListener('click', closeDropdown)
+
+});
+
+onBeforeUnmount(() => {
+  document.removeEventListener('click', closeDropdown)
 });
 
 onUnmounted(() => {
@@ -72,8 +100,21 @@ onUnmounted(() => {
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms">
             <RouterLink :to="{ name: 'home' }">Acasă</RouterLink>
           </li>
-          <li class="cursor-pointer hover-underline-animation transition-duration:150ms">
-            <RouterLink :to="{ name: 'rezultate_2024' }">Rezultate 2024</RouterLink>
+          <li class="relative cursor-pointer select-none">
+            <span @click="toggleRezultate" ref="rezultateToggle" class="hover-underline-animation">Rezultate</span>
+            <ul
+              v-if="showRezultateDropdown"
+              id="rezultate-dropdown"
+              class="absolute left-0 mt-2 flex flex-col bg-white shadow-lg rounded-md z-50 min-w-[160px] py-2"
+              @click.stop
+            >
+              <li class="px-4 py-2 text-slate-600 hover:bg-slate-100">
+                <RouterLink :to="{ name: 'rezultate_2024' }">Rezultate 2024</RouterLink>
+              </li>
+              <li class="px-4 py-2 text-slate-600 hover:bg-slate-100">
+                <RouterLink :to="{ name: 'rezultate_2025' }">Rezultate 2025</RouterLink>
+              </li>
+            </ul>
           </li>
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms">
             <RouterLink :to="{ name: 'participanti_2025' }">Participanți</RouterLink>

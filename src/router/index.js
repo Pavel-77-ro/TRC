@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '@/views/HomeView.vue';
 import Rezultate2024View from '@/views/Rezultate2024View.vue';
+import Rezultate2025View from '@/views/Rezultate2025View.vue';
 import ParticipantiView from '@/views/ParticipantiView.vue';
 import RegulamentView from '@/views/RegulamentView.vue';
 import ContactView from '@/views/ContactView.vue';
@@ -16,9 +17,14 @@ const routes = [
       component: HomeView
     },
     {
-      path: '/rezultate2024',
+      path: '/rezultate/2024',
       name: 'rezultate_2024',
       component: Rezultate2024View
+    },
+    {
+      path: '/rezultate/2025',
+      name: 'rezultate_2025',
+      component: Rezultate2025View
     },
     {
       path: '/participanti2025',
