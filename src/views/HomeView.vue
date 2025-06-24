@@ -106,10 +106,18 @@ function updateCountdown() {
 }
 
 onMounted(() => {
+  // Google Tag Manager initialization
+  window.dataLayer = window.dataLayer || [];
+  function gtag() 
+  { window.dataLayer.push(arguments) }
+  gtag('js', new Date());
+  gtag('config', 'AW-17130257836');
+
+  // Countdown timer setup
   updateCountdown();
   const interval = setInterval(updateCountdown, 1000);
 
-  onUnmounted(() => {
+onUnmounted(() => {
     clearInterval(interval);
   });
 });
