@@ -1,10 +1,15 @@
 <script setup>
 import { RouterLink } from 'vue-router';
-import { defineEmits } from 'vue';
+import { defineEmits, ref } from 'vue';
 
 const emits = defineEmits(['close']);
 function closeMenu() {
   emits('close');
+}
+
+const showRezultateDropdown = ref(false);
+function toggleRezultate() {
+  showRezultateDropdown.value = !showRezultateDropdown.value;
 }
 </script>
 
@@ -29,7 +34,7 @@ function closeMenu() {
       <!-- Rezultate Dropdown -->
       <li class="w-full px-4">
         <div
-          class="flex justify-between items-center cursor-pointer py-2 text-lg text-gray-600 font-normal border-b-2 border-gray-300"
+          class="cursor-pointer py-[2px] text-lg text-gray-600 font-normal border-b-2 border-gray-300 my-[8px]"
           @click="toggleRezultate"
         >
           <span>Rezultate</span>
@@ -47,10 +52,10 @@ function closeMenu() {
 
         <ul v-if="showRezultateDropdown" class="ml-4">
           <li class="py-1 text-md text-gray-600">
-            <RouterLink :to="{ name: 'rezultate_2025' }" @click="closeMenu">Rezultate 2025</RouterLink>
+            <RouterLink :to="{ name: 'rezultate_2025' }" @click.prevent="closeMenu">Rezultate 2025</RouterLink>
           </li>
           <li class="py-1 text-md text-gray-600">
-            <RouterLink :to="{ name: 'rezultate_2024' }" @click="closeMenu">Rezultate 2024</RouterLink>
+            <RouterLink :to="{ name: 'rezultate_2024' }" @click.prevent="closeMenu">Rezultate 2024</RouterLink>
           </li>
         </ul>
       </li>
