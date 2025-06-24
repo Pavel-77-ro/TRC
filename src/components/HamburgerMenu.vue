@@ -26,10 +26,33 @@ function closeMenu() {
         <RouterLink :to="{ name: 'participanti_2025' }" @click="closeMenu">Participanți</RouterLink>
       </li>
 
-      <li
-        class="cursor-pointer py-[2px] text-lg text-gray-600 font-normal border-b-2 border-gray-300 my-[8px]"
-      >
-        <RouterLink :to="{ name: 'rezultate_2024' }" @click="closeMenu">Rezultate 2024</RouterLink>
+      <!-- Rezultate Dropdown -->
+      <li class="w-full px-4">
+        <div
+          class="flex justify-between items-center cursor-pointer py-2 text-lg text-gray-600 font-normal border-b-2 border-gray-300"
+          @click="toggleRezultate"
+        >
+          <span>Rezultate</span>
+          <svg
+            :class="{ 'rotate-180': showRezultateDropdown }"
+            class="w-4 h-4 transition-transform"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
+
+        <ul v-if="showRezultateDropdown" class="ml-4">
+          <li class="py-1 text-md text-gray-600">
+            <RouterLink :to="{ name: 'rezultate_2025' }" @click="closeMenu">Rezultate 2025</RouterLink>
+          </li>
+          <li class="py-1 text-md text-gray-600">
+            <RouterLink :to="{ name: 'rezultate_2024' }" @click="closeMenu">Rezultate 2024</RouterLink>
+          </li>
+        </ul>
       </li>
 
       <li

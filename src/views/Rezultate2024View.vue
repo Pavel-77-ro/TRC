@@ -1,10 +1,3 @@
-<script setup>
-import { db } from '../firebase.js';
-import { getDocs, collection } from 'firebase/firestore';
-import { ref, onMounted } from 'vue';
-
-</script>
-
 <template>
   <div>
     <br>
