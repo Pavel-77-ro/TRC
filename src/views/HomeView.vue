@@ -59,10 +59,6 @@ const participare = [
     text: 'Numar de concurs'
   },
   {
-    icon: 'fa-solid fa-socks',
-    text: 'Șosete tehnice'
-  },
-  {
     icon: 'fa-solid fa-shirt',
     text: 'Tricou (optional) - 80 lei'
   },
@@ -72,7 +68,7 @@ const participare = [
   },
   {
     icon: 'fa-solid fa-bolt',
-    text: 'Baton proteic ROM'
+    text: 'Gel carbohidrati'
   },
   {
     icon: 'fa-solid fa-percent',
@@ -136,7 +132,7 @@ onUnmounted(() => {
         </h2>
         <h3
           class="text-[#cc1812] text-2xl sm:text-3xl lg:text-4xl text-center lg:text-left mb-6 font-Lucky">
-          TO BE ANNOUNCED
+          16 MAI 2026
         </h3>
 
         <!-- Countdown Timer -->
@@ -230,7 +226,7 @@ onUnmounted(() => {
           <!-- Imagine tricou -->        
           <img
             class="w-5/6 h-5/6 sm:w-full sm:h-full lg:w-full lg:h-full"
-            src="../assets/images/tricou_sosete.png"
+            src="../assets/images/tricou-femeie.png"
             alt=""
           />
         </div>
