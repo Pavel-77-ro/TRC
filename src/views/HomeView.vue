@@ -85,7 +85,7 @@ function changeActiveIndex(i) {
   activeIndex.value = i;
 }
 
-const targetDate = new Date('2025-06-08T09:00:00');
+const targetDate = new Date('2026-05-16T09:00:00');
 const timeRemaining = ref({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
 function updateCountdown() {
