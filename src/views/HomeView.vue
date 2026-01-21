@@ -7,9 +7,8 @@ import VideoPlayer from '@/components/VideoPlayer.vue';
 const router = useRouter();
 
 function goToInscrieri() {
-  window.location.href = "https://racehub.ro/register/trc2025";
+  router.push({ name: 'Inregistrare' });
 }
-
 function goToVoluntari(){
   window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeCwvEzLN8B2ret1KQrkOif1iJdExCiYFcfoPfya574OrTmvA/viewform?usp=sharing";
 }
@@ -564,7 +563,7 @@ onUnmounted(() => {
             src="../assets/parteneri/harting_logo.png"
             alt=""
           />
-        <a href="https://4endurance.com/" target="_blank">
+        <a href="https://endurancepro.ro/" target="_blank">
           <img
             class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
             src="../assets/parteneri/endurance.png"

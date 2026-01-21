@@ -32,7 +32,7 @@ const closeDropdown = (e) => {
 }
 
 function goToInscrieri() {
-  window.location.href = "https://racehub.ro/register/trc2025";
+  router.push({ name: 'Inregistrare' });
 }
 
 function goToHome() {
@@ -116,7 +116,7 @@ onUnmounted(() => {
             </ul>
           </li>
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms">
-            <RouterLink :to="{ name: 'participanti_2025' }">Participanți</RouterLink>
+            <RouterLink :to="{ name: 'participanti' }">Participanți</RouterLink>
           </li>
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms">
             <RouterLink :to="{ name: 'galerie' }">Galerie</RouterLink>

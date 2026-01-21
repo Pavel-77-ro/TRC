@@ -12,6 +12,7 @@ import GalerieView from '@/views/GalerieView.vue';
 import GdprView from '@/views/GdprView.vue';
 import PoliticaReturView from '@/views/PoliticaReturView.vue';
 import OrganizareView from '@/views/OrganizareView.vue';
+import RegisterRunnersView from '@/views/RegisterRunnersView.vue';
 
 const routes = [
     {
@@ -30,8 +31,8 @@ const routes = [
       component: Rezultate2025View
     },
     {
-      path: '/participanti2025',
-      name: 'participanti_2025',
+      path: '/participanti',
+      name: 'participanti',
       component: ParticipantiView
     },
     {
@@ -78,6 +79,11 @@ const routes = [
       path: "/organizare",
       name: "Organizare",
       component: OrganizareView
+    },
+    {
+      path: "/inregistrare",
+      name: "Inregistrare",
+      component: RegisterRunnersView
     }
   ]
 

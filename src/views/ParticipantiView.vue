@@ -1,17 +1,17 @@
 <template>
-  <div>
-    <br>
-     <!-- Embedded participant list -->
-    <iframe style="overflow: hidden;" src="https://racehub.ro/register/trc2025/list?language=ro-RO" width="100%" height="3100px" frameborder="0"></iframe>
-  </div>
+  <section class="max-w-6xl mx-auto px-4 py-10">
+    <h1 class="text-3xl font-semibold text-center mb-8">
+      Lista participanților Turnu Roșu Challenge
+    </h1>
+
+    <RegisterRunners
+      iframeId="sportic-participants-list"
+      iframeSrc="https://register.42km.ro/widgets/race-entries/?race_hash=f2269e67fa9601c42e3c78115bd11681448146f6"
+      :height="1500"
+    />
+  </section>
 </template>
 
-<script>
-export default {
-  name: 'Participanti 2025'
-}
+<script setup>
+import RegisterRunners from "@/components/RegisterRunners.vue";
 </script>
-
-<style scoped>
-/* Add any component-specific styles here */
-</style>
