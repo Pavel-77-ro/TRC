@@ -146,71 +146,80 @@ onUnmounted(() => {
   <RouterView></RouterView>
   <!-- Footer -->
   <footer class="bg-gray-900 py-8">
-    <div class="container flex flex-col md:flex-row items-center">
-      <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
-        <h5 class="text-white text-xl">
-          <a href="https://clubmontan.ro/">Copyright ©2025 Club Sportiv Montan Sibiu - CSMS. Toate drepturile rezervate.</a>
-        </h5>
-        <ul class="flex text-white uppercase gap-12 text-xs tracking-wide">
-          <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
-            <a href="https://anpc.ro/">ANPC</a>
-          </li>
-          <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
-            <a href="https://consumer-redress.ec.europa.eu/site-relocation_en">SOL</a>
-          </li>
-          <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
-            <RouterLink :to="{ name: 'regulament' }">Regulament</RouterLink>
-          </li>
-          <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
-            <RouterLink :to="{ name: 'GDPR' }">Politica GDPR</RouterLink>
-          </li>
-          <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
-            <RouterLink :to="{ name: 'PoliticaRetur' }">Politica de retur</RouterLink>
-          </li>
-           <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
-            <RouterLink :to="{ name: 'Organizare' }">Contact</RouterLink>
-          </li>
-        </ul>
-      </div>
-      <div class="flex gap-10 mt-12 md:mt-0">
-        <li>
-          <a
-            href="https://www.instagram.com/turnurosuchallenge?igsh=MXNsbWgyZzRlOTVpcw=="
-            target="_blank"
-            ><i
-              class="text-white text-2xl fab fa-instagram hover:text-bookmark-purple hover:scale-105 transition-100"
-            ></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.facebook.com/people/Turnu-Ro%C8%99u-Challenge/61550549625676/"
-            target="_blank"
-            ><i
-              class="text-white text-2xl fab fa-facebook-square hover:text-bookmark-purple hover:scale-105 transition-100"
-            ></i
-          ></a>
-        </li>
-      </div>
-      <!-- Payment logos footer area -->
-      <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-center gap-6">
-        <a
-          href="https://www.netopia-payments.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="flex items-center justify-center"
-        >
+  <div class="container mx-auto px-4 flex flex-col gap-8">
+
+    <!-- Copyright -->
+    <div class="text-center md:text-left">
+      <h5 class="text-white text-sm md:text-base">
+        <a href="https://clubmontan.ro/">
+          Copyright ©2025 Club Sportiv Montan Sibiu – CSMS.
+          Toate drepturile rezervate.
+        </a>
+      </h5>
+    </div>
+
+    <!-- Links -->
+    <ul
+      class="flex flex-col md:flex-row items-center justify-center md:justify-start
+             gap-4 md:gap-8 text-white uppercase text-xs tracking-wide text-center"
+    >
+      <li class="hover-underline-animation">
+        <a href="https://anpc.ro/">ANPC</a>
+      </li>
+      <li class="hover-underline-animation">
+        <a href="https://consumer-redress.ec.europa.eu/site-relocation_en">SOL</a>
+      </li>
+      <li class="hover-underline-animation">
+        <RouterLink :to="{ name: 'regulament' }">Regulament</RouterLink>
+      </li>
+      <li class="hover-underline-animation">
+        <RouterLink :to="{ name: 'GDPR' }">Politica GDPR</RouterLink>
+      </li>
+      <li class="hover-underline-animation">
+        <RouterLink :to="{ name: 'PoliticaRetur' }">Politica de retur</RouterLink>
+      </li>
+      <li class="hover-underline-animation">
+        <RouterLink :to="{ name: 'Organizare' }">Contact</RouterLink>
+      </li>
+    </ul>
+
+    <!-- Social media -->
+    <div class="flex justify-center gap-8">
+      <a
+        href="https://www.instagram.com/turnurosuchallenge"
+        target="_blank"
+        class="text-white text-2xl hover:text-bookmark-purple transition"
+      >
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <a
+        href="https://www.facebook.com/people/Turnu-Ro%C8%99u-Challenge/61550549625676/"
+        target="_blank"
+        class="text-white text-2xl hover:text-bookmark-purple transition"
+      >
+        <i class="fab fa-facebook-square"></i>
+      </a>
+    </div>
+
+    <!-- Payment logos -->
+    <div class="flex justify-center pt-4">
+      <a
+        href="https://www.netopia-payments.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="./assets/images/netopia-visa.jpg"
           alt="Plăți online securizate prin Netopia"
           class="h-10 md:h-12 w-auto object-contain
-           transition-transform duration-200
-           hover:scale-105"
+                 transition-transform duration-200 hover:scale-105"
         />
-        </a>
-      </div>
+      </a>
     </div>
-  </footer>
+
+  </div>
+</footer>
 </template>
 
 <style scoped>

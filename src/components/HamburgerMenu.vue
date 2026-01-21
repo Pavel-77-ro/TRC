@@ -28,7 +28,7 @@ function toggleRezultate() {
       <li
         class="cursor-pointer py-[2px] text-lg text-gray-600 font-normal border-b-2 border-gray-300 my-[8px]"
       >
-        <RouterLink :to="{ name: 'participanti_2025' }" @click="closeMenu">Participanți</RouterLink>
+        <RouterLink :to="{ name: 'participanti' }" @click="closeMenu">Participanți</RouterLink>
       </li>
 
       <!-- Rezultate Dropdown -->
@@ -74,7 +74,7 @@ function toggleRezultate() {
       <li
         class="cursor-pointer py-[2px] text-xl text-gray-700 font-normal border-b-2 border-gray-300 my-[12px] mb-8"
       >
-        <a href="https://racehub.ro/register/trc2025" @click="closeMenu">Înscrieri</a>
+        <RouterLink :to="{ name: 'Inregistrare' }" @click="closeMenu">Înscrieri</RouterLink>
       </li>
     </ul>
   </div>

@@ -39,12 +39,12 @@ let faqItems = [
   {
     question: 'Până când mă pot înscrie?',
     answer:
-      'Înscrierile sunt disponibile până pe data de 01 iunie 2025. Cei ce doresc să se înscrie mai repede pot profita de reducerile early bird până pe 31 ianuarie.'
+      'Înscrierile sunt disponibile până pe data de 04 Mai 2026. Cei ce doresc să se înscrie mai repede pot profita de reducerile early bird până pe 8 Februarie.'
   },
   {
     question: 'Unde pot vedea rezultatele?',
     answer:
-      'Rezultatele vor fi anunţate la faţa locului, dar si online pe racehub.ro'
+      'Rezultatele vor fi anunţate la faţa locului, dar si online pe cronometraj.ro'
   }
 ];
 
@@ -119,38 +119,43 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <section class="sm:relative lg:overflow-hidden z-10">
+  <section class="relative h-screen overflow-hidden">
+  <!-- Video background -->
+  <VideoPlayer />
+
+  <!-- Optional dark overlay -->
+  <div class="absolute inset-0 bg-black/50"></div>
     <div
-      class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-6 md:mt-14 lg:mt-[74px]"
+    class="relative z-10 container h-full flex flex-col lg:flex-row items-center justify-center lg:justify-center gap-12 pt-20 lg:pt-0"
     >
       <!-- Content -->
       <div class="flex flex-1 flex-col items-center lg:items-start">
-        <h2
-          class="text-slate-800 text-3xl sm:text-4xl lg:text-5xl text-center lg:text-left mb-6 font-Lucky">
-          Turnu Rosu Challenge
-        </h2>
         <h3
-          class="text-[#cc1812] text-2xl sm:text-3xl lg:text-4xl text-center lg:text-left mb-6 font-Lucky">
+          class="text-white drop-shadow-l text-3xl sm:text-4xl lg:text-5xl text-center lg:text-left mb-6 font-Lucky">
+          Turnu Rosu Challenge
+        </h3>
+        <h3
+          class="text-white drop-shadow-l text-3xl sm:text-4xl lg:text-5xl text-center lg:text-left mb-6 font-Lucky">
           16 MAI 2026
         </h3>
 
         <!-- Countdown Timer -->
         <div
           v-if="timeRemaining"
-          class="countdown text-center lg:text-left p-4 bg-white rounded-lg w-5/6"
+          class="countdown text-center lg:text-left p-4 rounded-lg w-5/6 text-white drop-shadow-lg"
         >
           <div class="flex justify-center gap-4 space-x-4 text-2xl font-semibold">
             <div class="countdown-item flex flex-col items-center">
-              <span class="countdown-number text-4xl font-bold text-[#cc1812]">{{
+              <span class="countdown-number text-4xl font-bold text-white drop-shadow-lg">{{
                 timeRemaining.days
               }}</span>
-              <span class="countdown-label text-gray-700">zile</span>
+              <span class="countdown-label text-white font-bold drop-shadow-md">zile</span>
             </div>
             <div class="countdown-item flex flex-col items-center">
               <span class="countdown-number text-4xl font-bold text-[#cc1812]">{{
                 timeRemaining.hours
               }}</span>
-              <span class="countdown-label text-gray-700">ore</span>
+              <span class="countdown-label text-white drop-shadow-l">ore</span>
             </div>
             <div class="countdown-item flex flex-col items-center">
               <span class="countdown-number text-4xl font-bold text-[#cc1812]">{{
@@ -170,10 +175,6 @@ onUnmounted(() => {
         <div class="flex justify-center flex-wrap gap-6 font-Lucky w-5/6 tracking-widest">
           <button type="button" class="join-btn" @click="goToInscrieri">Inscrieri</button>
         </div>
-      </div>
-      <!-- Image -->
-      <div class="flex justify-center flex-1 mb-2 md:mb-16 lg:mb-0 -z-10">
-        <VideoPlayer class="mt-8" />
       </div>
     </div>
   </section>
@@ -657,6 +658,6 @@ onUnmounted(() => {
 }
 .countdown-label {
   font-size: 1rem;
-  color: #4b5563;
+  color: #ffffff;
 }
 </style>
