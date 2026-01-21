@@ -15,7 +15,7 @@
         <li>Cont bancar: RO30BTRLRONCRT0682061601 – Banca Transilvania</li>
         <li>Reprezentant legal: Președinte Morariu Razvan</li>
         <li>Telefon: 0799.312.072</li>
-        <li>Email: <a href="mailto:clubmontan.sibiu@gmail.com" class="text-purple-600 underline">clubmontan.sibiu@gmail.com</a></li>
+        <li>Email: <a href="mailto:contact@urmepeplay.ro" class="text-purple-600 underline">contact@urmepeplay.ro</a></li>
         <li>Website: <a href="https://clubmontan.ro" target="_blank" class="text-purple-600 underline">www.clubmontan.ro</a></li>
       </ul>
     </section>
@@ -46,7 +46,7 @@
       </p>
       <ul class="list-disc pl-6 mt-2">
         <li>Email general: <a href="mailto:contact@turnurosuchallenge.ro" class="text-purple-600 underline">contact@turnurosuchallenge.ro</a></li>
-        <li>Email organizator: <a href="mailto:clubmontan.sibiu@gmail.com" class="text-purple-600 underline">clubmontan.sibiu@gmail.com</a></li>
+        <li>Email organizator: <a href="mailto:contact@urmepeplay.ro" class="text-purple-600 underline">contact@urmepeplay.ro</a></li>
       </ul>
     </section>
 
