@@ -564,17 +564,10 @@ onUnmounted(() => {
             src="../assets/parteneri/harting_logo.png"
             alt=""
           />
-        <a href="https://racehub.ro/" target="_blank">
-          <img
-            class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
-            src="../assets/parteneri/logo_racehub.png"
-            alt=""
-          />
-        </a>
         <a href="https://4endurance.com/" target="_blank">
           <img
             class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
-            src="../assets/parteneri/endurance_logo.png"
+            src="../assets/parteneri/endurance.png"
             alt=""
           />
         </a>
