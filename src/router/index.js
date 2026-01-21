@@ -9,6 +9,9 @@ import InscrieriView from '@/views/InscrieriView.vue';
 import InscrieriPicturaView from '@/views/InscrieriPicturaView.vue';
 import CurseView from '@/views/CurseView.vue';
 import GalerieView from '@/views/GalerieView.vue';
+import GdprView from '@/views/GdprView.vue';
+import PoliticaReturView from '@/views/PoliticaReturView.vue';
+import OrganizareView from '@/views/OrganizareView.vue';
 
 const routes = [
     {
@@ -60,6 +63,21 @@ const routes = [
       path: '/galerie',
       name: 'galerie',
       component: GalerieView
+    },
+    {
+      path: '/gdpr',
+      name: 'GDPR',
+      component: GdprView
+    },
+    {
+      path: "/politica-de-retur",
+      name: "PoliticaRetur",
+      component: PoliticaReturView
+    },
+    {
+      path: "/organizare",
+      name: "Organizare",
+      component: OrganizareView
     }
   ]
 

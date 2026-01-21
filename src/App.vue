@@ -5,7 +5,6 @@ import { ref, onMounted, onUnmounted, onBeforeUnmount  } from 'vue';
 import ScrollToTopBtn from './components/ScrollToTopBtn.vue';
 import HamburgerMenu from './components/HamburgerMenu.vue';
 
-
 const router = useRouter();
 const isSmallScreen = ref(false);
 const isMenuOpen = ref(false);
@@ -149,18 +148,27 @@ onUnmounted(() => {
   <footer class="bg-gray-900 py-8">
     <div class="container flex flex-col md:flex-row items-center">
       <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
-        <h3 class="text-white text-xl">
-          <RouterLink :to="{ name: 'home' }" class="white">Turnu Rosu Challenge</RouterLink>
-        </h3>
+        <h5 class="text-white text-xl">
+          <a href="https://clubmontan.ro/">Copyright ©2025 Club Sportiv Montan Sibiu - CSMS. Toate drepturile rezervate.</a>
+        </h5>
         <ul class="flex text-white uppercase gap-12 text-xs tracking-wide">
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
-            <a href="https://racehub.ro/register/trc2025">Înscrieri</a>
+            <a href="https://anpc.ro/">ANPC</a>
+          </li>
+          <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
+            <a href="https://consumer-redress.ec.europa.eu/site-relocation_en">SOL</a>
           </li>
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
             <RouterLink :to="{ name: 'regulament' }">Regulament</RouterLink>
           </li>
           <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
-            <RouterLink :to="{ name: 'participanti_2025' }">Participanți</RouterLink>
+            <RouterLink :to="{ name: 'GDPR' }">Politica GDPR</RouterLink>
+          </li>
+          <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
+            <RouterLink :to="{ name: 'PoliticaRetur' }">Politica de retur</RouterLink>
+          </li>
+           <li class="cursor-pointer hover-underline-animation transition-duration:150ms white">
+            <RouterLink :to="{ name: 'Organizare' }">Contact</RouterLink>
           </li>
         </ul>
       </div>
@@ -183,6 +191,23 @@ onUnmounted(() => {
             ></i
           ></a>
         </li>
+      </div>
+      <!-- Payment logos footer area -->
+      <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-center gap-6">
+        <a
+          href="https://www.netopia-payments.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center justify-center"
+        >
+        <img
+          src="./assets/images/netopia-visa.jpg"
+          alt="Plăți online securizate prin Netopia"
+          class="h-10 md:h-12 w-auto object-contain
+           transition-transform duration-200
+           hover:scale-105"
+        />
+        </a>
       </div>
     </div>
   </footer>
