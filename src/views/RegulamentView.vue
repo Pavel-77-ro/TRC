@@ -45,8 +45,8 @@ const info1 = [
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">3. Înscrierea concurenților</h2>
       <div
         class="text-gray-700 p-1 mt-5 mb-3">
-        Înscrierile se vor face doar online completând formularul de înscriere pus la dispoziție de organizator prin racehub.ro.
-        Nu se fac înscrieri în ziua concursului, înscrierile se închid în 01 Septembrie cu o săptămână înaintea evenimentului. Măsura este luată pentru a putea optimiza utilizarea resurselor logistice, pentru a evita risipa sau lipsa unor produse sau servicii pentru concurenții înscriși. ( De exemplu, estimarea produselor alimentare pentru punctele de alimentare, brunch, medalii, tricouri șamd.)
+        Înscrierile se vor face doar online completând formularul de înscriere pus la dispoziție de organizator prin 42km.ro.
+        Nu se fac înscrieri în ziua concursului, înscrierile se închid în 04 Mai cu două săptămâni înaintea evenimentului. Măsura este luată pentru a putea optimiza utilizarea resurselor logistice, pentru a evita risipa sau lipsa unor produse sau servicii pentru concurenții înscriși. ( De exemplu, estimarea produselor alimentare pentru punctele de alimentare, brunch, medalii, tricouri șamd.)
     </div>
     </section>
     <section class="p-1">
@@ -55,43 +55,43 @@ const info1 = [
         class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
 
         <!-- Title spanning all columns -->
-        <p class="p-2 col-span-3 text-xl lg:text-2xl">Early Bird (18-31 Ianuarie)</p>
+        <p class="p-2 col-span-3 text-xl lg:text-2xl">Early Bird (24 Ianuarie -8 Februarie)</p>
         <!-- Grid Content -->
         <p class="p-2">Semimaraton</p>
         <p class="p-2">Cros</p>
         <p class="p-2">Power Hiking</p>
-        <p class="p-2">140 RON</p>
-        <p class="p-2">110 RON</p>
-        <p class="p-2">90 RON</p>
-      </div>
-
-      <div
-        class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
-        <!-- Title spanning all columns -->
-        <p class="p-2 col-span-3 text-xl lg:text-2xl">Standard (1 Februarie - 31 Aprilie) </p>
-        <!-- Grid Content -->
-        <p class="p-2">Semimaraton</p>
-        <p class="p-2">Cros</p>
-        <p class="p-2">Power Hiking</p>
-        <p class="p-2">160 RON</p>
-        <p class="p-2">130 RON</p>
-        <p class="p-2">110 RON</p>
-      </div>
-
-      <div
-        class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
-        <!-- Title spanning all columns -->
-        <p class="p-2 col-span-3 text-xl lg:text-2xl">Last Call (1 Mai - 1 Iunie)</p>
-        <!-- Grid Content -->
-        <p class="p-2">Semimaraton</p>
-        <p class="p-2">Cros</p>
-        <p class="p-2">Power Hiking</p>
-        <p class="p-2">180 RON</p>
         <p class="p-2">150 RON</p>
         <p class="p-2">120 RON</p>
+        <p class="p-2">100 RON</p>
+      </div>
+
+      <div
+        class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
+        <!-- Title spanning all columns -->
+        <p class="p-2 col-span-3 text-xl lg:text-2xl">Standard (9 Februarie - 3 Aprilie) </p>
+        <!-- Grid Content -->
+        <p class="p-2">Semimaraton</p>
+        <p class="p-2">Cros</p>
+        <p class="p-2">Power Hiking</p>
+        <p class="p-2">170 RON</p>
+        <p class="p-2">140 RON</p>
+        <p class="p-2">120 RON</p>
+      </div>
+
+      <div
+        class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
+        <!-- Title spanning all columns -->
+        <p class="p-2 col-span-3 text-xl lg:text-2xl">Last Call (4 Aprilie - 4 Mai)</p>
+        <!-- Grid Content -->
+        <p class="p-2">Semimaraton</p>
+        <p class="p-2">Cros</p>
+        <p class="p-2">Power Hiking</p>
+        <p class="p-2">190 RON</p>
+        <p class="p-2">160 RON</p>
+        <p class="p-2">130 RON</p>
       </div>
       <p class="text-gray-700 p-1 mt-5 mb-3">
-        Taxa de participare se poate achita cu cardul la înscrierea pe racehub.ro
+        Taxa de participare se poate achita cu cardul la înscriere.
       </p>
       <p class="text-gray-700 p-1 mt-3 mb-3">
         În caz de neprezentare la start, abandon sau retragere din orice motiv, taxa de participare
