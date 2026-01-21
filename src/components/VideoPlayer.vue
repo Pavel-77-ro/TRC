@@ -1,19 +1,11 @@
 <template>
-  <div class="flex justify-center">
-    <video 
-      class="w-full max-w-[500px] rounded-xl shadow-lg" 
-      autoplay 
-      loop 
-      playsinline 
-      controls>
-      <source src="/videos/video.mp4" type="video/mp4" />
-    </video>
-  </div>
+  <video
+    autoplay
+    loop
+    playsinline
+    class="absolute inset-0 w-full h-full object-cover"
+  >
+    <source src="/videos/video.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 </template>
-
-<style scoped>
-/* Optional Styling */
-video {
-  object-fit: cover;
-}
-</style>
