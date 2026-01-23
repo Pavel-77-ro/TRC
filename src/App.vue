@@ -83,7 +83,7 @@ onUnmounted(() => {
 <template>
   <div class="font-Poppins relative">
     <!-- Header -->
-    <header class="backdrop-blur-xl z-40">
+    <header class="backdrop-blur-xl relative z-50">
       <nav id="navb" class="container flex items-center py-4 mt-1 md:mt-2">
         <div class="py-1 w-14 md:w-20 overflow-hidden">
           <img
@@ -132,14 +132,14 @@ onUnmounted(() => {
             Inscrieri
           </button>
         </ul>
-        <div class="flex sm:hidden flex-1 justify-end">
-          <i class="text-3xl fas fa-bars cursor-pointer" @click="toggleMenu"></i>
+        <div class="flex sm:hidden flex-1 justify-end relative z-50">
+          <i class="text-3xl fas fa-bars cursor-pointer " @click="toggleMenu"></i>
         </div>
       </nav>
       <transition name="fade" @before-enter="onEnter" @leave="onLeave">
         <HamburgerMenu v-if="isSmallScreen && isMenuOpen" @close="toggleMenu" />
       </transition>
-      <div v-show="isMenuOpen" class="w-full h-full z-50 bg-gray-400"></div>
+      <div v-show="isMenuOpen" class="w-full h-full relative z-50 bg-gray-400"></div>
     </header>
   </div>
   <scrollToTopBtn></scrollToTopBtn>
@@ -159,11 +159,11 @@ onUnmounted(() => {
     </div>
 
     <!-- Links -->
-    <ul
-      class="flex flex-col md:flex-row items-center justify-center md:justify-start
-             gap-4 md:gap-8 text-white uppercase text-xs tracking-wide text-center"
+    <ul class="flex flex-col md:flex-row items-center justify-center md:justify-start
+         gap-3 md:gap-8 text-white uppercase text-sm md:text-base
+         font-semibold tracking-wide text-center"
     >
-      <li class="hover-underline-animation">
+      <li class="hover-underline-animation text-white">
         <a href="https://anpc.ro/">ANPC</a>
       </li>
       <li class="hover-underline-animation">

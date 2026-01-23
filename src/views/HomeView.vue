@@ -330,7 +330,7 @@ onUnmounted(() => {
     </div>
     <!-- Cards -->
     <div
-      class="px-6 md:px-4 container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-20 max-w-screen-lg mt-16"
+      class="px-6 md:px-4 container grid grid-cols-1 gap-16 lg:gap-20 max-w-screen-lg mt-16"
     >
       <!-- Card 1 -->
       <div
@@ -343,54 +343,6 @@ onUnmounted(() => {
           <p class="mt-5 text-sm text-bookmark-blue text-center">
             În timp ce părinții aleargă pe poteci, cei mici au parte de propria aventură la Turnu Roșu Challenge! Atelierul nostru de pictură este un spațiu dedicat imaginației, unde copiii pot explora culorile, natura și bucuria de a crea.
             Atelierul se desfășoară în aer liber, printre copaci și verdeață, într-un colț liniștit, dar plin de inspirație.
-          </p>
-        </div>
-        <hr class="border-b border-bookmark-white" />
-        <div class="flex p-6">
-          <button
-            type="button"
-            class="flex-1 btn text-white bg-gray-900 hover:bg-bookmark-white hover:text-black"
-            @click="goToInscrieriPictura"
-          >
-            Înscrie-te!
-          </button>
-        </div>
-      </div>
-      <!-- Card 2 -->
-      <div
-        class="flex flex-col rounded-xl shadow-xl hover:shadow-orange-300 hover:scale-98 lg:mb-16 bg-gray-100"
-      >
-        <div class="p-6 flex flex-col items-center">
-          <img class="w-48" src="../assets/images/painter2.png" alt="" />
-          <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură pe numere</h3>
-          <p class="mb-2 text-bookmark-grey font-light"> 50 RON / adult </p>
-          <p class="mt-5 text-sm text-bookmark-blue text-center">
-            Vrei să te bucuri de liniștea muntelui și de bucuria culorilor, fără să-ți faci griji că „nu știi să pictezi”? Avem exact ce îți dorești!
-            Îți oferim șabloane, pe care le poți umple cu culoare în ritmul tău, fără stres. Este o activitate perfectă pentru relaxare după cursă sau pur și simplu pentru a-ți lua un moment doar pentru tine.
-          </p>
-        </div>
-        <hr class="border-b border-bookmark-white" />
-        <div class="flex p-6">
-          <button
-            type="button"
-            class="flex-1 btn text-white bg-bookmark-purple hover:bg-bookmark-white hover:text-black"
-            @click="goToInscrieriPictura"
-          >
-            Înscrie-te!
-          </button>
-        </div>
-      </div>
-      <!-- Card 3 -->
-      <div
-        class="flex flex-col rounded-xl shadow-xl hover:shadow-orange-300 hover:scale-98 lg:mb-16 bg-gray-100"
-      >
-        <div class="p-6 flex flex-col items-center">
-          <img class="w-48" src="../assets/images/painter3.png" alt="" />
-          <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură ghidată</h3>
-          <p class="mb-2 text-bookmark-grey font-light"> 100 RON / adult </p>
-          <p class="mt-5 text-sm text-bookmark-blue text-center">
-            Te-ai gândit vreodată că ai putea picta un peisaj de vis, dar n-ai știut de unde să începi? 
-            Sub îndrumarea unui ghid pasionat, vei învăța pas cu pas cum să creezi o lucrare proprie. Nu contează dacă ești începător complet sau ai mai pictat – experiența este una relaxantă, distractivă și plină de satisfacții.
           </p>
         </div>
         <hr class="border-b border-bookmark-white" />
