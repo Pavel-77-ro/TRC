@@ -14,7 +14,7 @@ function toggleRezultate() {
 </script>
 
 <template>
-  <div class="fixed top-0 w-full h-full bg-gray-100 z-40">
+  <div class="fixed inset-0 w-full h-full bg-gray-100 z-[9999] flex flex-col">
     <div class="flex justify-end px-4 pt-[34px] pb-0">
       <i class="text-3xl fas fa-times cursor-pointer text-gray-800" @click="closeMenu"></i>
     </div>
