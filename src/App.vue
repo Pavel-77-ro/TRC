@@ -179,6 +179,9 @@ onUnmounted(() => {
         <RouterLink :to="{ name: 'PoliticaRetur' }">Politica de retur</RouterLink>
       </li>
       <li class="hover-underline-animation">
+        <RouterLink :to="{ name: 'TermenConditii' }">Termen si Condiții</RouterLink>
+      </li>
+      <li class="hover-underline-animation">
         <RouterLink :to="{ name: 'Organizare' }">Contact</RouterLink>
       </li>
     </ul>

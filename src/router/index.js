@@ -13,6 +13,7 @@ import GdprView from '@/views/GdprView.vue';
 import PoliticaReturView from '@/views/PoliticaReturView.vue';
 import OrganizareView from '@/views/OrganizareView.vue';
 import RegisterRunnersView from '@/views/RegisterRunnersView.vue';
+import TermsConditionsView from '@/views/TermsConditionsView.vue';
 
 const routes = [
     {
@@ -84,6 +85,11 @@ const routes = [
       path: "/inregistrare",
       name: "Inregistrare",
       component: RegisterRunnersView
+    },
+    {
+      path: "/termen-si-conditii",
+      name: "TermenConditii",
+      component: TermsConditionsView
     }
   ]
 
