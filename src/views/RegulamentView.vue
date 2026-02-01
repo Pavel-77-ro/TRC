@@ -55,7 +55,7 @@ const info1 = [
         class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
 
         <!-- Title spanning all columns -->
-        <p class="p-2 col-span-3 text-xl lg:text-2xl">Early Bird (24 Ianuarie -8 Februarie)</p>
+        <p class="p-2 col-span-3 text-xl lg:text-2xl">Early Bird (1 Februarie - 15 Februarie)</p>
         <!-- Grid Content -->
         <p class="p-2">Semimaraton</p>
         <p class="p-2">Cros</p>
@@ -68,7 +68,7 @@ const info1 = [
       <div
         class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
         <!-- Title spanning all columns -->
-        <p class="p-2 col-span-3 text-xl lg:text-2xl">Standard (9 Februarie - 3 Aprilie) </p>
+        <p class="p-2 col-span-3 text-xl lg:text-2xl">Standard (16 Februarie - 3 Aprilie) </p>
         <!-- Grid Content -->
         <p class="p-2">Semimaraton</p>
         <p class="p-2">Cros</p>
