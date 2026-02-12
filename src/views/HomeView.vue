@@ -59,7 +59,7 @@ const participare = [
   },
   {
     icon: 'fa-solid fa-shirt',
-    text: 'Tricou (optional) - 80 lei'
+    text: 'Bluza (optional) - 90 lei'
   },
   {
     icon: 'fa-solid fa-utensils',
@@ -226,7 +226,7 @@ onUnmounted(() => {
           <!-- Imagine tricou -->        
           <img
             class="w-5/6 h-5/6 sm:w-full sm:h-full lg:w-full lg:h-full"
-            src="../assets/images/tricou-femeie.png"
+            src="../assets/images/Long_sleeve_shitr_TR.png"
             alt=""
           />
         </div>
@@ -423,23 +423,6 @@ onUnmounted(() => {
   <section class="py-20">
     <div class="container flex flex-col items-center">
       <div class="sm:w-3/4 mx-auto px-2">
-        <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Sponsor Principal</h1>
-      </div>
-        <div class="lg:w-5/6 flex flex-wrap justify-center items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
-          <a href="https://bilstein.ro/" target="_blank">
-            <img
-            class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
-            src="../assets/parteneri/logo_bilstein.png"
-            alt=""
-            />
-          </a>
-        </div>
-    </div>
-  </section>
-
-  <section class="py-20">
-    <div class="container flex flex-col items-center">
-      <div class="sm:w-3/4 mx-auto px-2">
         <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Parteneri</h1>
         <p class="text-center text-bookmark-grey mt-4">
           Mulţumim partenerilor noştri pentru implicarea în realizarea, promovarea şi dezvoltarea
@@ -447,11 +430,6 @@ onUnmounted(() => {
         </p>
       </div>
       <div class="lg:w-5/6 flex flex-wrap items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
-        <img
-          class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-          src="../assets/parteneri/logo_ACSMS.png"
-          alt=""
-        />
         <img
           class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
           src="../assets/parteneri/logo-pdt.webp"
