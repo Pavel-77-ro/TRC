@@ -304,7 +304,7 @@ onUnmounted(() => {
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Camping</h1>
           <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            În seara dinaintea competiției, te invităm să te alături unui moment de relaxare și camaraderie! Vino să petrecem noaptea sub cerul înstelat într-o atmosferă prietenoasă și relaxantă la foc de tabără, unde ne vom bucura de un film în aer liber. Este ocazia perfectă să te relaxezi, să te conectezi cu ceilalți și să te încarci cu energie pozitivă înainte de competiție! Vei scăpa de stresul cotidian, te vei reconecta cu natura și vei fi pregătit pentru ziua cea mare!</p>
+            În <b>15 MAI</b>,seara dinaintea competiției, te invităm să te alături unui moment de relaxare și camaraderie! Vino să petrecem noaptea sub cerul înstelat într-o atmosferă prietenoasă și relaxantă la foc de tabără, unde ne vom bucura de un film în aer liber. Este ocazia perfectă să te relaxezi, să te conectezi cu ceilalți și să te încarci cu energie pozitivă înainte de competiție! Vei scăpa de stresul cotidian, te vei reconecta cu natura și vei fi pregătit pentru ziua cea mare!</p>
           <button
             type="button"
             class="btn text-white bg-gray-900 hover:bg-bookmark-red hover:shadow-xl"
@@ -420,6 +420,23 @@ onUnmounted(() => {
     </div>
   </section>
 
+   <section class="py-20">
+    <div class="container flex flex-col items-center">
+      <div class="sm:w-3/4 mx-auto px-2">
+        <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Sponsor Principal</h1>
+      </div>
+        <div class="lg:w-5/6 flex flex-wrap justify-center items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
+          <a href="https://regnology.net/" target="_blank">
+            <img
+            class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
+            src="../assets/parteneri/logo-regnology.png"
+            alt=""
+            />
+          </a>
+        </div>
+    </div>
+  </section>
+
   <section class="py-20">
     <div class="container flex flex-col items-center">
       <div class="sm:w-3/4 mx-auto px-2">
@@ -432,7 +449,7 @@ onUnmounted(() => {
       <div class="lg:w-5/6 flex flex-wrap items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
         <img
           class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-          src="../assets/parteneri/logo-pdt.webp"
+          src="../assets/parteneri/logo-transagape.png"
           alt=""
         />
         <img
@@ -454,13 +471,6 @@ onUnmounted(() => {
             alt=""
           />
         </a>
-        <a href="https://www.gits.ro/" target="_blank">
-          <img
-            class="w-[150px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-            src="../assets/parteneri/logo-gits.webp"
-            alt=""
-          />
-        </a>
         <a href="https://www.fotograph.ro/" target="_blank">
           <img
             class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
@@ -475,25 +485,20 @@ onUnmounted(() => {
             alt=""
           />
         </a>
-        <a href="https://www.colt.net/" target="_blank">
-          <img
-            class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-            src="../assets/parteneri/logo-colt.png"
-            alt=""
-          />
-        </a>
-        <a href="https://romautentic.ro/" target="_blank">
-          <img
-            class="w-[152px] sm:w-20 md:w-24 lg:w-28 lg:h-28 cursor-pointer"
-            src="../assets/parteneri/logo-rom.webp"
-            alt=""
-          />
-        </a>
+        <a href="https://www.harting.com/en-RO" target="_blank">
           <img
             class="w-[148px] sm:w-38 md:w-44 lg:w-48 cursor-pointer"
             src="../assets/parteneri/harting_logo.png"
             alt=""
           />
+        </a>
+        <a href="https://craciuntrade.ro/" target="_blank">
+          <img
+            class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
+            src="../assets/parteneri/logo-craciuntrade.png"
+            alt=""
+          />
+        </a>
         <a href="https://endurancepro.ro/" target="_blank">
           <img
             class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
