@@ -10,7 +10,7 @@ function goToInscrieri() {
   router.push({ name: 'Inregistrare' });
 }
 function goToVoluntari(){
-  window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeCwvEzLN8B2ret1KQrkOif1iJdExCiYFcfoPfya574OrTmvA/viewform?usp=sharing";
+  window.location.href = "https://raceoffice.ro/clubul-sportiv-montan-sibiu/turnu-rosu-challenge-2026/register";
 }
 
 function goToInscrieriPictura() {
