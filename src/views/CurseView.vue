@@ -54,9 +54,9 @@ onMounted(async () => {
     ></div>
     
     <!-- Download GPX Button -->
-    <button onclick="window.location.href='../public/strava/Semimaraton-TRC-2026.gpx';"
-      class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 mt-4">
-      Download GPX
+    <button onclick="window.location.href='/strava/Semimaraton-TRC-2026.gpx';"
+    class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 mt-4">
+    Download GPX
     </button>
   </div>
 
@@ -81,9 +81,9 @@ onMounted(async () => {
     ></div>
 
     <!-- Download GPX Button -->
-    <button onclick="window.location.href='../public/strava/TRC-cros.gpx';"
-      class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 mt-4">
-      Download GPX
+    <button onclick="window.location.href='/strava/TRC-cros.gpx';"
+    class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 mt-4">
+    Download GPX
     </button>
   </div>
 
