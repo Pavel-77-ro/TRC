@@ -70,7 +70,7 @@
         Pentru întrebări referitoare la acești termeni și condiții, ne puteți contacta la:
       </p>
       <ul class="list-disc pl-6 mt-2">
-        <li>Email: <a href="mailto:contact@turnurosuchallenge.ro" class="text-purple-600 underline">contact@turnurosuchallenge.ro</a></li>
+        <li>Email: <a href="mailto:contact@turnurosuchallenge.com" class="text-purple-600 underline">contact@turnurosuchallenge.com</a></li>
         <li>Coorganizator: <a href="www.clubmontan.ro" class="text-purple-600 underline"> Club Sportiv Montan Sibiu</a></li>
       </ul>
     </section>
