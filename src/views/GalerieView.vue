@@ -3,7 +3,7 @@
     <iframe
       v-if="isVisible"
       id="MemzoInt"
-      src="https://memzo.ai/integrate/bHlTc1k5V0VUWnYwM0xZbVpRcGRLUT09"
+      src="https://memzo.ai/integrate/N0VLb1MvUDluaFV1T29VK1FnMHY1dz09"
       style="border: none; width: 100%; min-height: 720px; overflow-y: hidden; overflow: hidden"
       title="Get Your Photos"
     ></iframe>

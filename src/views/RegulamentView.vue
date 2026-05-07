@@ -186,7 +186,7 @@ const info1 = [
         Nu exista timp limită pentru parcurgerea traseului de Power Hiking, noi recomandăm 4:00 ore.
         Timpul limită pentru parcurgerea traseului de CROS este de 4:00 ore.
         Timpul limită pentru parcurgerea traseului de SEMIMARATON este de 5:00 ore.
-        Timpul limită  intermediar in poiana Pleasa (km 9) pentru SEMIMARATON este de 2:00 ore.
+        Timpul limită  intermediar la intrarea pe valea lui Ionelu (km 7) pentru SEMIMARATON este de 1:45 ore.
       </div>
     </section>
 
@@ -236,14 +236,14 @@ const info1 = [
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">7.8. Puncte de control</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
         Pe traseu sunt amplasate puncte de control obligatorii. Participanții care nu trec printr-un punct de control, indiferent de motiv, vor fi descalificați.
-        Pentru traseul de SEMIMARATON avem 2 puncte de control la kilometrul 9,3 in Poiana Pleașa si la kilometrul 14,3 in Chica Fedeleșului. 
+        Pentru traseul de SEMIMARATON avem 2 puncte de control la kilometrul 7 si la kilometrul 14,3 in Chica Fedeleșului. 
       </div>
     </section>
 
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">7.9. Echipament obligatoriu</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
-        Având în vedere faptul că “Turnu Roșu Challenge” este un concurs ce se desfășoară în zona subalpină în luna Iunie, suntem nevoiți să respectăm capriciile vremii și să luăm în considerare două variante de echipament în funcție de situația traseului și a condițiilor meteo prognozate la data evenimentului. Le vom numi varianta de vreme caldă respectiv varianta de vreme rece. Organizatorul va anunța cu 3 zile înaintea evenimentului care variantă va deveni obligatorie.
+        Având în vedere faptul că “Turnu Roșu Challenge” este un concurs ce se desfășoară în zona subalpină în luna Mai, suntem nevoiți să respectăm capriciile vremii și să luăm în considerare două variante de echipament în funcție de situația traseului și a condițiilor meteo prognozate la data evenimentului. Le vom numi varianta de vreme caldă respectiv varianta de vreme rece. Organizatorul va anunța cu 3 zile înaintea evenimentului care variantă va deveni obligatorie.
         <br><br>
         <strong>Varianta de vreme caldă:</strong>
         <ul class="list-disc list-inside">
@@ -280,9 +280,9 @@ const info1 = [
       <div class="text-gray-700 p-1 mt-5 mb-3">
         Se va da din punctul indicat după următoarea schemă:
         <ul class="list-disc list-inside">
-          <li>SEMIMARATON: ora 09:30</li>
-          <li>CROS: ora 10:30</li>
-          <li>POWER HIKING: ora 09:00</li>
+          <li>SEMIMARATON: ora 09:00</li>
+          <li>CROS: ora 09:30</li>
+          <li>POWER HIKING: ora 09:15</li>
         </ul>
       </div>
     </section>
@@ -321,7 +321,7 @@ const info1 = [
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">9. Contestații</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
-        Orice contestație se va comunica oficialilor imediat după afișarea rezultatelor. (Acestea vor putea fi verificate online pe racehub.ro ). Contestația se va depune în scris însoțită de suma de 50 Ron. În cazul în care contestația este admisă, suma de bani va fi restituită. În caz contrar se va reține taxa de contestație. Nu se acceptă contestații înainte cu 30 de minute de premiere, în timpul sau după premierea categoriei la care face referință.
+        Orice contestație se va comunica oficialilor imediat după afișarea rezultatelor. (Acestea vor putea fi verificate online pe cronometraj.ro ). Contestația se va depune în scris însoțită de suma de 50 Ron. În cazul în care contestația este admisă, suma de bani va fi restituită. În caz contrar se va reține taxa de contestație. Nu se acceptă contestații înainte cu 30 de minute de premiere, în timpul sau după premierea categoriei la care face referință.
       </div>
     </section>
 

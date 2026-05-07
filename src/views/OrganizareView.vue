@@ -33,7 +33,7 @@
         <li>Cont bancar: RO49INGB0000999910617261 – ING</li>
         <li>Reprezentant legal: Costeiu Iulian Alexandru</li>
         <li>Telefon: 0742.996.598</li>
-        <li>Email: <a href="mailto:contact@turnurosuchallenge.ro" class="text-purple-600 underline">contact@turnurosuchallenge.ro</a></li>
+        <li>Email: <a href="mailto:contact@turnurosuchallenge.com" class="text-purple-600 underline">contact@turnurosuchallenge.com</a></li>
         <li>Website: <a href="https://www.turnurosuchallenge.ro" class="text-purple-600 underline">www.turnurosuchallenge.ro</a></li>
       </ul>
     </section>
