@@ -514,11 +514,12 @@ onUnmounted(() => {
     <div class="container flex flex-col items-center">
       <div class="sm:w-3/4 mx-auto px-2">
       </div>
+        <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Actiune cofinantata de</h1>
         <div class="lg:w-5/6 flex flex-wrap justify-center items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
-          <a href="https://www.cjsibiu.ro/" target="_blank">
+          <a href="https://primariaturnurosu.ro/" target="_blank">
             <img
             class="w-[220px] sm:w-64 md:w-80"
-            src="../assets/parteneri/logo_cjsb_cod.png"
+            src="../assets/parteneri/logo-primarie.webp"
             alt=""
             />
           </a>
@@ -532,13 +533,6 @@ onUnmounted(() => {
         <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Parteneri institutionali</h1>
       </div>
         <div class="lg:w-5/6 flex flex-wrap justify-center items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
-          <a href="https://primariaturnurosu.ro/" target="_blank">
-            <img
-            class="w-[152px] sm:w-40 md:w-48"
-            src="../assets/parteneri/logo-primarie.webp"
-            alt=""
-            />
-          </a>
           <a href="https://osizvorulflorii.ro/" target="_blank">
             <img
               class="w-[152px] sm:w-20 md:w-24 lg:w-28 lg:h-28 cursor-pointer"
