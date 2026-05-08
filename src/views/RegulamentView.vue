@@ -209,7 +209,7 @@ const info1 = [
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">7.6. Ridicarea kit-ului de start</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
-        Numărul de concurs se ridică în ziua evenimentului, începând cu ora 08:00 de la cortul special amenajat în zona de start/sosire din zona.
+        Numărul de concurs se ridică în ziua evenimentului, începând cu ora 07:00 de la cortul special amenajat în zona de start/sosire din zona.
         <br><br>
         <em>Este interzisă participarea cu alt număr de concurs decât cel personal. Toți participanții sunt obligați să prezinte actul de identitate în momentul înscrierii, să completeze fișa de participare pe proprie răspundere și să o semneze. Prin participarea la această competiție, concurenții acceptă automat regulamentul acesteia.</em>
       </div>
@@ -281,7 +281,7 @@ const info1 = [
         Se va da din punctul indicat după următoarea schemă:
         <ul class="list-disc list-inside">
           <li>SEMIMARATON: ora 09:00</li>
-          <li>CROS: ora 09:30</li>
+          <li>CROS: ora 09:45</li>
           <li>POWER HIKING: ora 09:15</li>
         </ul>
       </div>
