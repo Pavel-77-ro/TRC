@@ -105,8 +105,6 @@ async function inscriereParticipantPictura() {
             required
           >
             <option value="Pictură pe șablon">Pictură pe șablon</option>
-            <option value="Pictură pe numere">Pictură pe numere</option>
-            <option value="Pictură ghidată">Pictură ghidată</option>
           </select>
         </div>
 
