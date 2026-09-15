@@ -5,12 +5,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        'bookmark-purple': '#E9623B',
-        'bookmark-red': '#F04848',
-        'bookmark-blue': '#242A45',
-        'bookmark-grey': '#9194A2',
-        'bookmark-white': '#f7f7f7',
-        'hover-colour': '#FF7373'
+        'bookmark-purple': '#ed1941',
+        'bookmark-red': '#ed1941',
+        'bookmark-blue': '#1d1714',
+        'bookmark-grey': '#615b58',
+        'bookmark-white': '#f0f1f5',
+        'hover-colour': '#c90e32'
       },
       scale: {
         175: '1.75',
@@ -18,8 +18,8 @@ export default {
       }
     },
     fontFamily: {
-      Poppins: ['Poppins, sans-serif'],
-      Lucky: ['Luckiest Guy, Poppins, sans-serif']
+      Poppins: ['Inter, sans-serif'],
+      Lucky: ['Inter, sans-serif']
     },
     container: {
       center: true,

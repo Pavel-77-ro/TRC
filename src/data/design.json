@@ -1,0 +1,87 @@
+{
+  "title": "Turnu Rosu\nChallenge",
+  "date": "16 MAI 2026",
+  "description": "Turnu Roşu Challenge promite o ediţie şi mai frumoasă decât cea anterioară! Nu rata ocazia şi înscrie-te la provocarea oferită de echipa noastră!",
+  "kit": [
+    "Medalie de participare",
+    "Numar de concurs",
+    "Bluza (optional) - 90 lei",
+    "Voucher masă",
+    "Gel carbohidrati",
+    "Vouchere discount"
+  ],
+  "courses": "Turnu Roșu Challenge oferă trei curse potrivite pentru fiecare nivel de pregătire, astfel încât fiecare să își găsească provocarea perfectă! Semimaratonul de 21 km, clasificat ITRA 1, este o adevărată provocare pentru cei experimentați, iar crosul de 11 km, clasificat ITRA 0, îți va oferi ocazia să testezi și să te antrenezi pe trasee montane spectaculoase. Dacă ești în căutarea unei experiențe mai relaxante, hikingul de 7 km te va purta prin peisaje uimitoare.",
+  "faqDescription": "Aici sunt câteva dintre întrebările puse cel mai frecvent. Dacă aveţi altele pe lângă cele prezentate nu ezitaţi să ne contactaţi!",
+  "thanks": "Mulţumim partenerilor noştri pentru implicarea în realizarea, promovarea şi dezvoltarea celei de a III-a ediţii a concursului Turnu Roşu Challenge!",
+  "copyright": "Copyright ©2025 Club Sportiv Montan Sibiu – CSMS. Toate drepturile rezervate.",
+  "activities": [
+    {
+      "id": "volunteers",
+      "title": "Voluntari",
+      "description": "Vino alături de noi pentru a face parte din echipa noastră la următorul concurs! Avem nevoie de ajutor pentru organizare, logistică și suport tehnic.",
+      "image": "stretching",
+      "imageFirst": false,
+      "dark": true,
+      "button": "Înscrie-te",
+      "action": "volunteers"
+    },
+    {
+      "id": "stretching",
+      "title": "Streching",
+      "description": "Încheie-ți sesiunea de alergare cu o clasă de stretching revitalizantă la Turnu Roșu Challenge! Exercițiile de întindere te ajută să îți relaxezi mușchii, să previi rigiditatea și să accelerezi procesul de recuperare. Participă pentru a îmbunătăți flexibilitatea, a reduce riscul de accidentări și a te reîncărcare pentru următoarea provocare!",
+      "image": "stretching",
+      "imageFirst": false,
+      "dark": false,
+      "button": "",
+      "action": ""
+    },
+    {
+      "id": "massage",
+      "title": "Masaj",
+      "description": "După o cursă intensă, corpul tău merită un masaj regenerativ. Sesiunile de masaj post-alergare oferite la Turnu Roșu Challenge sunt concepute pentru a reduce tensiunea musculară, a îmbunătăți recuperarea și a stimula circulația sanguină. Masajul va contribui la relaxarea rapidă a mușchilor și la prevenirea durerilor ulterioare. Vino să te refaci rapid și să te bucuri de o revigorare completă!.",
+      "image": "massage",
+      "imageFirst": true,
+      "dark": false,
+      "button": "",
+      "action": ""
+    },
+    {
+      "id": "camping",
+      "title": "Camping",
+      "description": "În 15 MAI,seara dinaintea competiției, te invităm să te alături unui moment de relaxare și camaraderie! Vino să petrecem noaptea sub cerul înstelat într-o atmosferă prietenoasă și relaxantă la foc de tabără, unde ne vom bucura de un film în aer liber. Este ocazia perfectă să te relaxezi, să te conectezi cu ceilalți și să te încarci cu energie pozitivă înainte de competiție! Vei scăpa de stresul cotidian, te vei reconecta cu natura și vei fi pregătit pentru ziua cea mare!",
+      "image": "camping",
+      "imageFirst": false,
+      "dark": false,
+      "button": "Rezervă loc!",
+      "action": "camping"
+    },
+    {
+      "id": "painting",
+      "title": "Atelier de pictura",
+      "description": "Atelierul de pictură revine şi în cadrul celei de a 3-a ediţie a Turu Rosu Challenge. Alege-ţi kit-ul care vi se potriveşte!\n\nPictură pe șablon copii\n35 RON / copil\nÎn timp ce părinții aleargă pe poteci, cei mici au parte de propria aventură la Turnu Roșu Challenge! Atelierul nostru de pictură este un spațiu dedicat imaginației, unde copiii pot explora culorile, natura și bucuria de a crea. Atelierul se desfășoară în aer liber, printre copaci și verdeață, într-un colț liniștit, dar plin de inspirație.",
+      "image": "painting",
+      "imageFirst": true,
+      "dark": false,
+      "button": "Înscrie-te!",
+      "action": "painting"
+    }
+  ],
+  "faq": [
+    {
+      "question": "De ce aş participa la Turnu Roşu Challenge?",
+      "answer": "Pentru că e șansa ta să te bucuri de peisaje superbe, să-ți depășești limitele și să te distrezi într-o aventură de neuitat alături de oameni pasionați de natură și sport."
+    },
+    {
+      "question": "Cât de solicitante sunt traseele?",
+      "answer": "Traseele pregătite pot fi realizate în timpul maxim admis de 5 ore de orice persoană cu o pregătire fizică optimă şi dornică să exploreze zona Munțiilor Făgăraș."
+    },
+    {
+      "question": "Până când mă pot înscrie?",
+      "answer": "Înscrierile sunt disponibile până pe data de 04 Mai 2026. Cei ce doresc să se înscrie mai repede pot profita de reducerile early bird până pe 8 Februarie."
+    },
+    {
+      "question": "Unde pot vedea rezultatele?",
+      "answer": "Rezultatele vor fi anunţate la faţa locului, dar si online pe cronometraj.ro"
+    }
+  ]
+}

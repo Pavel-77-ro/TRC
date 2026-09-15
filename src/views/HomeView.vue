@@ -1,592 +1,213 @@
 <script setup>
-import { RouterView } from 'vue-router';
-import { useRouter } from 'vue-router';
 import { ref, onMounted, onUnmounted } from 'vue';
+import { RouterLink } from 'vue-router';
 import VideoPlayer from '@/components/VideoPlayer.vue';
-
-const router = useRouter();
-
-function goToInscrieri() {
-  router.push({ name: 'Inregistrare' });
-}
-function goToVoluntari(){
-  window.location.href = "https://raceoffice.ro/clubul-sportiv-montan-sibiu/turnu-rosu-challenge-2026/register";
-}
-
-function goToInscrieriPictura() {
-  router.push({ name: 'inscrieri_pictura' });
-}
-
-function goToCamping(){
-  window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSe55_MNNCllCHoXyX6U3Mqt-X4NH8G40k_sktun-jSba3KOnQ/viewform?usp=sharing";
-}
-
-function goToCurse() {
-  router.push({ name: 'curse' });
-}
-
-let faqItems = [
-  {
-    question: 'De ce aş participa la Turnu Roşu Challenge?',
-    answer:
-      'Pentru că e șansa ta să te bucuri de peisaje superbe, să-ți depășești limitele și să te distrezi într-o aventură de neuitat alături de oameni pasionați de natură și sport.'
-  },
-  {
-    question: 'Cât de solicitante sunt traseele?',
-    answer:
-      'Traseele pregătite pot fi realizate în timpul maxim admis de 5 ore de orice persoană cu o pregătire fizică optimă şi dornică să exploreze zona Munțiilor Făgăraș.'
-  },
-  {
-    question: 'Până când mă pot înscrie?',
-    answer:
-      'Înscrierile sunt disponibile până pe data de 04 Mai 2026. Cei ce doresc să se înscrie mai repede pot profita de reducerile early bird până pe 8 Februarie.'
-  },
-  {
-    question: 'Unde pot vedea rezultatele?',
-    answer:
-      'Rezultatele vor fi anunţate la faţa locului, dar si online pe cronometraj.ro'
-  }
-];
-
-const participare = [
-  {
-    icon: 'fa-solid fa-medal',
-    text: 'Medalie de participare'
-  },
-  {
-    icon: 'fa-solid fa-hashtag',
-    text: 'Numar de concurs'
-  },
-  {
-    icon: 'fa-solid fa-shirt',
-    text: 'Bluza (optional) - 90 lei'
-  },
-  {
-    icon: 'fa-solid fa-utensils',
-    text: 'Voucher masă'
-  },
-  {
-    icon: 'fa-solid fa-bolt',
-    text: 'Gel carbohidrati'
-  },
-  {
-    icon: 'fa-solid fa-percent',
-    text: 'Vouchere discount'
-  }
-];
-
-let activeIndex = ref(null);
-function changeActiveIndex(i) {
-  activeIndex.value = i;
-}
-
-const targetDate = new Date('2026-05-16T09:00:00');
-const timeRemaining = ref({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-
+import content from '@/data/design.json';
+const remaining = ref([0, 0, 0, 0]);
+const labels = ['zile', 'ore', 'minute', 'secunde'];
+let timer;
 function updateCountdown() {
-  const now = new Date();
-  const timeDiff = targetDate - now;
-
-  if (timeDiff > 0) {
-    timeRemaining.value = {
-      days: Math.floor(timeDiff / (1000 * 60 * 60 * 24)),
-      hours: Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-      minutes: Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60)),
-      seconds: Math.floor((timeDiff % (1000 * 60)) / 1000)
-    };
-  } else {
-    // Time is up
-    timeRemaining.value = { days: 0, hours: 0, minutes: 0, seconds: 0 };
-  }
+  const s = Math.max(0, Math.floor((new Date('2026-05-16T09:00:00+03:00') - Date.now()) / 1000));
+  remaining.value = [
+    Math.floor(s / 86400),
+    Math.floor(s / 3600) % 24,
+    Math.floor(s / 60) % 60,
+    s % 60
+  ];
 }
-
 onMounted(() => {
-  // Google Tag Manager initialization
+  updateCountdown();
+  timer = setInterval(updateCountdown, 1000);
   window.dataLayer = window.dataLayer || [];
-  function gtag() 
-  { window.dataLayer.push(arguments) }
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
   gtag('js', new Date());
   gtag('config', 'AW-17130257836');
-
-  // Countdown timer setup
-  updateCountdown();
-  const interval = setInterval(updateCountdown, 1000);
-
-onUnmounted(() => {
-    clearInterval(interval);
-  });
 });
+onUnmounted(() => clearInterval(timer));
+const actions = {
+  volunteers:
+    'https://raceoffice.ro/clubul-sportiv-montan-sibiu/turnu-rosu-challenge-2026/register',
+  camping:
+    'https://docs.google.com/forms/d/e/1FAIpQLSe55_MNNCllCHoXyX6U3Mqt-X4NH8G40k_sktun-jSba3KOnQ/viewform?usp=sharing'
+};
+const partners = [
+  ['transagape', 'Trans Agape'],
+  ['myhas', 'MyHa’s'],
+  ['photo', 'Emi Costeiu', 'https://www.facebook.com/CosteiuEmii'],
+  ['gis', 'GIS Wood', 'https://www.instagram.com/gis.wood?igsh=MTJocng5MTJkYzFseQ=='],
+  ['fotograph', 'Fotograph', 'https://www.fotograph.ro/'],
+  ['andu', 'Andu', 'https://andusports.ro/'],
+  ['harting', 'Harting', 'https://www.harting.com/en-RO'],
+  ['craciun', 'Crăciun Trade', 'https://craciuntrade.ro/'],
+  ['endurance', 'Endurance', 'https://endurancepro.ro/'],
+  ['endmaze', 'Endmaze', null, 'svg'],
+  ['partner-wordmark', 'Cristian Simina', null, 'svg']
+];
+const institutions = [
+  ['ocol', 'Ocolul Silvic Izvorul Florii', 'https://osizvorulflorii.ro/'],
+  ['salvamont', 'Salvamont Sibiu', 'https://www.salvamontsibiu.ro/'],
+  ['jandarmerie', 'Jandarmeria Sibiu', 'https://www.jandarmeriasibiu.ro/']
+];
 </script>
-
 <template>
-  <section class="relative h-screen overflow-hidden">
-  <!-- Video background -->
-  <VideoPlayer />
-
-  <!-- Optional dark overlay -->
-  <div class="absolute inset-0 bg-black/50"></div>
-    <div
-    class="relative z-10 container h-full flex flex-col lg:flex-row items-center justify-center lg:justify-center gap-12 pt-20 lg:pt-0"
+  <section class="trc-hero" aria-labelledby="hero-title">
+    <VideoPlayer />
+    <div class="trc-wrap trc-hero-content">
+      <h1 id="hero-title">Turnu Rosu<br />Challenge</h1>
+      <p class="trc-date">{{ content.date }}</p>
+      <div class="trc-countdown" aria-label="Timp rămas până la competiție">
+        <div v-for="(label, i) in labels" :key="label">
+          <strong>{{ remaining[i] }}</strong
+          ><span>{{ label }}</span>
+        </div>
+      </div>
+      <p class="trc-hero-description">{{ content.description }}</p>
+      <RouterLink class="trc-button" to="/inregistrare">Inscrieri</RouterLink>
+      <a class="trc-scroll" href="#kit" aria-label="Descoperă competiția"
+        ><img src="/design/scroll.svg" alt=""
+      /></a>
+    </div>
+  </section>
+  <section id="kit" class="trc-section trc-kit">
+    <div class="trc-wrap trc-split trc-image-first">
+      <img
+        class="trc-kit-image"
+        src="/design/race-shirt.svg"
+        alt="Tricoul Turnu Roșu Challenge"
+        loading="lazy"
+      />
+      <div class="trc-copy">
+        <h2>Kit Participare</h2>
+        <ul class="trc-kit-list">
+          <li v-for="item in content.kit" :key="item">{{ item }}</li>
+        </ul>
+        <RouterLink class="trc-button" to="/inregistrare">Inscrieri</RouterLink>
+      </div>
+    </div>
+  </section>
+  <section class="trc-section trc-courses">
+    <div class="trc-wrap trc-split trc-image-first">
+      <img
+        class="trc-photo trc-course-photo"
+        src="/design/courses.png"
+        alt="Alergători pe traseul montan"
+        loading="lazy"
+      />
+      <div class="trc-copy">
+        <img class="trc-tower" src="/design/tower.svg" alt="" loading="lazy" />
+        <h2>Curse</h2>
+        <p class="trc-course-date">{{ content.date }}</p>
+        <p>{{ content.courses }}</p>
+        <RouterLink class="trc-button trc-button-dark" to="/curse">Detalii</RouterLink>
+      </div>
+    </div>
+  </section>
+  <template v-for="(activity, index) in content.activities" :key="activity.id">
+    <div v-if="index > 1" class="trc-divider" aria-hidden="true"></div>
+    <section
+      :id="activity.id"
+      class="trc-section trc-feature"
+      :class="{ 'trc-dark': activity.dark }"
     >
-      <!-- Content -->
-      <div class="flex flex-1 flex-col items-center lg:items-start">
-        <h3
-          class="text-white drop-shadow-l text-3xl sm:text-4xl lg:text-5xl text-center lg:text-left mb-6 font-Lucky">
-          Turnu Rosu Challenge
-        </h3>
-        <h3
-          class="text-white drop-shadow-l text-3xl sm:text-4xl lg:text-5xl text-center lg:text-left mb-6 font-Lucky">
-          16 MAI 2026
-        </h3>
-
-        <!-- Countdown Timer -->
-        <div
-          v-if="timeRemaining"
-          class="countdown text-center lg:text-left p-4 rounded-lg w-5/6 text-white drop-shadow-lg"
-        >
-          <div class="flex justify-center gap-4 space-x-4 text-2xl font-semibold">
-            <div class="countdown-item flex flex-col items-center">
-              <span class="countdown-number text-4xl font-bold text-white drop-shadow-lg">{{
-                timeRemaining.days
-              }}</span>
-              <span class="countdown-label text-white font-bold drop-shadow-md">zile</span>
-            </div>
-            <div class="countdown-item flex flex-col items-center">
-              <span class="countdown-number text-4xl font-bold text-[#cc1812]">{{
-                timeRemaining.hours
-              }}</span>
-              <span class="countdown-label text-white drop-shadow-l">ore</span>
-            </div>
-            <div class="countdown-item flex flex-col items-center">
-              <span class="countdown-number text-4xl font-bold text-[#cc1812]">{{
-                timeRemaining.minutes
-              }}</span>
-              <span class="countdown-label text-gray-700">minute</span>
-            </div>
-            <div class="countdown-item flex flex-col items-center">
-              <span class="countdown-number text-4xl font-bold text-[#cc1812]">{{
-                timeRemaining.seconds
-              }}</span>
-              <span class="countdown-label text-gray-700">secunde</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex justify-center flex-wrap gap-6 font-Lucky w-5/6 tracking-widest">
-          <button type="button" class="join-btn" @click="goToInscrieri">Inscrieri</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Features -->
-  <section class="bg-bookmark-white py-20 mt-20 lg:mt-60 lg:overflow-hidden">
-    <!-- Heading -->
-    <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2 mb-4">
-      <h1 class="text-4xl lg:text-5xl text-center text-bookmark-blue font-Lucky">Info</h1>
-      <p class="text-center text-bookmark-grey mt-4">
-        Turnu Roşu Challenge promite o ediţie şi mai frumoasă decât cea anterioară! Nu rata ocazia
-        şi înscrie-te la provocarea oferită de echipa noastră!
-      </p>
-    </div>
-    <!-- Feature #1 Detalii curse -->
-    <div class="relative mt-32 lg:mt-32">
-      <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-28">
-        <!-- Image -->
-        <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+      <div class="trc-wrap trc-split" :class="{ 'trc-image-first': activity.imageFirst }">
+        <div class="trc-copy">
           <img
-            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
-            src="../assets/images/running_trc.webp"
+            class="trc-motif"
+            :src="activity.dark ? '/design/motif-light.svg' : '/design/motif.svg'"
             alt=""
+            loading="lazy"
           />
-        </div>
-        <!-- Content -->
-        <div class="flex flex-1 flex-col items-center lg:items-start">
-          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Curse</h1>
-          <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            Turnu Roșu Challenge oferă trei curse potrivite pentru fiecare nivel de pregătire, astfel încât fiecare să își găsească provocarea perfectă! Semimaratonul de 21 km, clasificat ITRA 1, este o adevărată provocare pentru cei experimentați, iar crosul de 11 km, clasificat ITRA 0, îți va oferi ocazia să testezi și să te antrenezi pe trasee montane spectaculoase. Dacă ești în căutarea unei experiențe mai relaxante, hikingul de 7 km te va purta prin peisaje uimitoare.
-          </p>
-          <button
-            type="button"
-            class="btn text-white bg-gray-900 hover:bg-bookmark-red hover:shadow-xl"
-            @click="goToCurse"
+          <h2>{{ activity.title }}</h2>
+          <p class="trc-activity-description">{{ activity.description }}</p>
+          <RouterLink
+            v-if="activity.action === 'painting'"
+            class="trc-button"
+            to="/inscrieri_pictura"
+            >{{ activity.button }}</RouterLink
           >
-            Detalii
-          </button>
+          <a v-else-if="activity.action" class="trc-button" :href="actions[activity.action]">{{
+            activity.button
+          }}</a>
         </div>
-      </div>
-    </div>
-    <!-- Feature #2 Kit Participare -->
-    <div class="relative mt-32 lg:mt-56 bg-white lg:bg-inherit py-8 lg:py-0">
-      <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
-        
-        <div
-          class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 flex flex-1 justify-center z-10 mb-10 lg:mb-0 bg-gray-800 px-2 py-1 md:px-[18px] md:py-4 rounded-[70px]"
-        >
-          <!-- Imagine tricou -->        
-          <img
-            class="w-5/6 h-5/6 sm:w-full sm:h-full lg:w-full lg:h-full"
-            src="../assets/images/Long_sleeve_shitr_TR.png"
-            alt=""
-          />
-        </div>
-        <!-- Content -->
-        <div class="flex flex-1 flex-col items-center lg:items-start">
-          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Kit Participare</h1>
-          <div class="flex flex-col mt-8 md:mt-[34px] lg:w-full font-semibold">
-            <div
-              v-for="(kit, index) in participare"
-              :key="index"
-              class="flex mb-[24px] ml-3 sm:ml-2"
-            >
-              <div class="w-[30px]">
-                <i class="text-red-600 text-2xl align-middle" :class="kit.icon"></i>
-              </div>
-              <p class="ml-3 text-slate-700 text-lg md:text-xl">{{ kit.text }}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Feature #3 Pilates-->
-    <div class="relative mt-32 lg:mt-56 mb-10">
-      <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-28">
-        <!-- Image -->
-        <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-          <img
-            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
-            src="../assets/images/pilates_trc.webp"
-            alt=""
-          />
-        </div>
-        <!-- Content -->
-        <div class="flex flex-1 flex-col items-center lg:items-start">
-          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Streching</h1>
-          <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            Încheie-ți sesiunea de alergare cu o clasă de stretching revitalizantă la Turnu Roșu Challenge! Exercițiile de întindere te ajută să îți relaxezi mușchii, să previi rigiditatea și să accelerezi procesul de recuperare. Participă pentru a îmbunătăți flexibilitatea, a reduce riscul de accidentări și a te reîncărcare pentru următoarea provocare!</p>
-        </div>
-      </div>
-    </div>
-    <!-- Feature #4 Masaj -->
-    <div class="relative mt-32 lg:mt-56 bg-white lg:bg-inherit py-8 lg:py-0">
-      <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
-        
-        <div
-          class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 flex flex-1 justify-center z-10 mb-10 lg:mb-0"
-        >
-          <!-- Imagine masaj -->        
-          <img
-            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
-            src="../assets/images/masaj_trc.webp"
-            alt=""
-          />
-        </div>
-        <!-- Content -->
-        <div class="flex flex-1 flex-col items-center lg:items-start">
-          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Masaj</h1>
-          <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            După o cursă intensă, corpul tău merită un masaj regenerativ. Sesiunile de masaj post-alergare oferite la Turnu Roșu Challenge sunt concepute pentru a reduce tensiunea musculară, a îmbunătăți recuperarea și a stimula circulația sanguină. Masajul va contribui la relaxarea rapidă a mușchilor și la prevenirea durerilor ulterioare. Vino să te refaci rapid și să te bucuri de o revigorare completă!.</p>
-        </div>
-      </div>
-    </div>
-    <!-- Feature #5 Camping-->
-    <div class="relative mt-32 lg:mt-56 mb-10">
-      <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-28">
-        <!-- Image -->
-        <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-          <img
-            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
-            src="../assets/images/camping_trc.webp"
-            alt=""
-          />
-        </div>
-        <!-- Content -->
-        <div class="flex flex-1 flex-col items-center lg:items-start">
-          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Camping</h1>
-          <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            În <b>15 MAI</b>,seara dinaintea competiției, te invităm să te alături unui moment de relaxare și camaraderie! Vino să petrecem noaptea sub cerul înstelat într-o atmosferă prietenoasă și relaxantă la foc de tabără, unde ne vom bucura de un film în aer liber. Este ocazia perfectă să te relaxezi, să te conectezi cu ceilalți și să te încarci cu energie pozitivă înainte de competiție! Vei scăpa de stresul cotidian, te vei reconecta cu natura și vei fi pregătit pentru ziua cea mare!</p>
-          <button
-            type="button"
-            class="btn text-white bg-gray-900 hover:bg-bookmark-red hover:shadow-xl"
-            @click="goToCamping"
-          >
-            Rezervă loc!
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Sectiunea Pictura -->
-  <section class="py-20 mt-20">
-    <!-- Heading -->
-    <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
-      <h1 class="text-4xl lg:text-5xl text-center text-bookmark-blue font-Lucky">
-        Atelier de pictura
-      </h1>
-      <p class="text-center text-bookmark-grey mt-4">
-        Atelierul de pictură revine şi în cadrul celei de a 3-a ediţie a Turu Rosu Challenge.
-        Alege-ţi kit-ul care vi se potriveşte!
-      </p>
-    </div>
-    <!-- Cards -->
-    <div
-      class="px-6 md:px-4 container grid grid-cols-1 gap-16 lg:gap-20 max-w-screen-lg mt-16"
-    >
-      <!-- Card 1 -->
-      <div
-        class="flex flex-col rounded-xl shadow-xl hover:shadow-orange-300 hover:scale-98 lg:mb-16 bg-gray-100"
-      >
-        <div class="p-6 flex flex-col items-center">
-          <img class="w-48" src="../assets/images/painter1.png" alt="" />
-          <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Pictură pe șablon copii</h3>
-          <p class="mb-2 text-bookmark-grey font-light"> 35 RON / copil</p>
-          <p class="mt-5 text-sm text-bookmark-blue text-center">
-            În timp ce părinții aleargă pe poteci, cei mici au parte de propria aventură la Turnu Roșu Challenge! Atelierul nostru de pictură este un spațiu dedicat imaginației, unde copiii pot explora culorile, natura și bucuria de a crea.
-            Atelierul se desfășoară în aer liber, printre copaci și verdeață, într-un colț liniștit, dar plin de inspirație.
-          </p>
-        </div>
-        <hr class="border-b border-bookmark-white" />
-        <div class="flex p-6">
-          <button
-            type="button"
-            class="flex-1 btn text-white bg-gray-900 hover:bg-bookmark-white hover:text-black"
-            @click="goToInscrieriPictura"
-          >
-            Înscrie-te!
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Feature #4 Voluntari -->
-    <div class="relative mt-32 lg:mt-32">
-      <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-28">
-        <!-- Image -->
-        <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-          <img
-            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 rounded-full"
-            src="../assets/images/voluntari.jpeg"
-            alt=""
-          />
-        </div>
-        <!-- Content -->
-        <div class="flex flex-1 flex-col items-center lg:items-start">
-          <h1 class="text-3xl md:text-4xl text-bookmark-blue font-Lucky">Voluntari</h1>
-          <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-            Vino alături de noi pentru a face parte din echipa noastră la următorul concurs! Avem nevoie de ajutor pentru organizare, logistică și suport tehnic.
-          </p>
-          <button
-            type="button"
-            class="btn text-white bg-gray-900 hover:bg-bookmark-red hover:shadow-xl"
-            @click="goToVoluntari"
-          >
-            Înscrie-te
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="bg-bookmark-white py-20">
-    <div class="container">
-      <!-- Heading -->
-      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
-        <h1 class="text-3xl text-center text-bookmark-blue font-Lucky">
-          Frequently Asked Questions
-        </h1>
-        <p class="text-center text-bookmark-grey mt-4">
-          Aici sunt câteva dintre întrebările puse cel mai frecvent. Dacă aveţi altele pe lângă cele
-          prezentate nu ezitaţi să ne contactaţi!
-        </p>
-      </div>
-      <!-- FAQ Items -->
-      <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto">
-        <div v-for="(item, index) in faqItems" :key="index" class="">
-          <div class="flex items-center border-b py-4">
-            <span class="flex-1" :class="{ 'font-semibold': index === activeIndex }">{{
-              item.question
-            }}</span>
-            <i
-              @click="changeActiveIndex(index)"
-              class="text-bookmark-purple fas fa-chevron-down cursor-pointer"
-            ></i>
-          </div>
-          <p v-show="index == activeIndex" class="grow-1 mb-4 mt-2 text-gray-700">
-            {{ item.answer }}
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-   <section class="py-20">
-    <div class="container flex flex-col items-center">
-      <div class="sm:w-3/4 mx-auto px-2">
-        <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Sponsor Principal</h1>
-      </div>
-        <div class="lg:w-5/6 flex flex-wrap justify-center items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
-          <a href="https://regnology.net/" target="_blank">
-            <img
-            class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
-            src="../assets/parteneri/logo-regnology.png"
-            alt=""
-            />
-          </a>
-        </div>
-    </div>
-  </section>
-
-  <section class="py-20">
-    <div class="container flex flex-col items-center">
-      <div class="sm:w-3/4 mx-auto px-2">
-        <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Parteneri</h1>
-        <p class="text-center text-bookmark-grey mt-4">
-          Mulţumim partenerilor noştri pentru implicarea în realizarea, promovarea şi dezvoltarea
-          celei de a III-a ediţii a concursului Turnu Roşu Challenge!
-        </p>
-      </div>
-      <div class="lg:w-5/6 flex flex-wrap items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
         <img
-          class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-          src="../assets/parteneri/logo-transagape.png"
-          alt=""
+          class="trc-photo"
+          :src="`/design/${activity.image}.png`"
+          :alt="activity.title + ' la Turnu Roșu Challenge'"
+          loading="lazy"
+          width="640"
+          height="427"
         />
-        <img
-          class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-          src="../assets/parteneri/logo-casa.webp"
-          alt=""
-        />
-        <a href="https://www.facebook.com/CosteiuEmii" target="_blank">
-          <img
-            class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-            src="../assets/parteneri/logo-foto.webp"
-            alt=""
-          />
-        </a>
-        <a href="https://www.instagram.com/gis.wood?igsh=MTJocng5MTJkYzFseQ==" target="_blank">
-          <img
-            class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-            src="../assets/parteneri/logo-gis.png"
-            alt=""
-          />
-        </a>
-        <a href="https://www.fotograph.ro/" target="_blank">
-          <img
-            class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-            src="../assets/parteneri/logo-alex.webp"
-            alt=""
-          />
-        </a>
-        <a href="https://andusports.ro/" target="_blank">
-          <img
-            class="w-[152px] sm:w-40 md:w-48 lg:w-52 cursor-pointer"
-            src="../assets/parteneri/andu_logo.png"
-            alt=""
-          />
-        </a>
-        <a href="https://www.harting.com/en-RO" target="_blank">
-          <img
-            class="w-[148px] sm:w-38 md:w-44 lg:w-48 cursor-pointer"
-            src="../assets/parteneri/harting_logo.png"
-            alt=""
-          />
-        </a>
-        <a href="https://craciuntrade.ro/" target="_blank">
-          <img
-            class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
-            src="../assets/parteneri/logo-craciuntrade.png"
-            alt=""
-          />
-        </a>
-        <a href="https://endurancepro.ro/" target="_blank">
-          <img
-            class="w-[152px] sm:w-60 md:w-68 lg:w-72 cursor-pointer"
-            src="../assets/parteneri/endurance.png"
-            alt=""
-          />
-        </a>
+      </div>
+    </section>
+  </template>
+  <section class="trc-section trc-dark trc-faq">
+    <div class="trc-wrap trc-split">
+      <div class="trc-copy">
+        <h2>Frequently <br />Asked <br />Questions</h2>
+        <p>{{ content.faqDescription }}</p>
+      </div>
+      <div class="trc-questions">
+        <details v-for="item in content.faq" :key="item.question" name="faq">
+          <summary>{{ item.question }}<img src="/design/chevron.svg" alt="" /></summary>
+          <p>{{ item.answer }}</p>
+        </details>
       </div>
     </div>
   </section>
-
-  <section class="py-20">
-    <div class="container flex flex-col items-center">
-      <div class="sm:w-3/4 mx-auto px-2">
-      </div>
-        <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Actiune cofinantata de</h1>
-        <div class="lg:w-5/6 flex flex-wrap justify-center items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
-          <a href="https://primariaturnurosu.ro/" target="_blank">
-            <img
-            class="w-[220px] sm:w-64 md:w-80"
-            src="../assets/parteneri/logo-primarie.webp"
-            alt=""
-            />
-          </a>
+  <section class="trc-section trc-sponsors">
+    <div class="trc-wrap trc-sponsor-columns">
+      <div class="trc-sponsor-groups">
+        <div>
+          <h2>Sponsor Principal</h2>
+          <a href="https://regnology.net/" target="_blank" rel="noopener noreferrer"
+            ><img class="trc-principal" src="/design/regnology.png" alt="Regnology" loading="lazy"
+          /></a>
         </div>
-    </div>
-  </section>
-
-  <section class="py-20">
-    <div class="container flex flex-col items-center">
-      <div class="sm:w-3/4 mx-auto px-2">
-        <h1 class="text-4xl text-center text-bookmark-blue font-Lucky">Parteneri institutionali</h1>
-      </div>
-        <div class="lg:w-5/6 flex flex-wrap justify-center items-center mt-12 lg:mt-14 gap-4 md:gap-[26px]">
-          <a href="https://osizvorulflorii.ro/" target="_blank">
-            <img
-              class="w-[152px] sm:w-20 md:w-24 lg:w-28 lg:h-28 cursor-pointer"
-              src="../assets/parteneri/logo_ocol.png"
-              alt=""
-            />
-          </a>  
-          <a href="https://www.salvamontsibiu.ro/" target="_blank">
-            <img
-              class="w-[200px] sm:w-32 md:w-40 lg:w-48 lg:h-28 cursor-pointer"
-              src="../assets/parteneri/logo_salvamont.png"
-              alt=""
-            />
-          </a>
-          <a href="https://www.jandarmeriasibiu.ro/" target="_blank">
-            <img
-              class="w-[152px] sm:w-20 md:w-24 lg:w-28 lg:h-28 cursor-pointer"
-              src="../assets/parteneri/logo_jandarmerie.png"
-              alt=""
-            />
-          </a>
+        <div>
+          <h2>Actiune cofinantata de</h2>
+          <a href="https://primariaturnurosu.ro/" target="_blank" rel="noopener noreferrer"
+            ><img
+              class="trc-institution"
+              src="/design/primarie.png"
+              alt="Primăria Turnu Roșu"
+              loading="lazy"
+          /></a>
         </div>
+        <div>
+          <h2>Parteneri institutionali</h2>
+          <div class="trc-institutions">
+            <a
+              v-for="item in institutions"
+              :key="item[0]"
+              :href="item[2]"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                class="trc-institution"
+                :src="`/design/${item[0]}.png`"
+                :alt="item[1]"
+                loading="lazy"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2>Parteneri</h2>
+        <div class="trc-partner-grid">
+          <component
+            :is="item[2] ? 'a' : 'div'"
+            v-for="item in partners"
+            :key="item[0]"
+            :href="item[2] || undefined"
+            :target="item[2] ? '_blank' : undefined"
+            rel="noopener noreferrer"
+            ><img :src="`/design/${item[0]}.${item[3] || 'png'}`" :alt="item[1]" loading="lazy"
+          /></component>
+        </div>
+        <p class="trc-thanks">{{ content.thanks }}</p>
+      </div>
     </div>
   </section>
-
-  <RouterView></RouterView>
 </template>
-
-<style scoped>
-.accordion-content {
-  max-height: 0;
-  opacity: 0;
-  overflow: hidden;
-  transition:
-    max-height 0.3s ease,
-    opacity 0.3s ease;
-}
-.accordion-content.show {
-  max-height: 150px; /* Adjust to fit your content height */
-  opacity: 1;
-}
-
-.countdown-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.countdown-number {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #cc1812;
-}
-.countdown-label {
-  font-size: 1rem;
-  color: #ffffff;
-}
-</style>
