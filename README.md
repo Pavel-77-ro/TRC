@@ -12,9 +12,14 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
+Use Node.js 22.12+ (Node 22), also configured in the Vercel project settings.
+
 ```sh
-npm install
+npm ci
 ```
+
+See [security review notes](docs/security-review.md) for the protections added and
+the Firestore checks that still require access to the Firebase project.
 
 ### Compile and Hot-Reload for Development
 

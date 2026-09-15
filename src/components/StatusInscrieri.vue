@@ -4,7 +4,7 @@
       :id="iframeId"
       class="sportic-widget w-full"
       :src="iframeSrc"
-      sandbox="allow-top-navigation allow-scripts allow-popups allow-forms allow-same-origin allow-modals"
+      sandbox="allow-top-navigation-by-user-activation allow-scripts allow-popups allow-forms allow-same-origin allow-modals"
       style="width: 100%; overflow-x: hidden; border: 0; height: 145px;"
     ></iframe>
   </div>
