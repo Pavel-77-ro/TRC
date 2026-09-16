@@ -18,6 +18,8 @@ export default {
       }
     },
     fontFamily: {
+      sans: ['Inter', 'Arial', 'sans-serif'],
+      Inter: ['Inter', 'Arial', 'sans-serif'],
       Poppins: ['Inter, sans-serif'],
       Lucky: ['Inter, sans-serif']
     },

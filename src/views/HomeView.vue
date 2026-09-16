@@ -7,7 +7,7 @@ const remaining = ref([0, 0, 0, 0]);
 const labels = ['zile', 'ore', 'minute', 'secunde'];
 let timer;
 function updateCountdown() {
-  const s = Math.max(0, Math.floor((new Date('2026-05-16T09:00:00+03:00') - Date.now()) / 1000));
+  const s = Math.max(0, Math.floor((new Date(content.countdownTarget) - Date.now()) / 1000));
   remaining.value = [
     Math.floor(s / 86400),
     Math.floor(s / 3600) % 24,

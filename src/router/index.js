@@ -5,7 +5,6 @@ const Rezultate2025View = () => import('@/views/Rezultate2025View.vue');
 const ParticipantiView = () => import('@/views/ParticipantiView.vue');
 const RegulamentView = () => import('@/views/RegulamentView.vue');
 const ContactView = () => import('@/views/ContactView.vue');
-const InscrieriView = () => import('@/views/InscrieriView.vue');
 const InscrieriPicturaView = () => import('@/views/InscrieriPicturaView.vue');
 const CurseView = () => import('@/views/CurseView.vue');
 const GalerieView = () => import('@/views/GalerieView.vue');
@@ -49,7 +48,7 @@ const routes = [
   {
     path: '/inscrieri',
     name: 'inscrieri',
-    component: InscrieriView
+    redirect: { name: 'Inregistrare' }
   },
   {
     path: '/inscrieri_pictura',
