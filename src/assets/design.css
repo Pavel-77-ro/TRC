@@ -286,6 +286,7 @@ a {
 }
 .trc-courses {
   background: var(--trc-accent);
+  color: #fff;
 }
 .trc-tower {
   width: 80px;

@@ -1,4 +1,11 @@
 <script setup>
+import event from '@/data/design.json';
+const feeTiers = [
+  { name: 'Early Bird', period: '20 Septembrie 2026 - 1 Ianuarie 2027', prices: [180, 150, 120, 100] },
+  { name: 'Standard', period: '2 Ianuarie - 2 Mai 2027', prices: [200, 170, 140, 120] },
+  { name: 'Last Call', period: '3 Mai - 23 Mai 2027', prices: [230, 200, 170, 140] }
+];
+const races = ['Maraton', 'Semimaraton', 'Cros', 'Power Hiking'];
 const info1 = [
   {
     title: '1. Caracteristici ale competiției',
@@ -12,7 +19,7 @@ const info1 = [
     <h1 class="text-4xl md:text-5xl text-center text-gray-800 font-Lucky">Regulament</h1>
     <p class="text-center text-gray-700 mt-6 mb-4">
       Acest regulament se aplică participanților la concursul “Turnu Roșu
-      Challenge”. Evenimentul va avea loc în Comuna Turnu Roșu, jud. Sibiu, locul de desfășurare al
+      Challenge”. Evenimentul va avea loc în data de {{ event.date }}, în Comuna Turnu Roșu, jud. Sibiu, locul de desfășurare al
       evenimentului fiind spațiul din apropierea Mănăstirii Turnu Roșu.
     </p>
     <section class="p-1" v-for="(item, index) in info1" :key="index">
@@ -45,50 +52,21 @@ const info1 = [
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">3. Înscrierea concurenților</h2>
       <div
         class="text-gray-700 p-1 mt-5 mb-3">
-        Înscrierile se vor face doar online completând formularul de înscriere pus la dispoziție de organizator prin 42km.ro.
-        Nu se fac înscrieri în ziua concursului, înscrierile se închid în 04 Mai cu două săptămâni înaintea evenimentului. Măsura este luată pentru a putea optimiza utilizarea resurselor logistice, pentru a evita risipa sau lipsa unor produse sau servicii pentru concurenții înscriși. ( De exemplu, estimarea produselor alimentare pentru punctele de alimentare, brunch, medalii, tricouri șamd.)
+        Înscrierile se vor face doar online completând formularul de înscriere pus la dispoziție de organizator prin Kadenza.
+        Nu se fac înscrieri în ziua concursului, înscrierile se închid în 23 Mai 2027. Măsura este luată pentru a putea optimiza utilizarea resurselor logistice, pentru a evita risipa sau lipsa unor produse sau servicii pentru concurenții înscriși. ( De exemplu, estimarea produselor alimentare pentru punctele de alimentare, brunch, medalii, tricouri șamd.)
     </div>
     </section>
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">4. Taxa de participare</h2>
-      <div
-        class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
-
-        <!-- Title spanning all columns -->
-        <p class="p-2 col-span-3 text-xl lg:text-2xl">Early Bird (1 Februarie - 15 Februarie)</p>
-        <!-- Grid Content -->
-        <p class="p-2">Semimaraton</p>
-        <p class="p-2">Cros</p>
-        <p class="p-2">Power Hiking</p>
-        <p class="p-2">150 RON</p>
-        <p class="p-2">120 RON</p>
-        <p class="p-2">100 RON</p>
-      </div>
-
-      <div
-        class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
-        <!-- Title spanning all columns -->
-        <p class="p-2 col-span-3 text-xl lg:text-2xl">Standard (16 Februarie - 3 Aprilie) </p>
-        <!-- Grid Content -->
-        <p class="p-2">Semimaraton</p>
-        <p class="p-2">Cros</p>
-        <p class="p-2">Power Hiking</p>
-        <p class="p-2">170 RON</p>
-        <p class="p-2">140 RON</p>
-        <p class="p-2">120 RON</p>
-      </div>
-
-      <div
-        class="grid grid-rows-4 grid-cols-3 justify-items-center text-white bg-gray-800 font-bold rounded-xl text-normal lg:text-lg m-4 ml-2">
-        <!-- Title spanning all columns -->
-        <p class="p-2 col-span-3 text-xl lg:text-2xl">Last Call (4 Aprilie - 4 Mai)</p>
-        <!-- Grid Content -->
-        <p class="p-2">Semimaraton</p>
-        <p class="p-2">Cros</p>
-        <p class="p-2">Power Hiking</p>
-        <p class="p-2">190 RON</p>
-        <p class="p-2">160 RON</p>
-        <p class="p-2">130 RON</p>
+      <div v-for="tier in feeTiers" :key="tier.name" class="bg-bookmark-blue text-white rounded-xl p-5 my-5">
+        <h3 class="text-xl font-bold">{{ tier.name }}</h3>
+        <p class="mt-1 mb-4">{{ tier.period }}</p>
+        <dl class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <div v-for="(race, index) in races" :key="race">
+            <dt class="text-sm">{{ race }}</dt>
+            <dd class="font-bold text-lg mt-1">{{ tier.prices[index] }} RON</dd>
+          </div>
+        </dl>
       </div>
       <p class="text-gray-700 p-1 mt-5 mb-3">
         Taxa de participare se poate achita cu cardul la înscriere.
@@ -138,8 +116,8 @@ const info1 = [
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">6. Premii</h2>
 
-      <p class="text-gray-700 p-1 mt-5 mb-3">
-        <ul><strong>Semimaraton</strong>
+      <div class="text-gray-700 p-1 mt-5 mb-3">
+        <strong>Semimaraton</strong><ul>
           <li>– se premiază primele 3 locuri la OPEN M/F astfel:</li>
           <li>  *locul 1 -suplimente sportive în valoare de 300 RON </li>
           <li>  *locul 2 -suplimente sportive în valoare de 200 RON </li>
@@ -148,9 +126,9 @@ const info1 = [
           <li>– se premiază cu diplomă și trofeu primele 3 locuri la fiecare categorie M/F ;</li>
           <li>– dacă unul din concurenți a fost premiat la categoria OPEN, acesta nu mai poate fi premiat și la categorie;</li>   
         </ul>
-      </p>
-      <p class="text-gray-700 p-1 mt-5 mb-3">
-        <ul><strong>Cros</strong>
+      </div>
+      <div class="text-gray-700 p-1 mt-5 mb-3">
+        <strong>Cros</strong><ul>
           <li>– se premiază primele 3 locuri la OPEN M/F astfel:</li>
           <li>  *locul 1 -suplimente sportive în valoare de 300 RON </li>
           <li>  *locul 2 -suplimente sportive în valoare de 200 RON </li>
@@ -159,7 +137,7 @@ const info1 = [
           <li>– se premiază cu diplomă și trofeu primele 3 locuri la fiecare categorie M/F ;</li>
           <li>– dacă unul din concurenți a fost premiat la categoria OPEN, acesta nu mai poate fi premiat și la categorie;</li>
         </ul>
-      </p>
+      </div>
     </section>
 
     <section class="p-1">
@@ -243,7 +221,7 @@ const info1 = [
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">7.9. Echipament obligatoriu</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
-        Având în vedere faptul că “Turnu Roșu Challenge” este un concurs ce se desfășoară în zona subalpină în luna Mai, suntem nevoiți să respectăm capriciile vremii și să luăm în considerare două variante de echipament în funcție de situația traseului și a condițiilor meteo prognozate la data evenimentului. Le vom numi varianta de vreme caldă respectiv varianta de vreme rece. Organizatorul va anunța cu 3 zile înaintea evenimentului care variantă va deveni obligatorie.
+        Având în vedere faptul că “Turnu Roșu Challenge” este un concurs ce se desfășoară în zona subalpină în luna Iunie, suntem nevoiți să respectăm capriciile vremii și să luăm în considerare două variante de echipament în funcție de situația traseului și a condițiilor meteo prognozate la data evenimentului. Le vom numi varianta de vreme caldă respectiv varianta de vreme rece. Organizatorul va anunța cu 3 zile înaintea evenimentului care variantă va deveni obligatorie.
         <br><br>
         <strong>Varianta de vreme caldă:</strong>
         <ul class="list-disc list-inside">
@@ -278,12 +256,7 @@ const info1 = [
     <section class="p-1">
       <h2 class="text-xl md:text-2xl mt-10 text-gray-700 font-semibold">7.10. Startul</h2>
       <div class="text-gray-700 p-1 mt-5 mb-3">
-        Se va da din punctul indicat după următoarea schemă:
-        <ul class="list-disc list-inside">
-          <li>SEMIMARATON: ora 09:00</li>
-          <li>CROS: ora 09:45</li>
-          <li>POWER HIKING: ora 09:15</li>
-        </ul>
+        Se va publica de către organizator cu 2 săptămâni înainte.
       </div>
     </section>
 

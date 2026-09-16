@@ -11,11 +11,16 @@ media templates, rather than additional website routes.
   stretching, massage, camping, painting workshop, FAQ, sponsors and partners.
 - Shared responsive navigation and footer use the source logo and icons.
 - Mobile layouts adapt the desktop composition into a single column.
-- Existing route names, registration destinations, copy, dates and FAQ answers
-  are retained as requested. The 2026 countdown consequently stays at zero
-  after the event. No future edition or replacement registration URL is inferred.
+- The event date is 5 June 2027. The countdown targets midnight in Romania
+  (`+03:00`), since race start times will be announced two weeks before the event.
+  Camping is on 4 June; registration closes on 23 May. The 2027 fee tiers
+  include Marathon, Half Marathon, Cross and Power Hiking.
+- Race registration and the participant list use the supplied Kadenza competition.
+  The legacy `/inscrieri` route redirects to `/inregistrare`. External historical
+  results, GPX file names and the separate volunteer link are retained.
 - Existing inner pages remain available with the shared navigation, footer,
-  font and palette. Their content and embedded services remain unchanged.
+  Inter font and palette. Historical third-party iframe contents retain their
+  provider-controlled typography.
 
 ## Assets
 

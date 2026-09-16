@@ -1,6 +1,7 @@
 {
   "title": "Turnu Rosu\nChallenge",
-  "date": "16 MAI 2026",
+  "date": "05.06.2027",
+  "countdownTarget": "2027-06-05T00:00:00+03:00",
   "description": "Turnu Roşu Challenge promite o ediţie şi mai frumoasă decât cea anterioară! Nu rata ocazia şi înscrie-te la provocarea oferită de echipa noastră!",
   "kit": [
     "Medalie de participare",
@@ -48,7 +49,7 @@
     {
       "id": "camping",
       "title": "Camping",
-      "description": "În 15 MAI,seara dinaintea competiției, te invităm să te alături unui moment de relaxare și camaraderie! Vino să petrecem noaptea sub cerul înstelat într-o atmosferă prietenoasă și relaxantă la foc de tabără, unde ne vom bucura de un film în aer liber. Este ocazia perfectă să te relaxezi, să te conectezi cu ceilalți și să te încarci cu energie pozitivă înainte de competiție! Vei scăpa de stresul cotidian, te vei reconecta cu natura și vei fi pregătit pentru ziua cea mare!",
+      "description": "În 4 IUNIE 2027, seara dinaintea competiției, te invităm să te alături unui moment de relaxare și camaraderie! Vino să petrecem noaptea sub cerul înstelat într-o atmosferă prietenoasă și relaxantă la foc de tabără, unde ne vom bucura de un film în aer liber. Este ocazia perfectă să te relaxezi, să te conectezi cu ceilalți și să te încarci cu energie pozitivă înainte de competiție! Vei scăpa de stresul cotidian, te vei reconecta cu natura și vei fi pregătit pentru ziua cea mare!",
       "image": "camping",
       "imageFirst": false,
       "dark": false,
@@ -77,7 +78,7 @@
     },
     {
       "question": "Până când mă pot înscrie?",
-      "answer": "Înscrierile sunt disponibile până pe data de 04 Mai 2026. Cei ce doresc să se înscrie mai repede pot profita de reducerile early bird până pe 8 Februarie."
+      "answer": "Înscrierile sunt disponibile până pe data de 23 Mai 2027. Cei ce doresc să se înscrie mai repede pot profita de reducerile early bird între 20 Septembrie 2026 și 1 Ianuarie 2027."
     },
     {
       "question": "Unde pot vedea rezultatele?",
