@@ -140,7 +140,7 @@ a {
   object-fit: cover;
 }
 .trc-hero-shade {
-  background: rgb(29 23 20 / 0.8);
+  background: rgb(29 23 20 / 0.58);
 }
 .trc-hero-content {
   position: relative;
@@ -214,11 +214,15 @@ a {
     transform: translateY(8px);
   }
 }
-.trc-video-control {
+.trc-video-controls {
   position: absolute;
   bottom: 18px;
   right: 24px;
   z-index: 2;
+  display: flex;
+  gap: 8px;
+}
+.trc-video-control {
   width: 40px;
   height: 40px;
   border: 1px solid #fff8;
@@ -604,7 +608,7 @@ a {
     bottom: 20px;
     right: 0;
   }
-  .trc-video-control {
+  .trc-video-controls {
     right: 72px;
     bottom: 24px;
   }

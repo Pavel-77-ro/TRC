@@ -6,14 +6,15 @@
   "kit": [
     "Medalie de participare",
     "Numar de concurs",
-    "Bluza (optional) - 90 lei",
+    "Tricou (optional) - 90 lei",
     "Voucher masă",
     "Gel carbohidrati",
     "Vouchere discount"
   ],
-  "courses": "Turnu Roșu Challenge oferă trei curse potrivite pentru fiecare nivel de pregătire, astfel încât fiecare să își găsească provocarea perfectă! Semimaratonul de 21 km, clasificat ITRA 1, este o adevărată provocare pentru cei experimentați, iar crosul de 11 km, clasificat ITRA 0, îți va oferi ocazia să testezi și să te antrenezi pe trasee montane spectaculoase. Dacă ești în căutarea unei experiențe mai relaxante, hikingul de 7 km te va purta prin peisaje uimitoare.",
+  "coursesIntro": "La TRC, fiecare își găsește propria provocare.",
+  "courses": "Power Hiking pentru bucuria de a descoperi muntele, Cros și Semimaraton pentru cei care vor să-și testeze limitele, iar din 2027, Maratonul — cea mai solicitantă aventură TRC, destinată alergătorilor cu experiență.",
   "faqDescription": "Aici sunt câteva dintre întrebările puse cel mai frecvent. Dacă aveţi altele pe lângă cele prezentate nu ezitaţi să ne contactaţi!",
-  "thanks": "Mulţumim partenerilor noştri pentru implicarea în realizarea, promovarea şi dezvoltarea celei de a III-a ediţii a concursului Turnu Roşu Challenge!",
+  "thanks": "Mulţumim partenerilor noştri pentru implicarea în realizarea, promovarea şi dezvoltarea celei de a IV-a ediţii a concursului Turnu Roşu Challenge!",
   "copyright": "Copyright ©2025 Club Sportiv Montan Sibiu – CSMS. Toate drepturile rezervate.",
   "activities": [
     {
@@ -47,14 +48,15 @@
       "action": ""
     },
     {
-      "id": "camping",
-      "title": "Camping",
-      "description": "În 4 IUNIE 2027, seara dinaintea competiției, te invităm să te alături unui moment de relaxare și camaraderie! Vino să petrecem noaptea sub cerul înstelat într-o atmosferă prietenoasă și relaxantă la foc de tabără, unde ne vom bucura de un film în aer liber. Este ocazia perfectă să te relaxezi, să te conectezi cu ceilalți și să te încarci cu energie pozitivă înainte de competiție! Vei scăpa de stresul cotidian, te vei reconecta cu natura și vei fi pregătit pentru ziua cea mare!",
-      "image": "camping",
+      "id": "brunch",
+      "title": "Brunch",
+      "description": "După aventura de pe traseu, ne revedem la masă! Brunch-ul TRC este un prilej de a-ți reîncărca energia, de a depăna poveștile cursei și de a te bucura de timpul petrecut împreună. În aer liber, aproape de munte, sărbătorim fiecare provocare dusă la capăt într-o atmosferă relaxată, alături de comunitatea Turnu Roșu Challenge.",
+      "image": "brunch",
+      "imageAlt": "Imagine ilustrativă: brunch în aer liber, cu pâine, brânzeturi, legume și fructe",
       "imageFirst": false,
       "dark": false,
-      "button": "Rezervă loc!",
-      "action": "camping"
+      "button": "",
+      "action": ""
     },
     {
       "id": "painting",

@@ -27,10 +27,7 @@ onMounted(() => {
 });
 onUnmounted(() => clearInterval(timer));
 const actions = {
-  volunteers:
-    'https://raceoffice.ro/clubul-sportiv-montan-sibiu/turnu-rosu-challenge-2026/register',
-  camping:
-    'https://docs.google.com/forms/d/e/1FAIpQLSe55_MNNCllCHoXyX6U3Mqt-X4NH8G40k_sktun-jSba3KOnQ/viewform?usp=sharing'
+  volunteers: 'https://raceoffice.ro/clubul-sportiv-montan-sibiu/turnu-rosu-challenge-2026/register'
 };
 const partners = [
   ['transagape', 'Trans Agape'],
@@ -99,7 +96,10 @@ const institutions = [
         <img class="trc-tower" src="/design/tower.svg" alt="" loading="lazy" />
         <h2>Curse</h2>
         <p class="trc-course-date">{{ content.date }}</p>
-        <p>{{ content.courses }}</p>
+        <p>
+          <strong>{{ content.coursesIntro }}</strong
+          ><br />{{ content.courses }}
+        </p>
         <RouterLink class="trc-button trc-button-dark" to="/curse">Detalii</RouterLink>
       </div>
     </div>
@@ -134,7 +134,7 @@ const institutions = [
         <img
           class="trc-photo"
           :src="`/design/${activity.image}.png`"
-          :alt="activity.title + ' la Turnu Roșu Challenge'"
+          :alt="activity.imageAlt || activity.title + ' la Turnu Roșu Challenge'"
           loading="lazy"
           width="640"
           height="427"

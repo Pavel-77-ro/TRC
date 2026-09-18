@@ -8,12 +8,12 @@ The export contains one complete website page. Other large frames are social
 media templates, rather than additional website routes.
 
 - Homepage: hero video, countdown, participation kit, courses, volunteers,
-  stretching, massage, camping, painting workshop, FAQ, sponsors and partners.
+  stretching, massage, brunch, painting workshop, FAQ, sponsors and partners.
 - Shared responsive navigation and footer use the source logo and icons.
 - Mobile layouts adapt the desktop composition into a single column.
 - The event date is 5 June 2027. The countdown targets midnight in Romania
   (`+03:00`), since race start times will be announced two weeks before the event.
-  Camping is on 4 June; registration closes on 23 May. The 2027 fee tiers
+  Registration closes on 23 May. The 2027 fee tiers
   include Marathon, Half Marathon, Cross and Power Hiking.
 - Race registration and the participant list use the supplied Kadenza competition.
   The legacy `/inscrieri` route redirects to `/inregistrare`. External historical
@@ -26,9 +26,23 @@ media templates, rather than additional website routes.
 
 `public/design` contains original raster assets and SVGs exported from the
 source vector geometry, including the shirt, logo, tower and embroidery motif.
-`hero.mp4` is the source video transcoded to 1280 px H.264 with audio removed
-and fast-start metadata (about 50 MB instead of 223 MB). A poster is shown
+`hero.mp4` is the source video transcoded to 1280 px H.264 with the original
+AAC audio restored and fast-start metadata (about 54 MB instead of 223 MB).
+Playback starts muted; separate buttons control playback and sound. A poster is shown
 before playback. Images below the hero load lazily.
+
+The favicon (`public/favicon/trc.svg`) reuses the tower geometry from the new
+logo. The hero overlay opacity is 58% so more of the footage remains visible.
+
+### Brunch image
+
+`public/design/brunch.png` is an illustrative AI-generated photograph, created
+with the built-in image generation tool, replacing the camping section image.
+The old camping reservation link was removed from this section.
+
+Generation prompt:
+
+> Use case: photorealistic-natural. Asset type: landscape 3:2 website section photo for a Romanian mountain trail running competition's Brunch section. Primary request: an inviting outdoor brunch on a rustic wooden picnic table at the foot of green Carpathian mountains. Fresh bread, local cheeses, tomatoes, cucumbers, fruit, pastries and small bowls arranged naturally, morning sunlight, relaxed communal atmosphere, soft green meadow and distant mountains in background. Editorial food photography with realistic natural textures, warm light, food in sharp focus, no visible people, no text, no logos, no watermark. This is an illustrative website image, not documentation of a real event.
 
 The raw `.fig`, extracted binary canvas and intermediate decoding files are
 not application dependencies and are not included in the repository.
