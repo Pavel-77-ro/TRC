@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '@/views/HomeView.vue';
 const Rezultate2024View = () => import('@/views/Rezultate2024View.vue');
 const Rezultate2025View = () => import('@/views/Rezultate2025View.vue');
+const Rezultate2026View = () => import('@/views/Rezultate2026View.vue');
 const ParticipantiView = () => import('@/views/ParticipantiView.vue');
 const RegulamentView = () => import('@/views/RegulamentView.vue');
 const ContactView = () => import('@/views/ContactView.vue');
@@ -15,6 +16,8 @@ const RegisterRunnersView = () => import('@/views/RegisterRunnersView.vue');
 const TermsConditionsView = () => import('@/views/TermsConditionsView.vue');
 
 const routes = [
+  { path: '/rezultate', redirect: '/rezultate/2026' },
+  { path: '/rezultate/2026', name: 'rezultate_2026', component: Rezultate2026View },
   {
     path: '/',
     name: 'home',

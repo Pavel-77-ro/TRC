@@ -65,6 +65,7 @@ function top() {
             Rezultate <img src="/design/chevron.svg" alt="" />
           </button>
           <ul v-if="resultsOpen" id="results-menu">
+            <li><RouterLink to="/rezultate/2026">Rezultate 2026</RouterLink></li>
             <li><RouterLink to="/rezultate/2025">Rezultate 2025</RouterLink></li>
             <li><RouterLink to="/rezultate/2024">Rezultate 2024</RouterLink></li>
           </ul>
