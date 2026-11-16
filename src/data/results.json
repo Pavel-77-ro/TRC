@@ -1,0 +1,4231 @@
+{
+  "2026-Semimaraton": {
+    "classified": "72 / 73",
+    "winnerTime": "02:25:02",
+    "firstWoman": "Trifanica Simona · 02:54:12",
+    "rows": [
+      {
+        "place": 1,
+        "bib": "36",
+        "name": "Călin Ioan Bercea",
+        "club": "—",
+        "category": "1° Open",
+        "time": "02:25:02",
+        "status": "FIN"
+      },
+      {
+        "place": 2,
+        "bib": "16",
+        "name": "Florin Daniel Notar",
+        "club": "—",
+        "category": "2° Open",
+        "time": "02:30:25",
+        "status": "FIN"
+      },
+      {
+        "place": 3,
+        "bib": "70",
+        "name": "Alin Bîrsan",
+        "club": "—",
+        "category": "3° Open",
+        "time": "02:38:20",
+        "status": "FIN"
+      },
+      {
+        "place": 4,
+        "bib": "37",
+        "name": "Alin Iancu",
+        "club": "—",
+        "category": "1° Masculin 50+ ani",
+        "time": "02:38:45",
+        "status": "FIN"
+      },
+      {
+        "place": 5,
+        "bib": "30",
+        "name": "Nicu Moldovan",
+        "club": "—",
+        "category": "1° Masculin 18-35 ani",
+        "time": "02:38:59",
+        "status": "FIN"
+      },
+      {
+        "place": 6,
+        "bib": "1",
+        "name": "Andrei Feiereis",
+        "club": "—",
+        "category": "2° Masculin 18-35 ani",
+        "time": "02:42:32",
+        "status": "FIN"
+      },
+      {
+        "place": 7,
+        "bib": "76",
+        "name": "Gabriel Sebastian Simon",
+        "club": "—",
+        "category": "1° Masculin 36-49 ani",
+        "time": "02:46:09",
+        "status": "FIN"
+      },
+      {
+        "place": 8,
+        "bib": "66",
+        "name": "Alin Chilian",
+        "club": "—",
+        "category": "2° Masculin 36-49 ani",
+        "time": "02:47:38",
+        "status": "FIN"
+      },
+      {
+        "place": 9,
+        "bib": "46",
+        "name": "Trifanica Simona",
+        "club": "—",
+        "category": "1° Open",
+        "time": "02:54:12",
+        "status": "FIN"
+      },
+      {
+        "place": 10,
+        "bib": "41",
+        "name": "Luminita Copacel",
+        "club": "—",
+        "category": "2° Open",
+        "time": "02:56:45",
+        "status": "FIN"
+      },
+      {
+        "place": 11,
+        "bib": "78",
+        "name": "Rodica Emilia Constantinescu - Bogdan",
+        "club": "—",
+        "category": "3° Open",
+        "time": "03:09:25",
+        "status": "FIN"
+      },
+      {
+        "place": 12,
+        "bib": "51",
+        "name": "Gelu - Calin Racovita",
+        "club": "—",
+        "category": "3° Masculin 18-35 ani",
+        "time": "03:11:00",
+        "status": "FIN"
+      },
+      {
+        "place": 13,
+        "bib": "50",
+        "name": "Teodora Sabina Bobes",
+        "club": "—",
+        "category": "1° Feminin 18-35 ani",
+        "time": "03:12:50",
+        "status": "FIN"
+      },
+      {
+        "place": 14,
+        "bib": "39",
+        "name": "Andrei Gheorghiu",
+        "club": "—",
+        "category": "3° Masculin 36-49 ani",
+        "time": "03:12:58",
+        "status": "FIN"
+      },
+      {
+        "place": 15,
+        "bib": "74",
+        "name": "Sabin Lungoci",
+        "club": "—",
+        "category": "4° Masculin 36-49 ani",
+        "time": "03:18:23",
+        "status": "FIN"
+      },
+      {
+        "place": 16,
+        "bib": "63",
+        "name": "Antonio Farcas",
+        "club": "—",
+        "category": "4° Masculin 18-35 ani",
+        "time": "03:19:15",
+        "status": "FIN"
+      },
+      {
+        "place": 17,
+        "bib": "72",
+        "name": "Jan Müller",
+        "club": "—",
+        "category": "5° Masculin 18-35 ani",
+        "time": "03:21:43",
+        "status": "FIN"
+      },
+      {
+        "place": 18,
+        "bib": "11",
+        "name": "Florentin Cismaru-Bacanu",
+        "club": "—",
+        "category": "6° Masculin 18-35 ani",
+        "time": "03:21:50",
+        "status": "FIN"
+      },
+      {
+        "place": 19,
+        "bib": "49",
+        "name": "Alexandru Lespezeanu",
+        "club": "—",
+        "category": "7° Masculin 18-35 ani",
+        "time": "03:22:00",
+        "status": "FIN"
+      },
+      {
+        "place": 20,
+        "bib": "28",
+        "name": "George Bekő",
+        "club": "—",
+        "category": "5° Masculin 36-49 ani",
+        "time": "03:23:57",
+        "status": "FIN"
+      },
+      {
+        "place": 21,
+        "bib": "34",
+        "name": "Emilian Busca",
+        "club": "—",
+        "category": "2° Masculin 50+ ani",
+        "time": "03:24:07",
+        "status": "FIN"
+      },
+      {
+        "place": 22,
+        "bib": "64",
+        "name": "Marian Rauca",
+        "club": "—",
+        "category": "8° Masculin 18-35 ani",
+        "time": "03:24:08",
+        "status": "FIN"
+      },
+      {
+        "place": 23,
+        "bib": "47",
+        "name": "Constantin-Andreas Lupu",
+        "club": "—",
+        "category": "9° Masculin 18-35 ani",
+        "time": "03:25:23",
+        "status": "FIN"
+      },
+      {
+        "place": 24,
+        "bib": "79",
+        "name": "Mihai Constantinescu",
+        "club": "—",
+        "category": "6° Masculin 36-49 ani",
+        "time": "03:26:23",
+        "status": "FIN"
+      },
+      {
+        "place": 25,
+        "bib": "27",
+        "name": "Andrei Diaconeasa",
+        "club": "—",
+        "category": "7° Masculin 36-49 ani",
+        "time": "03:27:34",
+        "status": "FIN"
+      },
+      {
+        "place": 26,
+        "bib": "71",
+        "name": "Ovidiu Rusu",
+        "club": "—",
+        "category": "8° Masculin 36-49 ani",
+        "time": "03:27:34",
+        "status": "FIN"
+      },
+      {
+        "place": 27,
+        "bib": "15",
+        "name": "Alexandru Cocieru",
+        "club": "—",
+        "category": "9° Masculin 36-49 ani",
+        "time": "03:29:29",
+        "status": "FIN"
+      },
+      {
+        "place": 28,
+        "bib": "60",
+        "name": "Cristian Chelu",
+        "club": "—",
+        "category": "10° Masculin 18-35 ani",
+        "time": "03:36:04",
+        "status": "FIN"
+      },
+      {
+        "place": 29,
+        "bib": "48",
+        "name": "Alexandra Chelemen",
+        "club": "—",
+        "category": "1° Feminin 36-49 ani",
+        "time": "03:38:03",
+        "status": "FIN"
+      },
+      {
+        "place": 30,
+        "bib": "33",
+        "name": "Dan Dragomir",
+        "club": "—",
+        "category": "3° Masculin 50+ ani",
+        "time": "03:39:53",
+        "status": "FIN"
+      },
+      {
+        "place": 31,
+        "bib": "26",
+        "name": "Melinda Braga",
+        "club": "—",
+        "category": "1° Feminin 50+ ani",
+        "time": "03:43:47",
+        "status": "FIN"
+      },
+      {
+        "place": 32,
+        "bib": "67",
+        "name": "Nicu-Daniel Constantin",
+        "club": "—",
+        "category": "10° Masculin 36-49 ani",
+        "time": "03:45:15",
+        "status": "FIN"
+      },
+      {
+        "place": 33,
+        "bib": "45",
+        "name": "Bogdan Siriteanu",
+        "club": "—",
+        "category": "11° Masculin 36-49 ani",
+        "time": "03:45:37",
+        "status": "FIN"
+      },
+      {
+        "place": 34,
+        "bib": "61",
+        "name": "Nicusor-Catalin Sihleanu",
+        "club": "—",
+        "category": "11° Masculin 18-35 ani",
+        "time": "03:50:31",
+        "status": "FIN"
+      },
+      {
+        "place": 35,
+        "bib": "56",
+        "name": "Romica Cazan",
+        "club": "—",
+        "category": "12° Masculin 18-35 ani",
+        "time": "03:50:51",
+        "status": "FIN"
+      },
+      {
+        "place": 36,
+        "bib": "4",
+        "name": "Dorel Dragota",
+        "club": "—",
+        "category": "4° Masculin 50+ ani",
+        "time": "03:50:56",
+        "status": "FIN"
+      },
+      {
+        "place": 37,
+        "bib": "31",
+        "name": "Tudor Ghircoias",
+        "club": "—",
+        "category": "12° Masculin 36-49 ani",
+        "time": "03:51:19",
+        "status": "FIN"
+      },
+      {
+        "place": 38,
+        "bib": "62",
+        "name": "Dumitru Pipernea",
+        "club": "—",
+        "category": "13° Masculin 36-49 ani",
+        "time": "03:51:41",
+        "status": "FIN"
+      },
+      {
+        "place": 39,
+        "bib": "43",
+        "name": "Maria-Cristina Niță",
+        "club": "—",
+        "category": "2° Feminin 18-35 ani",
+        "time": "03:51:59",
+        "status": "FIN"
+      },
+      {
+        "place": 40,
+        "bib": "54",
+        "name": "Stefan Ciuclea",
+        "club": "—",
+        "category": "13° Masculin 18-35 ani",
+        "time": "03:53:14",
+        "status": "FIN"
+      },
+      {
+        "place": 41,
+        "bib": "55",
+        "name": "Stroia Marius",
+        "club": "—",
+        "category": "14° Masculin 36-49 ani",
+        "time": "03:55:41",
+        "status": "FIN"
+      },
+      {
+        "place": 42,
+        "bib": "75",
+        "name": "Sebastian Morun",
+        "club": "—",
+        "category": "14° Masculin 18-35 ani",
+        "time": "03:59:03",
+        "status": "FIN"
+      },
+      {
+        "place": 43,
+        "bib": "69",
+        "name": "Ela Cauni",
+        "club": "—",
+        "category": "3° Feminin 18-35 ani",
+        "time": "03:59:31",
+        "status": "FIN"
+      },
+      {
+        "place": 44,
+        "bib": "44",
+        "name": "Alexandru Taban",
+        "club": "—",
+        "category": "15° Masculin 18-35 ani",
+        "time": "04:00:19",
+        "status": "FIN"
+      },
+      {
+        "place": 45,
+        "bib": "7",
+        "name": "Dorel Panturu",
+        "club": "—",
+        "category": "5° Masculin 50+ ani",
+        "time": "04:00:28",
+        "status": "FIN"
+      },
+      {
+        "place": 46,
+        "bib": "29",
+        "name": "Eugen Vasilioiu",
+        "club": "—",
+        "category": "15° Masculin 36-49 ani",
+        "time": "04:05:24",
+        "status": "FIN"
+      },
+      {
+        "place": 47,
+        "bib": "18",
+        "name": "Monica Ursu",
+        "club": "—",
+        "category": "2° Feminin 36-49 ani",
+        "time": "04:11:01",
+        "status": "FIN"
+      },
+      {
+        "place": 48,
+        "bib": "32",
+        "name": "Bogdan Vinti",
+        "club": "—",
+        "category": "16° Masculin 36-49 ani",
+        "time": "04:11:09",
+        "status": "FIN"
+      },
+      {
+        "place": 49,
+        "bib": "5",
+        "name": "Dan Bumbas",
+        "club": "—",
+        "category": "17° Masculin 36-49 ani",
+        "time": "04:11:33",
+        "status": "FIN"
+      },
+      {
+        "place": 50,
+        "bib": "59",
+        "name": "Gabriel Bacter",
+        "club": "—",
+        "category": "16° Masculin 18-35 ani",
+        "time": "04:15:23",
+        "status": "FIN"
+      },
+      {
+        "place": 51,
+        "bib": "58",
+        "name": "Valentin-Daniel Smeianu",
+        "club": "—",
+        "category": "17° Masculin 18-35 ani",
+        "time": "04:16:17",
+        "status": "FIN"
+      },
+      {
+        "place": 52,
+        "bib": "21",
+        "name": "Sabrina Lazar",
+        "club": "—",
+        "category": "4° Feminin 18-35 ani",
+        "time": "04:17:19",
+        "status": "FIN"
+      },
+      {
+        "place": 53,
+        "bib": "38",
+        "name": "Andreea Petcu",
+        "club": "—",
+        "category": "3° Feminin 36-49 ani",
+        "time": "04:22:41",
+        "status": "FIN"
+      },
+      {
+        "place": 54,
+        "bib": "19",
+        "name": "Costeiu Santi",
+        "club": "—",
+        "category": "18° Masculin 18-35 ani",
+        "time": "04:22:45",
+        "status": "FIN"
+      },
+      {
+        "place": 55,
+        "bib": "73",
+        "name": "Nicolae Nicolaescu",
+        "club": "—",
+        "category": "6° Masculin 50+ ani",
+        "time": "04:33:10",
+        "status": "FIN"
+      },
+      {
+        "place": 56,
+        "bib": "77",
+        "name": "Valentin Banu",
+        "club": "—",
+        "category": "18° Masculin 36-49 ani",
+        "time": "04:37:22",
+        "status": "FIN"
+      },
+      {
+        "place": 57,
+        "bib": "65",
+        "name": "Tudor Cadiș",
+        "club": "—",
+        "category": "19° Masculin 18-35 ani",
+        "time": "04:37:43",
+        "status": "FIN"
+      },
+      {
+        "place": 58,
+        "bib": "57",
+        "name": "Ilinca Marian Alexandru",
+        "club": "—",
+        "category": "20° Masculin 18-35 ani",
+        "time": "04:39:09",
+        "status": "FIN"
+      },
+      {
+        "place": 59,
+        "bib": "14",
+        "name": "John Loftus",
+        "club": "—",
+        "category": "7° Masculin 50+ ani",
+        "time": "04:45:51",
+        "status": "FIN"
+      },
+      {
+        "place": 60,
+        "bib": "12",
+        "name": "Alexandra Bumbas",
+        "club": "—",
+        "category": "4° Feminin 36-49 ani",
+        "time": "04:46:58",
+        "status": "FIN"
+      },
+      {
+        "place": 61,
+        "bib": "24",
+        "name": "Dana Maria Badea",
+        "club": "—",
+        "category": "5° Feminin 36-49 ani",
+        "time": "05:12:12",
+        "status": "FIN"
+      },
+      {
+        "place": 62,
+        "bib": "25",
+        "name": "Elena Gabriela Ivanus",
+        "club": "—",
+        "category": "6° Feminin 36-49 ani",
+        "time": "05:16:46",
+        "status": "FIN"
+      },
+      {
+        "place": 63,
+        "bib": "53",
+        "name": "Dragoș Bucsa",
+        "club": "—",
+        "category": "21° Masculin 18-35 ani",
+        "time": "05:25:13",
+        "status": "FIN"
+      },
+      {
+        "place": 64,
+        "bib": "42",
+        "name": "Oana Bogdana Bucșa",
+        "club": "—",
+        "category": "7° Feminin 36-49 ani",
+        "time": "05:25:13",
+        "status": "FIN"
+      },
+      {
+        "place": 65,
+        "bib": "13",
+        "name": "Paula Amariei",
+        "club": "—",
+        "category": "8° Feminin 36-49 ani",
+        "time": "05:25:20",
+        "status": "FIN"
+      },
+      {
+        "place": 66,
+        "bib": "8",
+        "name": "Andreea Albu",
+        "club": "—",
+        "category": "9° Feminin 36-49 ani",
+        "time": "05:25:20",
+        "status": "FIN"
+      },
+      {
+        "place": 67,
+        "bib": "6",
+        "name": "Laura Gândilă",
+        "club": "—",
+        "category": "2° Feminin 50+ ani",
+        "time": "05:26:31",
+        "status": "FIN"
+      },
+      {
+        "place": 68,
+        "bib": "68",
+        "name": "Elena Adelina Burca",
+        "club": "—",
+        "category": "10° Feminin 36-49 ani",
+        "time": "05:32:22",
+        "status": "FIN"
+      },
+      {
+        "place": 69,
+        "bib": "20",
+        "name": "Laura Popescu",
+        "club": "—",
+        "category": "11° Feminin 36-49 ani",
+        "time": "05:35:55",
+        "status": "FIN"
+      },
+      {
+        "place": 70,
+        "bib": "22",
+        "name": "Marius Vasile Dancu",
+        "club": "—",
+        "category": "19° Masculin 36-49 ani",
+        "time": "05:35:55",
+        "status": "FIN"
+      },
+      {
+        "place": 71,
+        "bib": "23",
+        "name": "Viorel-Petru Cosar",
+        "club": "—",
+        "category": "20° Masculin 36-49 ani",
+        "time": "05:35:55",
+        "status": "FIN"
+      },
+      {
+        "place": 72,
+        "bib": "35",
+        "name": "Cristina Busca",
+        "club": "—",
+        "category": "3° Feminin 50+ ani",
+        "time": "05:48:18",
+        "status": "FIN"
+      },
+      {
+        "place": null,
+        "bib": "9",
+        "name": "Laura Cândea-Burnete",
+        "club": "—",
+        "category": "Feminin 36-49 ani",
+        "time": "—",
+        "status": "DNF"
+      },
+      {
+        "place": null,
+        "bib": "2",
+        "name": "Catalin Catincut",
+        "club": "—",
+        "category": "Masculin 50+ ani",
+        "time": "—",
+        "status": "DNS"
+      },
+      {
+        "place": null,
+        "bib": "3",
+        "name": "Marius Catalin Bacescu",
+        "club": "—",
+        "category": "Masculin 36-49 ani",
+        "time": "—",
+        "status": "DNS"
+      },
+      {
+        "place": null,
+        "bib": "10",
+        "name": "Aurel Cândea",
+        "club": "—",
+        "category": "Masculin 36-49 ani",
+        "time": "—",
+        "status": "DNS"
+      },
+      {
+        "place": null,
+        "bib": "17",
+        "name": "Ioan Mihai Beleiu",
+        "club": "—",
+        "category": "Masculin 18-35 ani",
+        "time": "—",
+        "status": "DNS"
+      },
+      {
+        "place": null,
+        "bib": "40",
+        "name": "Valentin Mocanu",
+        "club": "—",
+        "category": "Masculin 36-49 ani",
+        "time": "—",
+        "status": "DNS"
+      },
+      {
+        "place": null,
+        "bib": "52",
+        "name": "Emanuela Stanovici",
+        "club": "—",
+        "category": "Feminin 18-35 ani",
+        "time": "—",
+        "status": "DNS"
+      }
+    ],
+    "fullList": true
+  },
+  "2026-Cros": {
+    "classified": "96 / 96",
+    "winnerTime": "00:57:47",
+    "firstWoman": "Morska Anna · 01:12:49",
+    "rows": [
+      {
+        "place": 1,
+        "bib": "156",
+        "name": "Ioan Dragoș Marian",
+        "club": "—",
+        "category": "1° Open",
+        "time": "00:57:47",
+        "status": "FIN"
+      },
+      {
+        "place": 2,
+        "bib": "176",
+        "name": "Marciuc Mihai Vlad",
+        "club": "—",
+        "category": "2° Open",
+        "time": "00:58:05",
+        "status": "FIN"
+      },
+      {
+        "place": 3,
+        "bib": "180",
+        "name": "Stefan Daniel",
+        "club": "—",
+        "category": "3° Open",
+        "time": "01:04:22",
+        "status": "FIN"
+      },
+      {
+        "place": 4,
+        "bib": "116",
+        "name": "Viacheslav Romanesku",
+        "club": "—",
+        "category": "1° Masculin 36-49 ani",
+        "time": "01:04:38",
+        "status": "FIN"
+      },
+      {
+        "place": 5,
+        "bib": "203",
+        "name": "Constantin Folescu",
+        "club": "—",
+        "category": "2° Masculin 36-49 ani",
+        "time": "01:09:57",
+        "status": "FIN"
+      },
+      {
+        "place": 6,
+        "bib": "141",
+        "name": "Alex Tdi",
+        "club": "—",
+        "category": "3° Masculin 36-49 ani",
+        "time": "01:10:32",
+        "status": "FIN"
+      },
+      {
+        "place": 7,
+        "bib": "184",
+        "name": "Lica Sinc",
+        "club": "—",
+        "category": "4° Masculin 36-49 ani",
+        "time": "01:11:55",
+        "status": "FIN"
+      },
+      {
+        "place": 8,
+        "bib": "198",
+        "name": "Dragos Anghel",
+        "club": "—",
+        "category": "1° Masculin 50+ ani",
+        "time": "01:12:05",
+        "status": "FIN"
+      },
+      {
+        "place": 9,
+        "bib": "194",
+        "name": "Morska Anna",
+        "club": "—",
+        "category": "1° Open",
+        "time": "01:12:49",
+        "status": "FIN"
+      },
+      {
+        "place": 10,
+        "bib": "181",
+        "name": "Robert Gandila",
+        "club": "—",
+        "category": "1° Masculin 18-35 ani",
+        "time": "01:16:07",
+        "status": "FIN"
+      },
+      {
+        "place": 11,
+        "bib": "172",
+        "name": "Dana Licsandru",
+        "club": "—",
+        "category": "2° Open",
+        "time": "01:17:07",
+        "status": "FIN"
+      },
+      {
+        "place": 12,
+        "bib": "120",
+        "name": "Tiberiu Daniel Craciun",
+        "club": "—",
+        "category": "5° Masculin 36-49 ani",
+        "time": "01:17:10",
+        "status": "FIN"
+      },
+      {
+        "place": 13,
+        "bib": "190",
+        "name": "Daniel Mitrofan",
+        "club": "—",
+        "category": "6° Masculin 36-49 ani",
+        "time": "01:17:54",
+        "status": "FIN"
+      },
+      {
+        "place": 14,
+        "bib": "148",
+        "name": "Cornel Silviu Popa",
+        "club": "—",
+        "category": "2° Masculin 50+ ani",
+        "time": "01:18:15",
+        "status": "FIN"
+      },
+      {
+        "place": 15,
+        "bib": "158",
+        "name": "Bogdan-Mihail Stanca",
+        "club": "—",
+        "category": "3° Masculin 50+ ani",
+        "time": "01:19:20",
+        "status": "FIN"
+      },
+      {
+        "place": 16,
+        "bib": "164",
+        "name": "Adrian Ioani",
+        "club": "—",
+        "category": "7° Masculin 36-49 ani",
+        "time": "01:21:01",
+        "status": "FIN"
+      },
+      {
+        "place": 17,
+        "bib": "107",
+        "name": "Cosmin Chiță",
+        "club": "—",
+        "category": "2° Masculin 18-35 ani",
+        "time": "01:22:04",
+        "status": "FIN"
+      },
+      {
+        "place": 18,
+        "bib": "197",
+        "name": "Mihail Caramfil",
+        "club": "—",
+        "category": "4° Masculin 50+ ani",
+        "time": "01:22:26",
+        "status": "FIN"
+      },
+      {
+        "place": 19,
+        "bib": "114",
+        "name": "Silviu Malau",
+        "club": "—",
+        "category": "8° Masculin 36-49 ani",
+        "time": "01:22:34",
+        "status": "FIN"
+      },
+      {
+        "place": 20,
+        "bib": "134",
+        "name": "Constantin Olaru",
+        "club": "—",
+        "category": "9° Masculin 36-49 ani",
+        "time": "01:23:46",
+        "status": "FIN"
+      },
+      {
+        "place": 21,
+        "bib": "131",
+        "name": "Viorel Gabriel Zala",
+        "club": "—",
+        "category": "3° Masculin 18-35 ani",
+        "time": "01:23:54",
+        "status": "FIN"
+      },
+      {
+        "place": 22,
+        "bib": "189",
+        "name": "Ovidiu Andrei Mirza",
+        "club": "—",
+        "category": "4° Masculin 18-35 ani",
+        "time": "01:23:54",
+        "status": "FIN"
+      },
+      {
+        "place": 23,
+        "bib": "152",
+        "name": "Gelu Marian Barcan",
+        "club": "—",
+        "category": "10° Masculin 36-49 ani",
+        "time": "01:25:00",
+        "status": "FIN"
+      },
+      {
+        "place": 24,
+        "bib": "122",
+        "name": "Cristina Emilia Cîrstea",
+        "club": "—",
+        "category": "3° Open",
+        "time": "01:25:07",
+        "status": "FIN"
+      },
+      {
+        "place": 25,
+        "bib": "183",
+        "name": "Mugur Radu",
+        "club": "—",
+        "category": "5° Masculin 50+ ani",
+        "time": "01:26:18",
+        "status": "FIN"
+      },
+      {
+        "place": 26,
+        "bib": "170",
+        "name": "Codruta Olaru",
+        "club": "—",
+        "category": "1° Feminin 36-49 ani",
+        "time": "01:26:34",
+        "status": "FIN"
+      },
+      {
+        "place": 27,
+        "bib": "159",
+        "name": "Elena Marinescu",
+        "club": "—",
+        "category": "1° Feminin 18-35 ani",
+        "time": "01:26:54",
+        "status": "FIN"
+      },
+      {
+        "place": 28,
+        "bib": "144",
+        "name": "Doina Popa",
+        "club": "—",
+        "category": "1° Feminin 50+ ani",
+        "time": "01:27:29",
+        "status": "FIN"
+      },
+      {
+        "place": 29,
+        "bib": "202",
+        "name": "Bogdan Berbece",
+        "club": "—",
+        "category": "11° Masculin 36-49 ani",
+        "time": "01:28:42",
+        "status": "FIN"
+      },
+      {
+        "place": 30,
+        "bib": "167",
+        "name": "Bogdan Nedelea",
+        "club": "—",
+        "category": "12° Masculin 36-49 ani",
+        "time": "01:29:34",
+        "status": "FIN"
+      },
+      {
+        "place": 31,
+        "bib": "112",
+        "name": "Simona Mihaiela Androne",
+        "club": "—",
+        "category": "2° Feminin 50+ ani",
+        "time": "01:29:42",
+        "status": "FIN"
+      },
+      {
+        "place": 32,
+        "bib": "137",
+        "name": "Rares Popa",
+        "club": "—",
+        "category": "5° Masculin 18-35 ani",
+        "time": "01:30:09",
+        "status": "FIN"
+      },
+      {
+        "place": 33,
+        "bib": "140",
+        "name": "Iulia Anisia Cretu",
+        "club": "—",
+        "category": "2° Feminin 18-35 ani",
+        "time": "01:30:17",
+        "status": "FIN"
+      },
+      {
+        "place": 34,
+        "bib": "136",
+        "name": "Raluca Mocanu",
+        "club": "—",
+        "category": "3° Feminin 18-35 ani",
+        "time": "01:32:58",
+        "status": "FIN"
+      },
+      {
+        "place": 35,
+        "bib": "149",
+        "name": "Gabriel Avram",
+        "club": "—",
+        "category": "6° Masculin 18-35 ani",
+        "time": "01:33:22",
+        "status": "FIN"
+      },
+      {
+        "place": 36,
+        "bib": "151",
+        "name": "Crenguta Badea",
+        "club": "—",
+        "category": "3° Feminin 50+ ani",
+        "time": "01:35:00",
+        "status": "FIN"
+      },
+      {
+        "place": 37,
+        "bib": "191",
+        "name": "Ioana-Maria Vasile",
+        "club": "—",
+        "category": "4° Feminin 18-35 ani",
+        "time": "01:35:00",
+        "status": "FIN"
+      },
+      {
+        "place": 38,
+        "bib": "174",
+        "name": "Mihai Nistor",
+        "club": "—",
+        "category": "13° Masculin 36-49 ani",
+        "time": "01:35:05",
+        "status": "FIN"
+      },
+      {
+        "place": 39,
+        "bib": "129",
+        "name": "Vasile Alex Iacob",
+        "club": "—",
+        "category": "7° Masculin 18-35 ani",
+        "time": "01:35:37",
+        "status": "FIN"
+      },
+      {
+        "place": 40,
+        "bib": "139",
+        "name": "Emilian Dumitru",
+        "club": "—",
+        "category": "8° Masculin 18-35 ani",
+        "time": "01:36:20",
+        "status": "FIN"
+      },
+      {
+        "place": 41,
+        "bib": "192",
+        "name": "Mihaela Pasare",
+        "club": "—",
+        "category": "4° Feminin 50+ ani",
+        "time": "01:36:36",
+        "status": "FIN"
+      },
+      {
+        "place": 42,
+        "bib": "166",
+        "name": "Ramona Dragulin",
+        "club": "—",
+        "category": "5° Feminin 18-35 ani",
+        "time": "01:36:36",
+        "status": "FIN"
+      },
+      {
+        "place": 43,
+        "bib": "178",
+        "name": "Nicoleta Gheorghiu",
+        "club": "—",
+        "category": "2° Feminin 36-49 ani",
+        "time": "01:38:23",
+        "status": "FIN"
+      },
+      {
+        "place": 44,
+        "bib": "142",
+        "name": "Vasile Bejenaru",
+        "club": "—",
+        "category": "6° Masculin 50+ ani",
+        "time": "01:38:26",
+        "status": "FIN"
+      },
+      {
+        "place": 45,
+        "bib": "179",
+        "name": "Andrei Gheorghiu",
+        "club": "—",
+        "category": "14° Masculin 36-49 ani",
+        "time": "01:38:40",
+        "status": "FIN"
+      },
+      {
+        "place": 46,
+        "bib": "162",
+        "name": "Adrian Buciu",
+        "club": "—",
+        "category": "9° Masculin 18-35 ani",
+        "time": "01:38:56",
+        "status": "FIN"
+      },
+      {
+        "place": 47,
+        "bib": "113",
+        "name": "Mircea Androne",
+        "club": "—",
+        "category": "7° Masculin 50+ ani",
+        "time": "01:39:03",
+        "status": "FIN"
+      },
+      {
+        "place": 48,
+        "bib": "118",
+        "name": "Sorin Ghindă",
+        "club": "—",
+        "category": "8° Masculin 50+ ani",
+        "time": "01:40:11",
+        "status": "FIN"
+      },
+      {
+        "place": 49,
+        "bib": "110",
+        "name": "Andreea Reti",
+        "club": "—",
+        "category": "3° Feminin 36-49 ani",
+        "time": "01:40:48",
+        "status": "FIN"
+      },
+      {
+        "place": 50,
+        "bib": "103",
+        "name": "Zoltan Reti",
+        "club": "—",
+        "category": "15° Masculin 36-49 ani",
+        "time": "01:40:48",
+        "status": "FIN"
+      },
+      {
+        "place": 51,
+        "bib": "204",
+        "name": "Paul Bucur",
+        "club": "—",
+        "category": "16° Masculin 36-49 ani",
+        "time": "01:40:51",
+        "status": "FIN"
+      },
+      {
+        "place": 52,
+        "bib": "199",
+        "name": "Igor Jordanovski",
+        "club": "—",
+        "category": "17° Masculin 36-49 ani",
+        "time": "01:41:05",
+        "status": "FIN"
+      },
+      {
+        "place": 53,
+        "bib": "147",
+        "name": "Marius Suciu",
+        "club": "—",
+        "category": "18° Masculin 36-49 ani",
+        "time": "01:41:15",
+        "status": "FIN"
+      },
+      {
+        "place": 54,
+        "bib": "106",
+        "name": "Ratiu Alex",
+        "club": "—",
+        "category": "19° Masculin 36-49 ani",
+        "time": "01:42:39",
+        "status": "FIN"
+      },
+      {
+        "place": 55,
+        "bib": "127",
+        "name": "Victor Marcu",
+        "club": "—",
+        "category": "20° Masculin 36-49 ani",
+        "time": "01:46:27",
+        "status": "FIN"
+      },
+      {
+        "place": 56,
+        "bib": "119",
+        "name": "Lajos Nagy",
+        "club": "—",
+        "category": "21° Masculin 36-49 ani",
+        "time": "01:48:32",
+        "status": "FIN"
+      },
+      {
+        "place": 57,
+        "bib": "145",
+        "name": "Betina Lederer",
+        "club": "—",
+        "category": "6° Feminin 18-35 ani",
+        "time": "01:48:41",
+        "status": "FIN"
+      },
+      {
+        "place": 58,
+        "bib": "195",
+        "name": "Florina Cretu",
+        "club": "—",
+        "category": "7° Feminin 18-35 ani",
+        "time": "01:48:42",
+        "status": "FIN"
+      },
+      {
+        "place": 59,
+        "bib": "188",
+        "name": "Sorin Rusu",
+        "club": "—",
+        "category": "9° Masculin 50+ ani",
+        "time": "01:48:53",
+        "status": "FIN"
+      },
+      {
+        "place": 60,
+        "bib": "115",
+        "name": "Florian Dinu",
+        "club": "—",
+        "category": "10° Masculin 50+ ani",
+        "time": "01:50:29",
+        "status": "FIN"
+      },
+      {
+        "place": 61,
+        "bib": "126",
+        "name": "Micu Daniel",
+        "club": "—",
+        "category": "22° Masculin 36-49 ani",
+        "time": "01:50:50",
+        "status": "FIN"
+      },
+      {
+        "place": 62,
+        "bib": "173",
+        "name": "Cosmin Vasiu",
+        "club": "—",
+        "category": "23° Masculin 36-49 ani",
+        "time": "01:51:09",
+        "status": "FIN"
+      },
+      {
+        "place": 63,
+        "bib": "105",
+        "name": "Iosif Ratiu",
+        "club": "—",
+        "category": "24° Masculin 36-49 ani",
+        "time": "01:52:31",
+        "status": "FIN"
+      },
+      {
+        "place": 64,
+        "bib": "160",
+        "name": "Mioara Avram",
+        "club": "—",
+        "category": "4° Feminin 36-49 ani",
+        "time": "01:53:00",
+        "status": "FIN"
+      },
+      {
+        "place": 65,
+        "bib": "123",
+        "name": "Dragos Morariu",
+        "club": "—",
+        "category": "10° Masculin 18-35 ani",
+        "time": "01:53:03",
+        "status": "FIN"
+      },
+      {
+        "place": 66,
+        "bib": "104",
+        "name": "Iulia Andra Erhan",
+        "club": "—",
+        "category": "8° Feminin 18-35 ani",
+        "time": "01:56:31",
+        "status": "FIN"
+      },
+      {
+        "place": 67,
+        "bib": "187",
+        "name": "Sorin Cretu",
+        "club": "—",
+        "category": "25° Masculin 36-49 ani",
+        "time": "01:56:36",
+        "status": "FIN"
+      },
+      {
+        "place": 68,
+        "bib": "100",
+        "name": "Aurel Olimpiu Prie",
+        "club": "—",
+        "category": "11° Masculin 50+ ani",
+        "time": "01:58:08",
+        "status": "FIN"
+      },
+      {
+        "place": 69,
+        "bib": "101",
+        "name": "Silvia-Melita Prie",
+        "club": "—",
+        "category": "5° Feminin 36-49 ani",
+        "time": "01:58:08",
+        "status": "FIN"
+      },
+      {
+        "place": 70,
+        "bib": "117",
+        "name": "Mădălina Munteanu",
+        "club": "—",
+        "category": "9° Feminin 18-35 ani",
+        "time": "01:59:07",
+        "status": "FIN"
+      },
+      {
+        "place": 71,
+        "bib": "161",
+        "name": "Alexandra Popoviciu Alexandra",
+        "club": "—",
+        "category": "6° Feminin 36-49 ani",
+        "time": "01:59:15",
+        "status": "FIN"
+      },
+      {
+        "place": 72,
+        "bib": "102",
+        "name": "Mihai Pascar",
+        "club": "—",
+        "category": "26° Masculin 36-49 ani",
+        "time": "01:59:16",
+        "status": "FIN"
+      },
+      {
+        "place": 73,
+        "bib": "169",
+        "name": "Florin Constantin Rad",
+        "club": "—",
+        "category": "27° Masculin 36-49 ani",
+        "time": "01:59:25",
+        "status": "FIN"
+      },
+      {
+        "place": 74,
+        "bib": "121",
+        "name": "Catalina Craciun",
+        "club": "—",
+        "category": "10° Feminin 18-35 ani",
+        "time": "01:59:43",
+        "status": "FIN"
+      },
+      {
+        "place": 75,
+        "bib": "186",
+        "name": "Anastasiia Komaryst",
+        "club": "—",
+        "category": "7° Feminin 36-49 ani",
+        "time": "01:59:59",
+        "status": "FIN"
+      },
+      {
+        "place": 76,
+        "bib": "185",
+        "name": "Denise Cioranu",
+        "club": "—",
+        "category": "11° Feminin 18-35 ani",
+        "time": "02:01:30",
+        "status": "FIN"
+      },
+      {
+        "place": 77,
+        "bib": "201",
+        "name": "Teodora Bordeanu",
+        "club": "—",
+        "category": "5° Feminin 50+ ani",
+        "time": "02:01:32",
+        "status": "FIN"
+      },
+      {
+        "place": 78,
+        "bib": "168",
+        "name": "Eugen-Petrisor Hambasan",
+        "club": "—",
+        "category": "12° Masculin 50+ ani",
+        "time": "02:02:16",
+        "status": "FIN"
+      },
+      {
+        "place": 79,
+        "bib": "175",
+        "name": "Cristina Jurj",
+        "club": "—",
+        "category": "8° Feminin 36-49 ani",
+        "time": "02:04:37",
+        "status": "FIN"
+      },
+      {
+        "place": 80,
+        "bib": "200",
+        "name": "Robert Dimu",
+        "club": "—",
+        "category": "28° Masculin 36-49 ani",
+        "time": "02:04:37",
+        "status": "FIN"
+      },
+      {
+        "place": 81,
+        "bib": "205",
+        "name": "Alin Jurj",
+        "club": "—",
+        "category": "29° Masculin 36-49 ani",
+        "time": "02:04:39",
+        "status": "FIN"
+      },
+      {
+        "place": 82,
+        "bib": "146",
+        "name": "Radu Nica",
+        "club": "—",
+        "category": "11° Masculin 18-35 ani",
+        "time": "02:04:39",
+        "status": "FIN"
+      },
+      {
+        "place": 83,
+        "bib": "133",
+        "name": "Stefan Sporis",
+        "club": "—",
+        "category": "12° Masculin 18-35 ani",
+        "time": "02:06:08",
+        "status": "FIN"
+      },
+      {
+        "place": 84,
+        "bib": "132",
+        "name": "Andrei Vochitoiu",
+        "club": "—",
+        "category": "13° Masculin 18-35 ani",
+        "time": "02:06:09",
+        "status": "FIN"
+      },
+      {
+        "place": 85,
+        "bib": "138",
+        "name": "Alexandru Iulian Frățilă",
+        "club": "—",
+        "category": "14° Masculin 18-35 ani",
+        "time": "02:06:09",
+        "status": "FIN"
+      },
+      {
+        "place": 86,
+        "bib": "193",
+        "name": "Doina Dragota",
+        "club": "—",
+        "category": "6° Feminin 50+ ani",
+        "time": "02:10:17",
+        "status": "FIN"
+      },
+      {
+        "place": 87,
+        "bib": "196",
+        "name": "Dan Tira",
+        "club": "—",
+        "category": "30° Masculin 36-49 ani",
+        "time": "02:10:23",
+        "status": "FIN"
+      },
+      {
+        "place": 88,
+        "bib": "155",
+        "name": "Denisa-Andreea Snep",
+        "club": "—",
+        "category": "12° Feminin 18-35 ani",
+        "time": "02:10:40",
+        "status": "FIN"
+      },
+      {
+        "place": 89,
+        "bib": "157",
+        "name": "Mimi Petre",
+        "club": "—",
+        "category": "9° Feminin 36-49 ani",
+        "time": "02:10:41",
+        "status": "FIN"
+      },
+      {
+        "place": 90,
+        "bib": "143",
+        "name": "Maria Papuc",
+        "club": "—",
+        "category": "13° Feminin 18-35 ani",
+        "time": "02:13:42",
+        "status": "FIN"
+      },
+      {
+        "place": 91,
+        "bib": "111",
+        "name": "Stefan Pascar",
+        "club": "—",
+        "category": "31° Masculin 36-49 ani",
+        "time": "02:13:55",
+        "status": "FIN"
+      },
+      {
+        "place": 92,
+        "bib": "124",
+        "name": "Monica Ghindă",
+        "club": "—",
+        "category": "10° Feminin 36-49 ani",
+        "time": "02:14:04",
+        "status": "FIN"
+      },
+      {
+        "place": 93,
+        "bib": "128",
+        "name": "Alexandru Ghindă",
+        "club": "—",
+        "category": "15° Masculin 18-35 ani",
+        "time": "02:14:04",
+        "status": "FIN"
+      },
+      {
+        "place": 94,
+        "bib": "182",
+        "name": "Alina Culia",
+        "club": "—",
+        "category": "11° Feminin 36-49 ani",
+        "time": "02:16:19",
+        "status": "FIN"
+      },
+      {
+        "place": 95,
+        "bib": "163",
+        "name": "Gabriela Sofian",
+        "club": "—",
+        "category": "7° Feminin 50+ ani",
+        "time": "02:29:59",
+        "status": "FIN"
+      },
+      {
+        "place": 96,
+        "bib": "177",
+        "name": "Dan Ilcus",
+        "club": "—",
+        "category": "13° Masculin 50+ ani",
+        "time": "02:45:41",
+        "status": "FIN"
+      },
+      {
+        "place": null,
+        "bib": "108",
+        "name": "Claudiu - Horațiu Duda",
+        "club": "—",
+        "category": "Masculin 18-35 ani",
+        "time": "—",
+        "status": "DNS"
+      },
+      {
+        "place": null,
+        "bib": "109",
+        "name": "Margot Menning",
+        "club": "—",
+        "category": "Feminin 18-35 ani",
+        "time": "—",
+        "status": "DNS"
+      },
+      {
+        "place": null,
+        "bib": "125",
+        "name": "Tudor Lup",
+        "club": "—",
+        "category": "Masculin 18-35 ani",
+        "time": "—",
+        "status": "DNS"
+      },
+      {
+        "place": null,
+        "bib": "130",
+        "name": "Gabriel Solomon",
+        "club": "—",
+        "category": "Masculin 50+ ani",
+        "time": "—",
+        "status": "DNS"
+      },
+      {
+        "place": null,
+        "bib": "135",
+        "name": "Casiana Caramidaru",
+        "club": "—",
+        "category": "Feminin 18-35 ani",
+        "time": "—",
+        "status": "DNS"
+      },
+      {
+        "place": null,
+        "bib": "150",
+        "name": "David-Emil Gușă",
+        "club": "—",
+        "category": "Masculin 18-35 ani",
+        "time": "—",
+        "status": "DNS"
+      },
+      {
+        "place": null,
+        "bib": "153",
+        "name": "Banto Adrian",
+        "club": "—",
+        "category": "Masculin 18-35 ani",
+        "time": "—",
+        "status": "DNS"
+      },
+      {
+        "place": null,
+        "bib": "154",
+        "name": "Marcela Trandafir",
+        "club": "—",
+        "category": "Feminin 36-49 ani",
+        "time": "—",
+        "status": "DNS"
+      },
+      {
+        "place": null,
+        "bib": "165",
+        "name": "Alexandru Cuhureanu",
+        "club": "—",
+        "category": "Masculin 18-35 ani",
+        "time": "—",
+        "status": "DNS"
+      },
+      {
+        "place": null,
+        "bib": "171",
+        "name": "Peter Birk",
+        "club": "—",
+        "category": "Masculin 36-49 ani",
+        "time": "—",
+        "status": "DNS"
+      }
+    ],
+    "fullList": true
+  },
+  "2025-Semimaraton": {
+    "classified": "61 / 63",
+    "winnerTime": "2:19:47.07",
+    "firstWoman": "BILYNSKA Olga · 2:53:56.86",
+    "rows": [
+      {
+        "place": 1,
+        "bib": "143",
+        "name": "STÂRCEA Mihai",
+        "club": "CS Măgura Cisnădie",
+        "category": "Masculin 18-35",
+        "time": "2:19:47.07",
+        "status": "FIN"
+      },
+      {
+        "place": 2,
+        "bib": "132",
+        "name": "NOTAR Florin Daniel",
+        "club": "Măgura Cisnădie",
+        "category": "Masculin 36-49",
+        "time": "2:25:28.54",
+        "status": "FIN"
+      },
+      {
+        "place": 3,
+        "bib": "127",
+        "name": "DIACONEASA Andrei",
+        "club": "Harting RO Automotive",
+        "category": "Masculin 36-49",
+        "time": "2:37:25.96",
+        "status": "FIN"
+      },
+      {
+        "place": 4,
+        "bib": "159",
+        "name": "POPLICEAN Radu",
+        "club": "Revolution Running Team",
+        "category": "1° Masculin 36-49",
+        "time": "2:40:58.94",
+        "status": "FIN"
+      },
+      {
+        "place": 5,
+        "bib": "119",
+        "name": "BILYNSKA Olga",
+        "club": "Club Sportiv Comunitar/Montan Sibiu",
+        "category": "Feminin 18-35",
+        "time": "2:53:56.86",
+        "status": "FIN"
+      },
+      {
+        "place": 6,
+        "bib": "140",
+        "name": "BUGA Ion",
+        "club": "CSM Cluj",
+        "category": "1° Masculin 50+",
+        "time": "2:54:05.86",
+        "status": "FIN"
+      },
+      {
+        "place": 7,
+        "bib": "160",
+        "name": "REPOLSCHI Iulian Dan",
+        "club": "UTT",
+        "category": "2° Masculin 50+",
+        "time": "2:54:06.87",
+        "status": "FIN"
+      },
+      {
+        "place": 8,
+        "bib": "163",
+        "name": "MIRESCU Liviu",
+        "club": "—",
+        "category": "3° Masculin 50+",
+        "time": "2:54:14.11",
+        "status": "FIN"
+      },
+      {
+        "place": 9,
+        "bib": "152",
+        "name": "MITROFAN Daniel Victor",
+        "club": "FDPC",
+        "category": "2° Masculin 36-49",
+        "time": "3:02:27.06",
+        "status": "FIN"
+      },
+      {
+        "place": 10,
+        "bib": "103",
+        "name": "SURDU Constantin",
+        "club": "ASP Brasov",
+        "category": "4° Masculin 50+",
+        "time": "3:03:38.56",
+        "status": "FIN"
+      },
+      {
+        "place": 11,
+        "bib": "118",
+        "name": "BEKŐ George",
+        "club": "—",
+        "category": "3° Masculin 36-49",
+        "time": "3:04:04.79",
+        "status": "FIN"
+      },
+      {
+        "place": 12,
+        "bib": "106",
+        "name": "BACIU Iulian",
+        "club": "Titan Race",
+        "category": "4° Masculin 36-49",
+        "time": "3:06:31.03",
+        "status": "FIN"
+      },
+      {
+        "place": 13,
+        "bib": "154",
+        "name": "GALEA Gabi",
+        "club": "Fugarii_DP_Cibin",
+        "category": "5° Masculin 50+",
+        "time": "3:06:59.53",
+        "status": "FIN"
+      },
+      {
+        "place": 14,
+        "bib": "113",
+        "name": "ALBU Daniel Catalin",
+        "club": "—",
+        "category": "5° Masculin 36-49",
+        "time": "3:08:10.02",
+        "status": "FIN"
+      },
+      {
+        "place": 15,
+        "bib": "122",
+        "name": "VINTILA Liviu",
+        "club": "GPV ROMANIA",
+        "category": "6° Masculin 50+",
+        "time": "3:11:41.50",
+        "status": "FIN"
+      },
+      {
+        "place": 16,
+        "bib": "130",
+        "name": "SABINA FRANCISKA Schmutzer Coman",
+        "club": "CSCS",
+        "category": "Feminin 18-35",
+        "time": "3:11:49.25",
+        "status": "FIN"
+      },
+      {
+        "place": 17,
+        "bib": "114",
+        "name": "BRAGA Melinda",
+        "club": "—",
+        "category": "Feminin 50+",
+        "time": "3:12:40.49",
+        "status": "FIN"
+      },
+      {
+        "place": 18,
+        "bib": "115",
+        "name": "SREEJITH T Murugan",
+        "club": "—",
+        "category": "1° Masculin 18-35",
+        "time": "3:13:39.23",
+        "status": "FIN"
+      },
+      {
+        "place": 19,
+        "bib": "125",
+        "name": "PETCU Andreea",
+        "club": "Joy2Move",
+        "category": "1° Feminin 36-49",
+        "time": "3:14:09.98",
+        "status": "FIN"
+      },
+      {
+        "place": 20,
+        "bib": "101",
+        "name": "OLARU Codruta",
+        "club": "Clubul Sportiv Comunitar Sibiu",
+        "category": "2° Feminin 36-49",
+        "time": "3:14:43.73",
+        "status": "FIN"
+      },
+      {
+        "place": 21,
+        "bib": "135",
+        "name": "NOREANU Cristian",
+        "club": "OLD MEN IN BLACK",
+        "category": "7° Masculin 50+",
+        "time": "3:16:00.72",
+        "status": "FIN"
+      },
+      {
+        "place": 22,
+        "bib": "156",
+        "name": "ZAHARIA Marius",
+        "club": "—",
+        "category": "2° Masculin 18-35",
+        "time": "3:19:59.86",
+        "status": "FIN"
+      },
+      {
+        "place": 23,
+        "bib": "112",
+        "name": "TURCU Adrian",
+        "club": "Animal Life",
+        "category": "6° Masculin 36-49",
+        "time": "3:21:05.21",
+        "status": "FIN"
+      },
+      {
+        "place": 24,
+        "bib": "111",
+        "name": "VISAN Nadina",
+        "club": "Mures Runners",
+        "category": "1° Feminin 50+",
+        "time": "3:22:41.43",
+        "status": "FIN"
+      },
+      {
+        "place": 25,
+        "bib": "148",
+        "name": "GROZAV Alexandra",
+        "club": "—",
+        "category": "3° Feminin 36-49",
+        "time": "3:29:33.64",
+        "status": "FIN"
+      },
+      {
+        "place": 26,
+        "bib": "133",
+        "name": "RUSU Ovidiu",
+        "club": "Adventure fans",
+        "category": "7° Masculin 36-49",
+        "time": "3:36:49.34",
+        "status": "FIN"
+      },
+      {
+        "place": 27,
+        "bib": "123",
+        "name": "DRAGOMIR Dan",
+        "club": "—",
+        "category": "8° Masculin 36-49",
+        "time": "3:37:45.33",
+        "status": "FIN"
+      },
+      {
+        "place": 28,
+        "bib": "131",
+        "name": "MARIUS -DUMITRU Suciu",
+        "club": "CSCS",
+        "category": "9° Masculin 36-49",
+        "time": "3:38:14.59",
+        "status": "FIN"
+      },
+      {
+        "place": 29,
+        "bib": "137",
+        "name": "COSTEIU Cristian-Constantin-Santi",
+        "club": "—",
+        "category": "3° Masculin 18-35",
+        "time": "3:39:16.83",
+        "status": "FIN"
+      },
+      {
+        "place": 30,
+        "bib": "157",
+        "name": "STROIA Marius",
+        "club": "Adventure Fans",
+        "category": "10° Masculin 36-49",
+        "time": "3:43:50.29",
+        "status": "FIN"
+      },
+      {
+        "place": 31,
+        "bib": "151",
+        "name": "TIMOFTE Marius",
+        "club": "Fugarii_DP_Cibin",
+        "category": "8° Masculin 50+",
+        "time": "3:44:47.05",
+        "status": "FIN"
+      },
+      {
+        "place": 32,
+        "bib": "120",
+        "name": "BARBULESCU Marius",
+        "club": "Individual",
+        "category": "11° Masculin 36-49",
+        "time": "3:46:29.28",
+        "status": "FIN"
+      },
+      {
+        "place": 33,
+        "bib": "144",
+        "name": "CAUNI Iaela",
+        "club": "—",
+        "category": "1° Feminin 18-35",
+        "time": "3:46:29.53",
+        "status": "FIN"
+      },
+      {
+        "place": 34,
+        "bib": "134",
+        "name": "STOIA Cătălin",
+        "club": "—",
+        "category": "4° Masculin 18-35",
+        "time": "3:46:36.53",
+        "status": "FIN"
+      },
+      {
+        "place": 35,
+        "bib": "107",
+        "name": "PREDIE Emilian",
+        "club": "Marsupy Trail Squad",
+        "category": "12° Masculin 36-49",
+        "time": "3:46:57.31",
+        "status": "FIN"
+      },
+      {
+        "place": 36,
+        "bib": "138",
+        "name": "BUCUR Tibi",
+        "club": "Clubul Sportiv Comunitar Sibiu",
+        "category": "9° Masculin 50+",
+        "time": "3:50:12.50",
+        "status": "FIN"
+      },
+      {
+        "place": 37,
+        "bib": "100",
+        "name": "OLARU Constantin",
+        "club": "—",
+        "category": "13° Masculin 36-49",
+        "time": "3:53:30.49",
+        "status": "FIN"
+      },
+      {
+        "place": 38,
+        "bib": "147",
+        "name": "CISMARU-BACANU Florentin",
+        "club": "Asociatia Club Sportiv FLUX - Street Workout Team",
+        "category": "5° Masculin 18-35",
+        "time": "3:53:34.48",
+        "status": "FIN"
+      },
+      {
+        "place": 39,
+        "bib": "110",
+        "name": "GROSANU Ioana-Angela",
+        "club": "Marsupy Trail Squad",
+        "category": "4° Feminin 36-49",
+        "time": "3:57:13.22",
+        "status": "FIN"
+      },
+      {
+        "place": 40,
+        "bib": "117",
+        "name": "COSAR Viorel Petru",
+        "club": "—",
+        "category": "14° Masculin 36-49",
+        "time": "4:00:15.44",
+        "status": "FIN"
+      },
+      {
+        "place": 41,
+        "bib": "105",
+        "name": "NICOLAESCU Nicolae",
+        "club": "—",
+        "category": "10° Masculin 50+",
+        "time": "4:00:30.70",
+        "status": "FIN"
+      },
+      {
+        "place": 42,
+        "bib": "128",
+        "name": "VASILIOIU Eugen",
+        "club": "Harting Automotive",
+        "category": "15° Masculin 36-49",
+        "time": "4:01:12.69",
+        "status": "FIN"
+      },
+      {
+        "place": 43,
+        "bib": "129",
+        "name": "BARSAN Sorin",
+        "club": "HARTING RO Automotive",
+        "category": "16° Masculin 36-49",
+        "time": "4:01:12.95",
+        "status": "FIN"
+      },
+      {
+        "place": 44,
+        "bib": "84",
+        "name": "POPA Doina",
+        "club": "Clubul Sportiv Comunitar Sibiu",
+        "category": "2° Feminin 50+",
+        "time": "4:01:48.43",
+        "status": "FIN"
+      },
+      {
+        "place": 45,
+        "bib": "161",
+        "name": "POPLACENEL Dan",
+        "club": "Elevation Team",
+        "category": "11° Masculin 50+",
+        "time": "4:02:01.93",
+        "status": "FIN"
+      },
+      {
+        "place": 46,
+        "bib": "109",
+        "name": "STANCIU Alexandru",
+        "club": "Marsupy Trail Squad",
+        "category": "17° Masculin 36-49",
+        "time": "4:12:54.36",
+        "status": "FIN"
+      },
+      {
+        "place": 47,
+        "bib": "121",
+        "name": "BUTU Tudor",
+        "club": "Cozia Mountain Run",
+        "category": "18° Masculin 36-49",
+        "time": "4:14:23.85",
+        "status": "FIN"
+      },
+      {
+        "place": 48,
+        "bib": "126",
+        "name": "DOROBANTU Dragos",
+        "club": "—",
+        "category": "19° Masculin 36-49",
+        "time": "4:16:44.85",
+        "status": "FIN"
+      },
+      {
+        "place": 49,
+        "bib": "124",
+        "name": "CIUCLEA Victor-Stefan",
+        "club": "—",
+        "category": "6° Masculin 18-35",
+        "time": "4:21:41.31",
+        "status": "FIN"
+      },
+      {
+        "place": 50,
+        "bib": "116",
+        "name": "MARGINEAN Delia",
+        "club": "Club Sportiv Montan Sibiu",
+        "category": "5° Feminin 36-49",
+        "time": "4:23:03.06",
+        "status": "FIN"
+      },
+      {
+        "place": 51,
+        "bib": "141",
+        "name": "NATEA Lucian",
+        "club": "—",
+        "category": "7° Masculin 18-35",
+        "time": "4:28:16.27",
+        "status": "FIN"
+      },
+      {
+        "place": 52,
+        "bib": "139",
+        "name": "LAURA Gandila",
+        "club": "Clubul Sportiv Comunitar Sibiu/ Veverolupii",
+        "category": "6° Feminin 36-49",
+        "time": "4:29:43.76",
+        "status": "FIN"
+      },
+      {
+        "place": 53,
+        "bib": "153",
+        "name": "BUMBAS Alexandra",
+        "club": "Veverolupii",
+        "category": "7° Feminin 36-49",
+        "time": "4:29:43.76",
+        "status": "FIN"
+      },
+      {
+        "place": 54,
+        "bib": "108",
+        "name": "PETRE Monica",
+        "club": "—",
+        "category": "8° Feminin 36-49",
+        "time": "4:35:39.47",
+        "status": "FIN"
+      },
+      {
+        "place": 55,
+        "bib": "142",
+        "name": "MORUN Sebastian",
+        "club": "—",
+        "category": "8° Masculin 18-35",
+        "time": "4:37:01.71",
+        "status": "FIN"
+      },
+      {
+        "place": 56,
+        "bib": "155",
+        "name": "ALBU Andreea",
+        "club": "Veverolupii",
+        "category": "9° Feminin 36-49",
+        "time": "4:40:00.69",
+        "status": "FIN"
+      },
+      {
+        "place": 57,
+        "bib": "146",
+        "name": "CANDEA Aurel-Constantin",
+        "club": "Veverolupii",
+        "category": "20° Masculin 36-49",
+        "time": "4:45:24.16",
+        "status": "FIN"
+      },
+      {
+        "place": 58,
+        "bib": "150",
+        "name": "DRAGOMIR Raluca",
+        "club": "—",
+        "category": "2° Feminin 18-35",
+        "time": "4:50:59.88",
+        "status": "FIN"
+      },
+      {
+        "place": 59,
+        "bib": "149",
+        "name": "ENE Andrei",
+        "club": "—",
+        "category": "9° Masculin 18-35",
+        "time": "4:50:59.89",
+        "status": "FIN"
+      },
+      {
+        "place": 60,
+        "bib": "158",
+        "name": "SARAC Mircea",
+        "club": "—",
+        "category": "21° Masculin 36-49",
+        "time": "5:17:39.46",
+        "status": "FIN"
+      },
+      {
+        "place": 61,
+        "bib": "145",
+        "name": "NAN Tudor",
+        "club": "—",
+        "category": "10° Masculin 18-35",
+        "time": "5:17:39.71",
+        "status": "FIN"
+      },
+      {
+        "place": null,
+        "bib": "102",
+        "name": "RĂBOACĂ Ștefania-Mălina",
+        "club": "—",
+        "category": "Feminin 18-35",
+        "time": "—",
+        "status": "Retras"
+      },
+      {
+        "place": null,
+        "bib": "162",
+        "name": "BANEA Mircea",
+        "club": "nu",
+        "category": "Masculin 50+",
+        "time": "—",
+        "status": "Retras"
+      }
+    ],
+    "fullList": true
+  },
+  "2025-Cros": {
+    "classified": "77 / 78",
+    "winnerTime": "1:07:21.26",
+    "firstWoman": "COPACEL Luminita · 1:16:13.45",
+    "rows": [
+      {
+        "place": 1,
+        "bib": "42",
+        "name": "BERCEA Calin Ioan",
+        "club": "CSM Cluj Napoca",
+        "category": "Masculin 18-35",
+        "time": "1:07:21.26",
+        "status": "FIN"
+      },
+      {
+        "place": 2,
+        "bib": "31",
+        "name": "ANGHEL Dragos",
+        "club": "FitClass Club",
+        "category": "Masculin 50+",
+        "time": "1:07:52.25",
+        "status": "FIN"
+      },
+      {
+        "place": 3,
+        "bib": "74",
+        "name": "IANCU Alin",
+        "club": "Magura Cisnadie",
+        "category": "Masculin 36-49",
+        "time": "1:08:30.25",
+        "status": "FIN"
+      },
+      {
+        "place": 4,
+        "bib": "80",
+        "name": "SINC Lică",
+        "club": "Sebeș Running Club",
+        "category": "1° Masculin 36-49",
+        "time": "1:12:55.21",
+        "status": "FIN"
+      },
+      {
+        "place": 5,
+        "bib": "39",
+        "name": "GHEORGHIU Andrei",
+        "club": "IT Academy",
+        "category": "2° Masculin 36-49",
+        "time": "1:14:00.21",
+        "status": "FIN"
+      },
+      {
+        "place": 6,
+        "bib": "86",
+        "name": "GANDILA Robert",
+        "club": "—",
+        "category": "1° Masculin 18-35",
+        "time": "1:15:53.70",
+        "status": "FIN"
+      },
+      {
+        "place": 7,
+        "bib": "45",
+        "name": "FEIEREIS Andrei",
+        "club": "—",
+        "category": "2° Masculin 18-35",
+        "time": "1:15:56.45",
+        "status": "FIN"
+      },
+      {
+        "place": 8,
+        "bib": "16",
+        "name": "CRACIUN Tiberiu Daniel",
+        "club": "Atletic M&M",
+        "category": "3° Masculin 36-49",
+        "time": "1:16:13.45",
+        "status": "FIN"
+      },
+      {
+        "place": 9,
+        "bib": "83",
+        "name": "COPACEL Luminita",
+        "club": "ACS ATLETIC M&M",
+        "category": "Feminin 36-49",
+        "time": "1:16:13.45",
+        "status": "FIN"
+      },
+      {
+        "place": 10,
+        "bib": "41",
+        "name": "STANCA Bogdan-Mihail",
+        "club": "TGV",
+        "category": "1° Masculin 50+",
+        "time": "1:17:56.18",
+        "status": "FIN"
+      },
+      {
+        "place": 11,
+        "bib": "40",
+        "name": "IOANI Adrian",
+        "club": "Sebeș Running Club",
+        "category": "4° Masculin 36-49",
+        "time": "1:20:10.67",
+        "status": "FIN"
+      },
+      {
+        "place": 12,
+        "bib": "73",
+        "name": "ISTRATE Andreea Ionela",
+        "club": "Running Adventure",
+        "category": "Feminin 18-35",
+        "time": "1:20:33.17",
+        "status": "FIN"
+      },
+      {
+        "place": 13,
+        "bib": "5",
+        "name": "FOLEA Sebastian",
+        "club": "CSC Sibiu",
+        "category": "3° Masculin 18-35",
+        "time": "1:24:15.14",
+        "status": "FIN"
+      },
+      {
+        "place": 14,
+        "bib": "14",
+        "name": "MALAU SILVIU Silviu",
+        "club": "—",
+        "category": "5° Masculin 36-49",
+        "time": "1:24:34.65",
+        "status": "FIN"
+      },
+      {
+        "place": 15,
+        "bib": "52",
+        "name": "ZALA Viorel Gabriel",
+        "club": "—",
+        "category": "4° Masculin 18-35",
+        "time": "1:26:17.63",
+        "status": "FIN"
+      },
+      {
+        "place": 16,
+        "bib": "78",
+        "name": "GIURCULET Catalin",
+        "club": "—",
+        "category": "6° Masculin 36-49",
+        "time": "1:27:12.14",
+        "status": "FIN"
+      },
+      {
+        "place": 17,
+        "bib": "72",
+        "name": "CRETU Iulia Anisia",
+        "club": "—",
+        "category": "Feminin 18-35",
+        "time": "1:27:23.12",
+        "status": "FIN"
+      },
+      {
+        "place": 18,
+        "bib": "69",
+        "name": "SZATMARI Paul",
+        "club": "—",
+        "category": "5° Masculin 18-35",
+        "time": "1:27:46.12",
+        "status": "FIN"
+      },
+      {
+        "place": 19,
+        "bib": "44",
+        "name": "BALOG Adrian",
+        "club": "—",
+        "category": "6° Masculin 18-35",
+        "time": "1:28:36.62",
+        "status": "FIN"
+      },
+      {
+        "place": 20,
+        "bib": "53",
+        "name": "CARAMFIL Mihail",
+        "club": "Trupa lui Fane",
+        "category": "2° Masculin 50+",
+        "time": "1:29:05.62",
+        "status": "FIN"
+      },
+      {
+        "place": 21,
+        "bib": "47",
+        "name": "LUNGU Vlad",
+        "club": "—",
+        "category": "7° Masculin 36-49",
+        "time": "1:29:37.86",
+        "status": "FIN"
+      },
+      {
+        "place": 22,
+        "bib": "50",
+        "name": "BERBECE Bogdan",
+        "club": "—",
+        "category": "8° Masculin 36-49",
+        "time": "1:29:46.36",
+        "status": "FIN"
+      },
+      {
+        "place": 23,
+        "bib": "22",
+        "name": "BIRK Peter",
+        "club": "drop database ;)",
+        "category": "9° Masculin 36-49",
+        "time": "1:30:03.11",
+        "status": "FIN"
+      },
+      {
+        "place": 24,
+        "bib": "38",
+        "name": "NEDELEA Bogdan",
+        "club": "—",
+        "category": "10° Masculin 36-49",
+        "time": "1:30:45.10",
+        "status": "FIN"
+      },
+      {
+        "place": 25,
+        "bib": "4",
+        "name": "BĂRA Constantin",
+        "club": "—",
+        "category": "11° Masculin 36-49",
+        "time": "1:31:15.60",
+        "status": "FIN"
+      },
+      {
+        "place": 26,
+        "bib": "136",
+        "name": "NEAGOIE Mircea",
+        "club": "Fugarii_DP_Cibin",
+        "category": "1° Mutat Semi",
+        "time": "1:31:19.10",
+        "status": "FIN"
+      },
+      {
+        "place": 27,
+        "bib": "9",
+        "name": "MICU Mihaela",
+        "club": "—",
+        "category": "1° Feminin 36-49",
+        "time": "1:35:23.08",
+        "status": "FIN"
+      },
+      {
+        "place": 28,
+        "bib": "30",
+        "name": "HACIU Catalina",
+        "club": "—",
+        "category": "1° Feminin 18-35",
+        "time": "1:36:31.32",
+        "status": "FIN"
+      },
+      {
+        "place": 29,
+        "bib": "76",
+        "name": "DUMITRU Emilian",
+        "club": "—",
+        "category": "7° Masculin 18-35",
+        "time": "1:37:01.07",
+        "status": "FIN"
+      },
+      {
+        "place": 30,
+        "bib": "56",
+        "name": "BADEA Mihaela Crenguta",
+        "club": "Locomotiva București",
+        "category": "1° Feminin 50+",
+        "time": "1:37:29.82",
+        "status": "FIN"
+      },
+      {
+        "place": 31,
+        "bib": "1",
+        "name": "DUDA Claudiu - Horatiu",
+        "club": "Clubul Sportiv Comunitar Sibiu",
+        "category": "8° Masculin 18-35",
+        "time": "1:40:04.55",
+        "status": "FIN"
+      },
+      {
+        "place": 32,
+        "bib": "12",
+        "name": "MENNING Margot",
+        "club": "Clubul Sportiv Comunitar Sibiu",
+        "category": "2° Feminin 18-35",
+        "time": "1:40:04.80",
+        "status": "FIN"
+      },
+      {
+        "place": 33,
+        "bib": "6",
+        "name": "BUTUM Alexandru",
+        "club": "—",
+        "category": "12° Masculin 36-49",
+        "time": "1:41:51.54",
+        "status": "FIN"
+      },
+      {
+        "place": 34,
+        "bib": "7",
+        "name": "ISTRATE Vasilica",
+        "club": "—",
+        "category": "3° Masculin 50+",
+        "time": "1:45:27.52",
+        "status": "FIN"
+      },
+      {
+        "place": 35,
+        "bib": "81",
+        "name": "POPLICEAN Catalina",
+        "club": "—",
+        "category": "3° Feminin 18-35",
+        "time": "1:47:46.25",
+        "status": "FIN"
+      },
+      {
+        "place": 36,
+        "bib": "61",
+        "name": "DAN Mihai",
+        "club": "—",
+        "category": "9° Masculin 18-35",
+        "time": "1:48:26.25",
+        "status": "FIN"
+      },
+      {
+        "place": 37,
+        "bib": "75",
+        "name": "POPA Ciprian",
+        "club": "—",
+        "category": "13° Masculin 36-49",
+        "time": "1:50:18.24",
+        "status": "FIN"
+      },
+      {
+        "place": 38,
+        "bib": "59",
+        "name": "MITEA Razvan",
+        "club": "Monkeys",
+        "category": "14° Masculin 36-49",
+        "time": "1:50:19.98",
+        "status": "FIN"
+      },
+      {
+        "place": 39,
+        "bib": "26",
+        "name": "PASCAR Mihai",
+        "club": "—",
+        "category": "15° Masculin 36-49",
+        "time": "1:51:21.97",
+        "status": "FIN"
+      },
+      {
+        "place": 40,
+        "bib": "36",
+        "name": "CUSNIR Monica",
+        "club": "—",
+        "category": "2° Feminin 36-49",
+        "time": "1:51:40.72",
+        "status": "FIN"
+      },
+      {
+        "place": 41,
+        "bib": "15",
+        "name": "LUDOSAN Ioan",
+        "club": "Miercurea Sibiului",
+        "category": "16° Masculin 36-49",
+        "time": "1:51:47.47",
+        "status": "FIN"
+      },
+      {
+        "place": 42,
+        "bib": "68",
+        "name": "IRIMIE Cristian",
+        "club": "—",
+        "category": "10° Masculin 18-35",
+        "time": "1:51:53.72",
+        "status": "FIN"
+      },
+      {
+        "place": 43,
+        "bib": "37",
+        "name": "MOLNAR Robert",
+        "club": "Clubul Sportiv Comunitar Sibiu",
+        "category": "11° Masculin 18-35",
+        "time": "1:52:16.47",
+        "status": "FIN"
+      },
+      {
+        "place": 44,
+        "bib": "21",
+        "name": "AVARVAREI Cornel",
+        "club": "—",
+        "category": "12° Masculin 18-35",
+        "time": "1:53:33.71",
+        "status": "FIN"
+      },
+      {
+        "place": 45,
+        "bib": "8",
+        "name": "AVRAM Gabriel",
+        "club": "—",
+        "category": "13° Masculin 18-35",
+        "time": "1:53:34.71",
+        "status": "FIN"
+      },
+      {
+        "place": 46,
+        "bib": "3",
+        "name": "CRETU Florina",
+        "club": "—",
+        "category": "4° Feminin 18-35",
+        "time": "1:53:46.71",
+        "status": "FIN"
+      },
+      {
+        "place": 47,
+        "bib": "29",
+        "name": "VASIU Cosmin",
+        "club": "Clubul Sportiv Comunitar Sibiu",
+        "category": "17° Masculin 36-49",
+        "time": "1:58:27.18",
+        "status": "FIN"
+      },
+      {
+        "place": 48,
+        "bib": "77",
+        "name": "GIURCULET Adriana",
+        "club": "—",
+        "category": "5° Feminin 18-35",
+        "time": "2:00:22.68",
+        "status": "FIN"
+      },
+      {
+        "place": 49,
+        "bib": "54",
+        "name": "LODEA Radu",
+        "club": "—",
+        "category": "18° Masculin 36-49",
+        "time": "2:06:57.63",
+        "status": "FIN"
+      },
+      {
+        "place": 50,
+        "bib": "11",
+        "name": "POPA Teodor",
+        "club": "—",
+        "category": "4° Masculin 50+",
+        "time": "2:08:12.63",
+        "status": "FIN"
+      },
+      {
+        "place": 51,
+        "bib": "27",
+        "name": "SOCACIU Adrian",
+        "club": "—",
+        "category": "14° Masculin 18-35",
+        "time": "2:08:18.87",
+        "status": "FIN"
+      },
+      {
+        "place": 52,
+        "bib": "34",
+        "name": "DAMIAN Alecsandru",
+        "club": "—",
+        "category": "19° Masculin 36-49",
+        "time": "2:09:28.36",
+        "status": "FIN"
+      },
+      {
+        "place": 53,
+        "bib": "55",
+        "name": "VREJA Bogdan",
+        "club": "—",
+        "category": "20° Masculin 36-49",
+        "time": "2:09:47.12",
+        "status": "FIN"
+      },
+      {
+        "place": 54,
+        "bib": "49",
+        "name": "RAMBA Claudia",
+        "club": "—",
+        "category": "6° Feminin 18-35",
+        "time": "2:09:54.86",
+        "status": "FIN"
+      },
+      {
+        "place": 55,
+        "bib": "48",
+        "name": "KOMAN Claudiu Mihai",
+        "club": "—",
+        "category": "21° Masculin 36-49",
+        "time": "2:09:56.11",
+        "status": "FIN"
+      },
+      {
+        "place": 56,
+        "bib": "82",
+        "name": "ACARU Alexandra",
+        "club": "—",
+        "category": "3° Feminin 36-49",
+        "time": "2:14:05.83",
+        "status": "FIN"
+      },
+      {
+        "place": 57,
+        "bib": "51",
+        "name": "BORDEANU Teodora",
+        "club": "Clubul Sportiv Comunitar Sibiu",
+        "category": "2° Feminin 50+",
+        "time": "2:16:21.07",
+        "status": "FIN"
+      },
+      {
+        "place": 58,
+        "bib": "17",
+        "name": "CRACIUN Catalina Maria",
+        "club": "—",
+        "category": "7° Feminin 18-35",
+        "time": "2:16:21.07",
+        "status": "FIN"
+      },
+      {
+        "place": 59,
+        "bib": "58",
+        "name": "MIHAI Vasile",
+        "club": "—",
+        "category": "22° Masculin 36-49",
+        "time": "2:20:44.54",
+        "status": "FIN"
+      },
+      {
+        "place": 60,
+        "bib": "24",
+        "name": "PRIE Silvia-Melita",
+        "club": "—",
+        "category": "4° Feminin 36-49",
+        "time": "2:21:04.29",
+        "status": "FIN"
+      },
+      {
+        "place": 61,
+        "bib": "62",
+        "name": "DOBRE Raluca-Olivia",
+        "club": "Consătenii",
+        "category": "8° Feminin 18-35",
+        "time": "2:21:55.80",
+        "status": "FIN"
+      },
+      {
+        "place": 62,
+        "bib": "65",
+        "name": "NUTA Elisei",
+        "club": "—",
+        "category": "15° Masculin 18-35",
+        "time": "2:21:56.04",
+        "status": "FIN"
+      },
+      {
+        "place": 63,
+        "bib": "63",
+        "name": "DAN Ana",
+        "club": "Consătenii",
+        "category": "9° Feminin 18-35",
+        "time": "2:21:56.28",
+        "status": "FIN"
+      },
+      {
+        "place": 64,
+        "bib": "67",
+        "name": "BULGAR Petru",
+        "club": "—",
+        "category": "5° Masculin 50+",
+        "time": "2:23:38.77",
+        "status": "FIN"
+      },
+      {
+        "place": 65,
+        "bib": "23",
+        "name": "BĂRA Lavinia",
+        "club": "—",
+        "category": "5° Feminin 36-49",
+        "time": "2:23:49.27",
+        "status": "FIN"
+      },
+      {
+        "place": 66,
+        "bib": "28",
+        "name": "STOIA Anamaria",
+        "club": "Individual",
+        "category": "10° Feminin 18-35",
+        "time": "2:24:51.01",
+        "status": "FIN"
+      },
+      {
+        "place": 67,
+        "bib": "66",
+        "name": "BULGAR Corina-Maria",
+        "club": "—",
+        "category": "3° Feminin 50+",
+        "time": "2:29:40.73",
+        "status": "FIN"
+      },
+      {
+        "place": 68,
+        "bib": "85",
+        "name": "DRAGOE Irina",
+        "club": "—",
+        "category": "11° Feminin 18-35",
+        "time": "2:33:41.21",
+        "status": "FIN"
+      },
+      {
+        "place": 69,
+        "bib": "71",
+        "name": "TANASIE Gabriela",
+        "club": "—",
+        "category": "12° Feminin 18-35",
+        "time": "2:39:25.67",
+        "status": "FIN"
+      },
+      {
+        "place": 70,
+        "bib": "88",
+        "name": "COLLEUIL Alexandre",
+        "club": "—",
+        "category": "23° Masculin 36-49",
+        "time": "2:53:20.59",
+        "status": "FIN"
+      },
+      {
+        "place": 71,
+        "bib": "46",
+        "name": "CONSTANTIN Cristina",
+        "club": "—",
+        "category": "4° Feminin 50+",
+        "time": "3:04:02.27",
+        "status": "FIN"
+      },
+      {
+        "place": 72,
+        "bib": "32",
+        "name": "SARBU Simina",
+        "club": "—",
+        "category": "6° Feminin 36-49",
+        "time": "3:11:19.98",
+        "status": "FIN"
+      },
+      {
+        "place": 73,
+        "bib": "20",
+        "name": "TURCU Mioara",
+        "club": "Dream Team",
+        "category": "7° Feminin 36-49",
+        "time": "3:11:19.98",
+        "status": "FIN"
+      },
+      {
+        "place": 74,
+        "bib": "19",
+        "name": "MARINA Felicia",
+        "club": "—",
+        "category": "8° Feminin 36-49",
+        "time": "3:11:20.22",
+        "status": "FIN"
+      },
+      {
+        "place": 75,
+        "bib": "70",
+        "name": "SERBAN Dragos George",
+        "club": "—",
+        "category": "24° Masculin 36-49",
+        "time": "3:11:35.47",
+        "status": "FIN"
+      },
+      {
+        "place": 76,
+        "bib": "87",
+        "name": "TURCU Maria Alexandra",
+        "club": "—",
+        "category": "13° Feminin 18-35",
+        "time": "3:33:43.08",
+        "status": "FIN"
+      },
+      {
+        "place": 77,
+        "bib": "64",
+        "name": "CHIRILA Vlad-Dan",
+        "club": "—",
+        "category": "16° Masculin 18-35",
+        "time": "3:33:43.08",
+        "status": "FIN"
+      },
+      {
+        "place": null,
+        "bib": "60",
+        "name": "COLAK Furkan",
+        "club": "—",
+        "category": "Masculin 36-49",
+        "time": "—",
+        "status": "Retras"
+      }
+    ],
+    "fullList": true
+  },
+  "2024-Semimaraton": {
+    "classified": "37 / 37",
+    "winnerTime": "2:10:40.11",
+    "firstWoman": "PLOSNITA Adriana · 2:38:17.69",
+    "rows": [
+      {
+        "place": 1,
+        "bib": "132",
+        "name": "STAN Cosmin",
+        "club": "—",
+        "category": "Masculin 18-35",
+        "time": "2:10:40.11",
+        "status": "FIN"
+      },
+      {
+        "place": 2,
+        "bib": "112",
+        "name": "CĂPÎLNEAN Ionuț",
+        "club": "—",
+        "category": "Masculin 36-49",
+        "time": "2:14:29.09",
+        "status": "FIN"
+      },
+      {
+        "place": 3,
+        "bib": "124",
+        "name": "IANCU Alin",
+        "club": "Cisnadia Alearga - Team",
+        "category": "Masculin 36-49",
+        "time": "2:16:18.08",
+        "status": "FIN"
+      },
+      {
+        "place": 4,
+        "bib": "134",
+        "name": "CODREA Gheorghe",
+        "club": "rosia montana marathon",
+        "category": "1° Masculin 50+",
+        "time": "2:24:45.03",
+        "status": "FIN"
+      },
+      {
+        "place": 5,
+        "bib": "105",
+        "name": "NOTAR Florin Daniel",
+        "club": "Club Sportiv Măgura Cisnădie",
+        "category": "1° Masculin 36-49",
+        "time": "2:27:33.51",
+        "status": "FIN"
+      },
+      {
+        "place": 6,
+        "bib": "135",
+        "name": "PLOSNITA Adrian",
+        "club": "Vertical Sport/Circuitul Carpatilor",
+        "category": "2° Masculin 36-49",
+        "time": "2:29:43.24",
+        "status": "FIN"
+      },
+      {
+        "place": 7,
+        "bib": "102",
+        "name": "LUNGOCI Sabin",
+        "club": "Roșia Montană Marathon",
+        "category": "3° Masculin 36-49",
+        "time": "2:35:21.96",
+        "status": "FIN"
+      },
+      {
+        "place": 8,
+        "bib": "108",
+        "name": "BERCEA Calin Ioan",
+        "club": "—",
+        "category": "1° Masculin 18-35",
+        "time": "2:35:54.72",
+        "status": "FIN"
+      },
+      {
+        "place": 9,
+        "bib": "136",
+        "name": "PLOSNITA Adriana",
+        "club": "Vertical Sport",
+        "category": "Feminin 18-35",
+        "time": "2:38:17.69",
+        "status": "FIN"
+      },
+      {
+        "place": 10,
+        "bib": "140",
+        "name": "MORARIU Razvan",
+        "club": "—",
+        "category": "4° Masculin 36-49",
+        "time": "2:41:38.42",
+        "status": "FIN"
+      },
+      {
+        "place": 11,
+        "bib": "103",
+        "name": "ZALA Viorel Gabriel",
+        "club": "—",
+        "category": "2° Masculin 18-35",
+        "time": "2:52:42.60",
+        "status": "FIN"
+      },
+      {
+        "place": 12,
+        "bib": "104",
+        "name": "MIRZA Ovidiu Andrei",
+        "club": "—",
+        "category": "3° Masculin 18-35",
+        "time": "3:05:17.28",
+        "status": "FIN"
+      },
+      {
+        "place": 13,
+        "bib": "116",
+        "name": "BARSAN Sorin",
+        "club": "—",
+        "category": "5° Masculin 36-49",
+        "time": "3:06:00.53",
+        "status": "FIN"
+      },
+      {
+        "place": 14,
+        "bib": "111",
+        "name": "CRETU Iulia Anisia",
+        "club": "—",
+        "category": "Feminin 18-35",
+        "time": "3:06:11.29",
+        "status": "FIN"
+      },
+      {
+        "place": 15,
+        "bib": "137",
+        "name": "OLARU Codruta",
+        "club": "Clubul Sportiv Comunitar Sibiu",
+        "category": "Feminin 36-49",
+        "time": "3:10:09.76",
+        "status": "FIN"
+      },
+      {
+        "place": 16,
+        "bib": "101",
+        "name": "COCIERU Alexandru",
+        "club": "—",
+        "category": "6° Masculin 36-49",
+        "time": "3:14:57.47",
+        "status": "FIN"
+      },
+      {
+        "place": 17,
+        "bib": "129",
+        "name": "MORARIU Daria",
+        "club": "—",
+        "category": "1° Feminin 18-35",
+        "time": "3:15:29.72",
+        "status": "FIN"
+      },
+      {
+        "place": 18,
+        "bib": "127",
+        "name": "IRINA Andreea",
+        "club": "—",
+        "category": "1° Feminin 36-49",
+        "time": "3:15:56.47",
+        "status": "FIN"
+      },
+      {
+        "place": 19,
+        "bib": "109",
+        "name": "VINȚI Bogdan",
+        "club": "—",
+        "category": "7° Masculin 36-49",
+        "time": "3:18:39.94",
+        "status": "FIN"
+      },
+      {
+        "place": 20,
+        "bib": "113",
+        "name": "VISAN Nadina",
+        "club": "Mures runners",
+        "category": "1° Feminin 50+",
+        "time": "3:19:30.69",
+        "status": "FIN"
+      },
+      {
+        "place": 21,
+        "bib": "138",
+        "name": "CÎRLAN Ionut Dan",
+        "club": "—",
+        "category": "4° Masculin 18-35",
+        "time": "3:22:39.17",
+        "status": "FIN"
+      },
+      {
+        "place": 22,
+        "bib": "115",
+        "name": "MUNTEANU Cosmin",
+        "club": "—",
+        "category": "8° Masculin 36-49",
+        "time": "3:22:56.43",
+        "status": "FIN"
+      },
+      {
+        "place": 23,
+        "bib": "120",
+        "name": "BEJENARU Vasile",
+        "club": "—",
+        "category": "2° Masculin 50+",
+        "time": "3:36:22.09",
+        "status": "FIN"
+      },
+      {
+        "place": 24,
+        "bib": "133",
+        "name": "CECHIRDAN Radu",
+        "club": "Nu e cazul",
+        "category": "9° Masculin 36-49",
+        "time": "3:37:48.33",
+        "status": "FIN"
+      },
+      {
+        "place": 25,
+        "bib": "117",
+        "name": "COJOCARU Eugen",
+        "club": "GSD",
+        "category": "10° Masculin 36-49",
+        "time": "3:53:45.98",
+        "status": "FIN"
+      },
+      {
+        "place": 26,
+        "bib": "106",
+        "name": "NICOLAESCU Nicolae",
+        "club": "—",
+        "category": "3° Masculin 50+",
+        "time": "3:54:20.73",
+        "status": "FIN"
+      },
+      {
+        "place": 27,
+        "bib": "114",
+        "name": "COSAR Viorel Petru",
+        "club": "—",
+        "category": "11° Masculin 36-49",
+        "time": "3:56:26.46",
+        "status": "FIN"
+      },
+      {
+        "place": 28,
+        "bib": "119",
+        "name": "MROZOWSKI Wojciech",
+        "club": "—",
+        "category": "12° Masculin 36-49",
+        "time": "3:59:20.20",
+        "status": "FIN"
+      },
+      {
+        "place": 29,
+        "bib": "110",
+        "name": "PETRE Monica",
+        "club": "—",
+        "category": "2° Feminin 36-49",
+        "time": "4:01:47.43",
+        "status": "FIN"
+      },
+      {
+        "place": 30,
+        "bib": "118",
+        "name": "GUȘĂ David-Emil",
+        "club": "GSD Software & Technology",
+        "category": "5° Masculin 18-35",
+        "time": "4:03:17.43",
+        "status": "FIN"
+      },
+      {
+        "place": 31,
+        "bib": "123",
+        "name": "LAURA Gandila",
+        "club": "CSCS/Flux",
+        "category": "3° Feminin 36-49",
+        "time": "4:09:38.63",
+        "status": "FIN"
+      },
+      {
+        "place": 32,
+        "bib": "121",
+        "name": "CANDEA Aurel",
+        "club": "FLUX",
+        "category": "13° Masculin 36-49",
+        "time": "4:09:38.88",
+        "status": "FIN"
+      },
+      {
+        "place": 33,
+        "bib": "130",
+        "name": "MORARIU Dan",
+        "club": "—",
+        "category": "4° Masculin 50+",
+        "time": "4:24:10.05",
+        "status": "FIN"
+      },
+      {
+        "place": 34,
+        "bib": "128",
+        "name": "LAURA Popescu",
+        "club": "FRIENDS SIBIU",
+        "category": "4° Feminin 36-49",
+        "time": "4:24:17.05",
+        "status": "FIN"
+      },
+      {
+        "place": 35,
+        "bib": "126",
+        "name": "MARGINEAN Delia",
+        "club": "—",
+        "category": "5° Feminin 36-49",
+        "time": "4:24:17.31",
+        "status": "FIN"
+      },
+      {
+        "place": 36,
+        "bib": "107",
+        "name": "CORNELISON Monica",
+        "club": "—",
+        "category": "2° Feminin 50+",
+        "time": "4:41:44.82",
+        "status": "FIN"
+      },
+      {
+        "place": 37,
+        "bib": "131",
+        "name": "MORARIU Camelia",
+        "club": "—",
+        "category": "3° Feminin 50+",
+        "time": "4:50:03.75",
+        "status": "FIN"
+      }
+    ],
+    "fullList": true
+  },
+  "2024-Cros": {
+    "classified": "46 / 46",
+    "winnerTime": "1:03:57.02",
+    "firstWoman": "ANNA Morska · 1:12:57.96",
+    "rows": [
+      {
+        "place": 1,
+        "bib": "15",
+        "name": "ROMANESKU Viacheslav",
+        "club": "—",
+        "category": "Masculin 36-49",
+        "time": "1:03:57.02",
+        "status": "FIN"
+      },
+      {
+        "place": 2,
+        "bib": "12",
+        "name": "TDI Alex",
+        "club": "—",
+        "category": "Masculin 18-35",
+        "time": "1:05:36.00",
+        "status": "FIN"
+      },
+      {
+        "place": 3,
+        "bib": "32",
+        "name": "STANCA Bogdan-Mihail",
+        "club": "TGV",
+        "category": "Masculin 36-49",
+        "time": "1:12:38.96",
+        "status": "FIN"
+      },
+      {
+        "place": 4,
+        "bib": "17",
+        "name": "ANNA Morska",
+        "club": "Clubul Sportiv Comunitar Sibiu",
+        "category": "Feminin 36-49",
+        "time": "1:12:57.96",
+        "status": "FIN"
+      },
+      {
+        "place": 5,
+        "bib": "7",
+        "name": "MUREȘAN Cătălin",
+        "club": "Clubul Sportiv Comunitar Sibiu",
+        "category": "1° Masculin 36-49",
+        "time": "1:14:14.70",
+        "status": "FIN"
+      },
+      {
+        "place": 6,
+        "bib": "52",
+        "name": "VONICA Ghisela",
+        "club": "—",
+        "category": "Feminin 36-49",
+        "time": "1:15:32.46",
+        "status": "FIN"
+      },
+      {
+        "place": 7,
+        "bib": "55",
+        "name": "COMAN Catalin",
+        "club": "—",
+        "category": "2° Masculin 36-49",
+        "time": "1:16:20.20",
+        "status": "FIN"
+      },
+      {
+        "place": 8,
+        "bib": "11",
+        "name": "DINA Bogdan",
+        "club": "Trail Ghosts Valcea",
+        "category": "3° Masculin 36-49",
+        "time": "1:20:44.92",
+        "status": "FIN"
+      },
+      {
+        "place": 9,
+        "bib": "8",
+        "name": "CARAMFIL Mihail",
+        "club": "Trupa lui Fane",
+        "category": "1° Masculin 50+",
+        "time": "1:22:15.65",
+        "status": "FIN"
+      },
+      {
+        "place": 10,
+        "bib": "31",
+        "name": "MARCOVICI Andrei",
+        "club": "Clubul Sportib Comunitar Sibiu",
+        "category": "4° Masculin 36-49",
+        "time": "1:26:43.15",
+        "status": "FIN"
+      },
+      {
+        "place": 11,
+        "bib": "53",
+        "name": "POPA Doina",
+        "club": "—",
+        "category": "Feminin 50+",
+        "time": "1:27:48.87",
+        "status": "FIN"
+      },
+      {
+        "place": 12,
+        "bib": "30",
+        "name": "TREMBOVETSKA Olena",
+        "club": "Club sportiv comunitar Sibiu",
+        "category": "1° Feminin 18-35",
+        "time": "1:27:48.88",
+        "status": "FIN"
+      },
+      {
+        "place": 13,
+        "bib": "47",
+        "name": "RADU Alex",
+        "club": "—",
+        "category": "1° Masculin 18-35",
+        "time": "1:28:05.39",
+        "status": "FIN"
+      },
+      {
+        "place": 14,
+        "bib": "27",
+        "name": "ROSIANU Silviu",
+        "club": "—",
+        "category": "2° Masculin 18-35",
+        "time": "1:28:46.11",
+        "status": "FIN"
+      },
+      {
+        "place": 15,
+        "bib": "26",
+        "name": "VASIU Alice",
+        "club": "—",
+        "category": "2° Feminin 18-35",
+        "time": "1:30:15.11",
+        "status": "FIN"
+      },
+      {
+        "place": 16,
+        "bib": "14",
+        "name": "HACIU Cătălina",
+        "club": "—",
+        "category": "3° Feminin 18-35",
+        "time": "1:30:27.35",
+        "status": "FIN"
+      },
+      {
+        "place": 17,
+        "bib": "36",
+        "name": "NICOLA Horea",
+        "club": "—",
+        "category": "2° Masculin 50+",
+        "time": "1:31:26.60",
+        "status": "FIN"
+      },
+      {
+        "place": 18,
+        "bib": "42",
+        "name": "LAZAR Catalin",
+        "club": "Consu +Asociatii",
+        "category": "5° Masculin 36-49",
+        "time": "1:34:24.10",
+        "status": "FIN"
+      },
+      {
+        "place": 19,
+        "bib": "24",
+        "name": "NEDELEA Bogdan",
+        "club": "—",
+        "category": "6° Masculin 36-49",
+        "time": "1:34:52.58",
+        "status": "FIN"
+      },
+      {
+        "place": 20,
+        "bib": "22",
+        "name": "POPLACENEL Dan",
+        "club": "—",
+        "category": "3° Masculin 50+",
+        "time": "1:35:40.33",
+        "status": "FIN"
+      },
+      {
+        "place": 21,
+        "bib": "44",
+        "name": "HERSCHBACH Gregor",
+        "club": "—",
+        "category": "7° Masculin 36-49",
+        "time": "1:36:11.57",
+        "status": "FIN"
+      },
+      {
+        "place": 22,
+        "bib": "40",
+        "name": "LUDOSAN Ioan",
+        "club": "Miercurea Sibiului",
+        "category": "8° Masculin 36-49",
+        "time": "1:38:23.06",
+        "status": "FIN"
+      },
+      {
+        "place": 23,
+        "bib": "25",
+        "name": "BOLOGA Mircea-Alexandru",
+        "club": "Clubul Sportiv Comunitar Sibiu",
+        "category": "9° Masculin 36-49",
+        "time": "1:39:23.29",
+        "status": "FIN"
+      },
+      {
+        "place": 24,
+        "bib": "16",
+        "name": "SAVU Claudia",
+        "club": "Clubul Sportiv Comunitar Sibiu",
+        "category": "1° Feminin 36-49",
+        "time": "1:41:37.79",
+        "status": "FIN"
+      },
+      {
+        "place": 25,
+        "bib": "6",
+        "name": "CRETU Florina",
+        "club": "Individual",
+        "category": "4° Feminin 18-35",
+        "time": "1:41:37.80",
+        "status": "FIN"
+      },
+      {
+        "place": 26,
+        "bib": "46",
+        "name": "RĂBOACĂ Ștefania-Mălina",
+        "club": "—",
+        "category": "5° Feminin 18-35",
+        "time": "1:44:02.77",
+        "status": "FIN"
+      },
+      {
+        "place": 27,
+        "bib": "39",
+        "name": "IORDACHE Constantin Alin",
+        "club": ".TGV",
+        "category": "10° Masculin 36-49",
+        "time": "1:44:04.02",
+        "status": "FIN"
+      },
+      {
+        "place": 28,
+        "bib": "33",
+        "name": "STANCA Carmen-Sorina",
+        "club": "TGV",
+        "category": "2° Feminin 36-49",
+        "time": "1:44:55.52",
+        "status": "FIN"
+      },
+      {
+        "place": 29,
+        "bib": "18",
+        "name": "FULEA Mihai Dan",
+        "club": "—",
+        "category": "11° Masculin 36-49",
+        "time": "1:48:26.25",
+        "status": "FIN"
+      },
+      {
+        "place": 30,
+        "bib": "38",
+        "name": "IORDACHE Elena Alina",
+        "club": ".TGV",
+        "category": "3° Feminin 36-49",
+        "time": "1:48:37.24",
+        "status": "FIN"
+      },
+      {
+        "place": 31,
+        "bib": "45",
+        "name": "STOIA Anamaria",
+        "club": "Individual",
+        "category": "6° Feminin 18-35",
+        "time": "1:49:38.49",
+        "status": "FIN"
+      },
+      {
+        "place": 32,
+        "bib": "21",
+        "name": "BIGIU Gabriel",
+        "club": "—",
+        "category": "3° Masculin 18-35",
+        "time": "1:52:22.72",
+        "status": "FIN"
+      },
+      {
+        "place": 33,
+        "bib": "34",
+        "name": "MITUT Mihaela",
+        "club": "TGV",
+        "category": "4° Feminin 36-49",
+        "time": "1:53:54.71",
+        "status": "FIN"
+      },
+      {
+        "place": 34,
+        "bib": "23",
+        "name": "TESCARU Anca",
+        "club": "—",
+        "category": "5° Feminin 36-49",
+        "time": "1:55:13.46",
+        "status": "FIN"
+      },
+      {
+        "place": 35,
+        "bib": "35",
+        "name": "CĂRĂUȘAN Bogdana",
+        "club": "—",
+        "category": "7° Feminin 18-35",
+        "time": "1:55:13.46",
+        "status": "FIN"
+      },
+      {
+        "place": 36,
+        "bib": "43",
+        "name": "DANCU Marius Vasile",
+        "club": "—",
+        "category": "12° Masculin 36-49",
+        "time": "1:56:06.20",
+        "status": "FIN"
+      },
+      {
+        "place": 37,
+        "bib": "10",
+        "name": "SOCACIU Adrian",
+        "club": "—",
+        "category": "4° Masculin 18-35",
+        "time": "2:01:50.91",
+        "status": "FIN"
+      },
+      {
+        "place": 38,
+        "bib": "28",
+        "name": "BROTE Andreas",
+        "club": "—",
+        "category": "5° Masculin 18-35",
+        "time": "2:03:43.90",
+        "status": "FIN"
+      },
+      {
+        "place": 39,
+        "bib": "5",
+        "name": "SOFIAN Gabriela",
+        "club": "—",
+        "category": "1° Feminin 50+",
+        "time": "2:20:57.55",
+        "status": "FIN"
+      },
+      {
+        "place": 40,
+        "bib": "54",
+        "name": "NEGHINA Daniel",
+        "club": "—",
+        "category": "13° Masculin 36-49",
+        "time": "2:33:22.97",
+        "status": "FIN"
+      },
+      {
+        "place": 41,
+        "bib": "20",
+        "name": "TURCU Mioara",
+        "club": "—",
+        "category": "6° Feminin 36-49",
+        "time": "2:52:02.61",
+        "status": "FIN"
+      },
+      {
+        "place": 42,
+        "bib": "41",
+        "name": "POPA Crina Maria",
+        "club": "—",
+        "category": "7° Feminin 36-49",
+        "time": "2:52:03.11",
+        "status": "FIN"
+      },
+      {
+        "place": 43,
+        "bib": "3",
+        "name": "PURCAR Oana",
+        "club": "—",
+        "category": "8° Feminin 36-49",
+        "time": "2:52:03.11",
+        "status": "FIN"
+      },
+      {
+        "place": 44,
+        "bib": "9",
+        "name": "MARINA Felicia",
+        "club": "—",
+        "category": "9° Feminin 36-49",
+        "time": "2:52:03.11",
+        "status": "FIN"
+      },
+      {
+        "place": 45,
+        "bib": "4",
+        "name": "SARBU Simina",
+        "club": "Clubul Sportiv Comunitar Sibiu",
+        "category": "10° Feminin 36-49",
+        "time": "2:52:03.37",
+        "status": "FIN"
+      },
+      {
+        "place": 46,
+        "bib": "2",
+        "name": "TEODORESCU Bianca",
+        "club": "—",
+        "category": "2° Feminin 50+",
+        "time": "3:29:21.63",
+        "status": "FIN"
+      }
+    ],
+    "fullList": true
+  },
+  "2026-Power Hiking": {
+    "rows": [
+      {
+        "place": null,
+        "bib": "300",
+        "name": "Alexandru Costeiu",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "301",
+        "name": "Raluca Mija",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "302",
+        "name": "Daniela Grozavu",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "304",
+        "name": "Ovidiu-Florin Tanase",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "305",
+        "name": "Patricia Ana Maria Grozavu",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "306",
+        "name": "Angela Muntean",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "307",
+        "name": "Mariana Petrea",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "308",
+        "name": "Stefana Costache",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "309",
+        "name": "Eugen Dumitru",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "310",
+        "name": "Alexandru Sava",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "311",
+        "name": "Vochitoiu Cosmin",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "312",
+        "name": "Vochitoiu Carmen",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "313",
+        "name": "Ancuta Nati",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "314",
+        "name": "Catalin Roman",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "315",
+        "name": "Luiza Roman",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "316",
+        "name": "Iuliana Muntean",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "317",
+        "name": "Nicolae Muntean",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "318",
+        "name": "Madalina Sporis",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "319",
+        "name": "Constantin Sporis",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "320",
+        "name": "Elena Dalban",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "321",
+        "name": "Andrei Sdeorna",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "322",
+        "name": "Iulia Cioran",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "323",
+        "name": "Simina Avram",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "325",
+        "name": "Petrut Catalin",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "326",
+        "name": "Alexandra Teșa",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "327",
+        "name": "Moldovan Ionut",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "328",
+        "name": "Moldovan Ariadna",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "330",
+        "name": "Gregor Herschbach",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "331",
+        "name": "Iulia Florescu",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "332",
+        "name": "Geanina Florescu",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "333",
+        "name": "Constantin Florescu",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "337",
+        "name": "Daniela Doroftei",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "338",
+        "name": "Minodoramihaela Filipiuc",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "339",
+        "name": "Ioan Doroftei",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "340",
+        "name": "Ciprian Sporea",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "341",
+        "name": "Simona Popa",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "342",
+        "name": "Mihaela Murgan",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "343",
+        "name": "Dragos Constantin",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "344",
+        "name": "Alexandra Constantin",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "345",
+        "name": "Miriam Constantin",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "346",
+        "name": "Aurora Elena Moraru",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "347",
+        "name": "Gheorghe Marinel Moraru",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "349",
+        "name": "Alexandru Mihai Cocos",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "350",
+        "name": "Alexandra Munteanu",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "351",
+        "name": "Daniela Presecan",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "352",
+        "name": "Sorin Barsan",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "353",
+        "name": "Iulia Barsan",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "354",
+        "name": "Octavian Bârsan",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "355",
+        "name": "Ilinca Barsan",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "356",
+        "name": "Simona Cartau",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "359",
+        "name": "Nicoleta Vilcov",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "360",
+        "name": "Mihail Vilcov",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "361",
+        "name": "Anna Onn",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "362",
+        "name": "Diana Ivanesei",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      },
+      {
+        "place": null,
+        "bib": "363",
+        "name": "Lavinia Stachie",
+        "club": "—",
+        "category": "OPEN",
+        "time": "—",
+        "status": "Necompetitiv"
+      }
+    ],
+    "fullList": true
+  }
+}

@@ -1,5 +1,6 @@
 <script setup>
 import { onMounted, ref } from 'vue';
+import { kadenza } from '@/data/kadenza';
 
 defineProps({ participants: Boolean });
 const failed = ref(false);
@@ -8,7 +9,7 @@ const loading = ref(true);
 onMounted(async () => {
   try {
     // Native ESM import: equivalent to the supplied import map, loaded only on widget pages.
-    const moduleUrl = 'https://app.kadenza.pro/widgets/v1/embed.js';
+    const moduleUrl = `${kadenza.host}/widgets/v1/embed.js`;
     await import(/* @vite-ignore */ moduleUrl);
   } catch {
     failed.value = true;
@@ -20,22 +21,24 @@ onMounted(async () => {
 
 <template>
   <div class="kadenza-container">
-    <p v-if="loading" role="status">Se încarcă formularul Kadenza…</p>
+    <p v-if="loading" role="status">
+      {{ participants ? 'Se încarcă lista participanților…' : 'Se încarcă formularul Kadenza…' }}
+    </p>
     <p v-if="failed" role="alert">
       Nu am putut încărca Kadenza. Reîncarcă pagina pentru a încerca din nou.
     </p>
     <kadenza-race-participants
       v-if="participants && !failed"
-      org="tdajk2k5605c"
-      competition="dfb0c1cb-c569-4d4a-9662-2cf936859526"
-      host="https://app.kadenza.pro"
+      :org="kadenza.org"
+      :competition="kadenza.competition"
+      :host="kadenza.host"
       locale="ro"
     />
     <kadenza-registration
       v-else-if="!failed"
-      org="tdajk2k5605c"
-      competition="dfb0c1cb-c569-4d4a-9662-2cf936859526"
-      host="https://app.kadenza.pro"
+      :org="kadenza.org"
+      :competition="kadenza.competition"
+      :host="kadenza.host"
       locale="ro"
     />
   </div>

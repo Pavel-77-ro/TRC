@@ -24,7 +24,7 @@ function toggleRezultate() {
       >
         <RouterLink :to="{ name: 'home' }" @click="closeMenu">Acasă</RouterLink>
       </li>
-      
+
       <li
         class="cursor-pointer py-[2px] text-lg text-gray-600 font-normal border-b-2 border-gray-300 my-[8px]"
       >
@@ -45,17 +45,30 @@ function toggleRezultate() {
             stroke="currentColor"
             viewBox="0 0 24 24"
           >
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M19 9l-7 7-7-7" />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            />
           </svg>
         </div>
 
         <ul v-if="showRezultateDropdown" class="ml-4 mt-2 space-y-2 pl-2 border-l border-gray-300">
           <li class="text-lg text-gray-600 font-normal my-[8px]">
-            <RouterLink :to="{ name: 'rezultate_2025' }" @click.prevent="closeMenu">Rezultate 2025</RouterLink>
+            <RouterLink :to="{ name: 'rezultate_2026' }" @click="closeMenu"
+              >Rezultate 2026</RouterLink
+            >
+          </li>
+          <li class="text-lg text-gray-600 font-normal my-[8px]">
+            <RouterLink :to="{ name: 'rezultate_2025' }" @click.prevent="closeMenu"
+              >Rezultate 2025</RouterLink
+            >
           </li>
           <li class="text-lg text-gray-600 font-normal border-b-2 border-gray-300 my-[8px]">
-            <RouterLink :to="{ name: 'rezultate_2024' }" @click.prevent="closeMenu">Rezultate 2024</RouterLink>
+            <RouterLink :to="{ name: 'rezultate_2024' }" @click.prevent="closeMenu"
+              >Rezultate 2024</RouterLink
+            >
           </li>
         </ul>
       </li>
